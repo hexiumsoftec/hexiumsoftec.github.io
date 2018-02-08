@@ -1,11 +1,11 @@
-# Artificial Intelligence and Machine learning cource 
+## Artificial Intelligence and Machine learning cource 
 
 This repository contains all the codes, cource details, pdfs and examples to the AI and machine learning cource. 
 The main objective of this cource is to give students the basic idea about AI and make the learning process simple and easy.
 
 ## Contents
 
-#### 1. [Introduction and scope](http://www.google.com)
+#### 1. [Introduction and scope](https://github.com/hexiumsoftec/hexiumsoftec.github.io/tree/master/Introduction%20and%20scope)
    
    - In this section, the focus is to give an introduction to the current AI revolution and the scopeof AI
 
