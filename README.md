@@ -28,7 +28,7 @@ for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.git
    
 #### 5. Deep learning.  
    - Deeplearning is introduced. 
-
+   
 #### 6. Computer vision
 
 ##### Basic introduction and hands on training, Computer vision 
