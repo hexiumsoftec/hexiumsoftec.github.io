@@ -33,11 +33,12 @@ for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.git
    - Basic introduction and hands on training, Computer vision 
    - Introduction to Opencv
      - Computer Vision
+     
 Computer Vision can be defined as a discipline that explains how to reconstruct, interrupt, and understand a 3D scene from its 2D images, in terms of the properties of the structure present in the scene. It deals with modeling and replicating human vision using computer software and hardware.
 Computer Vision overlaps significantly with the following fields −
-    • Image Processing − It focuses on image manipulation.
-    • Pattern Recognition − It explains various techniques to classify patterns.
-    • Photogrammetry − It is concerned with obtaining accurate measurements from images.
+     - • Image Processing − It focuses on image manipulation.
+     - • Pattern Recognition − It explains various techniques to classify patterns.
+     - • Photogrammetry − It is concerned with obtaining accurate measurements from images.
 Computer Vision Vs Image Processing
 Image processing deals with image-to-image transformation. The input and output of image processing are both images.
 Computer vision is the construction of explicit, meaningful descriptions of physical objects from their image. The output of computer vision is a description or an interpretation of structures in 3D scene.
