@@ -30,7 +30,7 @@ for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.git
    - Deeplearning is introduced.
 
 #### 6. Computer vision
-   ##### Basic introduction and hands on training, Computer vision 
+   #### Basic introduction and hands on training, Computer vision 
      
    Computer Vision can be defined as a discipline that explains how to reconstruct, interrupt, and understand a 3D scene from its 2D images, in terms of the properties of the structure present in the scene. It deals with modeling and replicating human vision using computer software and hardware.
 Computer Vision overlaps significantly with the following fields −
@@ -41,7 +41,7 @@ Computer Vision overlaps significantly with the following fields −
      
    • Photogrammetry − It is concerned with obtaining accurate measurements from images.
      
-  ##### Computer Vision Vs Image Processing
+  #### Computer Vision Vs Image Processing
     
 Image processing deals with image-to-image transformation. The input and output of image processing are both images.
 Computer vision is the construction of explicit, meaningful descriptions of physical objects from their image. The output of computer vision is a description or an interpretation of structures in 3D scene.
@@ -61,7 +61,7 @@ Robotics Application
    
    • Human Robot Interaction (HRI) − Intelligent robotics to interact with and serve people
 
-##### Medicine Application
+#### Medicine Application
     
    • Classification and detection (e.g. lesion or cells classification and tumor detection)
    
@@ -71,7 +71,7 @@ Robotics Application
    
    • Vision-guided robotics surgery
 
-##### Industrial Automation Application
+#### Industrial Automation Application
     
    • Industrial inspection (defect detection)
    
@@ -82,7 +82,7 @@ Robotics Application
    • Object sorting
    
    • Document understanding (e.g. OCR)
-##### Security Application
+#### Security Application
 
 • Biometrics (iris, finger print, face recognition)
 
