@@ -45,7 +45,7 @@ Computer Vision overlaps significantly with the following fields −ll
    • Photogrammetry − It is concerned with obtaining accurate measurements from images.
      
   #### Computer Vision Vs Image Processing
-    
+   
 Image processing deals with image-to-image transformation. The input and output of image processing are both images.
 Computer vision is the construction of explicit, meaningful descriptions of physical objects from their image. The output of computer vision is a description or an interpretation of structures in 3D scene.
 Applications of Computer Vision
