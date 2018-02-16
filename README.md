@@ -30,7 +30,9 @@ for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.git
    - Deeplearning is introduced.
 
 #### 6. Computer vision
+ddsgfg
  #### Medicine Application
+ cdcdsvcda
    #### Basic introduction and hands on training, Computer vision 
   
    Computer Vision can be defined as a discipline that explains how to reconstruct, interrupt, and understand a 3D scene from its 2D images, in terms of the properties of the structure present in the scene. It deals with modeling and replicating human vision using computer software and hardware.
