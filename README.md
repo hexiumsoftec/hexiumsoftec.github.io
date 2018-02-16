@@ -41,6 +41,7 @@ Computer Vision overlaps significantly with the following fields −ll
    • Pattern Recognition − It explains various techniques to classify patterns.
      
    • Photogrammetry − It is concerned with obtaining accurate measurements from images.
+   
      
 ##### Computer Vision Vs Image Processing
    
