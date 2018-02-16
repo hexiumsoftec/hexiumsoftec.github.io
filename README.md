@@ -26,7 +26,7 @@ for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.git
 #### 4. Machine Learning Basics
    - Here, we dive into the world of machine learning and do some coding to get an idea of what ML is
    
-#### 5. Deep learning.
+#### 5. Deep learning.  
    - Deeplearning is introduced. 
 
 #### 6. Computer vision
