@@ -21,7 +21,7 @@ for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.git
 
 #### 3. A crash cource in python for AI
 
-Python is a cross-platform programming language, which means it runs on all the major operating systems. Any Python program you write should run on any modern computer that has Python installed. However, the methods for setting up Python on different operating systems vary slightly. In this section you’ll learn how to set up Python and run the Hello World program on your own system. You’ll first check whether Python is installed on your system and install it if it’s not. Then you’ll install a simple text edi- tor and save an empty Python file called hello_world.py. Finally, you’ll run the Hello World program and troubleshoot anything that didn’t work. I’ll walk you through this process for each operating system, so you’ll have a beginner-friendly Python programming environment.
+>>>Python is a cross-platform programming language, which means it runs on all the major operating systems. Any Python program you write should run on any modern computer that has Python installed. However, the methods for setting up Python on different operating systems vary slightly. In this section you’ll learn how to set up Python and run the Hello World program on your own system. You’ll first check whether Python is installed on your system and install it if it’s not. Then you’ll install a simple text edi- tor and save an empty Python file called hello_world.py. Finally, you’ll run the Hello World program and troubleshoot anything that didn’t work. I’ll walk you through this process for each operating system, so you’ll have a beginner-friendly Python programming environment.
 ##### Python on Linux
 Linux systems are designed for programming, so Python is already installed on most Linux computers. The people who write and maintain Linux expect you to do your own programming at some point and encourage you to do so. For this reason there’s very little you have to install and very few settings you have to change to start programming. Checking Your Version of Python Open a terminal window by running the Terminal application on your system (in Ubuntu, you can press ctrl- alt -T). To find out whether Python is installed, enter python with a lowercase p. You should see output telling you which version of Python is installed and a >>> prompt where you can start entering Python commands, like this:
 ```sh
@@ -82,11 +82,11 @@ You can change the value of a variable in your program at any time, and Python w
 ##Naming and Using Variables
 When you’re using variables in Python, you need to adhere to a few rules and guidelines. Breaking some of these rules will cause errors; other guide- lines just help you write code that’s easier to read and understand. Be sure to keep the following variable rules in mind: 
 
-* Variable names can contain only letters, numbers, and underscores. They can start with a letter or an underscore, but not with a number. For instance, you can call a variable message_1 but not 1_message. S
-*paces are not allowed in variable names, but underscores can be used to separate words in variable names. For example, greeting_message works, but greeting message will cause errors.
-* Avoid using Python keywords and function names as variable names; that is, do not use words that Python has reserved for a particular pro- grammatic purpose, such as the word print.
-* Variable names should be short but descriptive. For example, name is better than n, student_name is better than s_n, and name_length is better than length_of_persons_name.
-* Be careful when using the lowercase letter l and the uppercase letter O because they could be confused with the numbers 1 and 0.
+- Variable names can contain only letters, numbers, and underscores. They can start with a letter or an underscore, but not with a number. For instance, you can call a variable message_1 but not 1_message.
+- Spaces are not allowed in variable names, but underscores can be used to separate words in variable names. For example, greeting_message works, but greeting message will cause errors.
+- Avoid using Python keywords and function names as variable names; that is, do not use words that Python has reserved for a particular pro- grammatic purpose, such as the word print.
+- Variable names should be short but descriptive. For example, name is better than n, student_name is better than s_n, and name_length is better than length_of_persons_name.
+- Be careful when using the lowercase letter l and the uppercase letter O because they could be confused with the numbers 1 and 0.
 It can take some practice to learn how to create good variable names, especially as your programs become more interesting and complicated. As you write more programs and start to read through other people’s code, you’ll get better at coming up with meaningful names.
 --Note
 The Python variables you’re using at this point should be lowercase. You won’t get
@@ -113,6 +113,75 @@ In this case, the program runs successfully!
 Hello Python Crash Course reader!
 ```
 Computers are strict, but they disregard good and bad spelling. As a result, you don’t need to consider English spelling and grammar rules when you’re trying to create variable names and writing code. Many programming errors are simple, single-character typos in one line of a program. If you’re spending a long time searching for one of these errors, know that you’re in good company. Many experienced and talented programmers spend hours hunting down these kinds of tiny errors. Try to laugh about it and move on, knowing it will happen frequently throughout your programming life.
+#####Strings
+Because most programs define and gather some sort of data, and then do something useful with it, it helps to classify different types of data. The first data type we’ll look at is the string. Strings are quite simple at first glance, but you can use them in many different ways. A string is simply a series of characters. Anything inside quotes is con- sidered a string in Python, and you can use single or double quotes around
+your strings like this:
+```sh
+"This is a string."
+'This is also a string.'
+```
+This flexibility allows you to use quotes and apostrophes within your
+strings:
+        'I told my friend, "Python is my favorite language!"'
+        "The language 'Python' is named after Monty Python, not the snake."
+        "One of Python's strengths is its diverse and supportive community."
+
+
+###### Changing Case in a String with Methods
+One of the simplest tasks you can do with strings is change the case of the words in a string. Look at the following code, and try to determine what’s happening:
+```sh
+name = "ada lovelace"
+print(name.title())
+```
+Save this file as name.py, and then run it. You should see this output: Ada Lovelace In this example, the lowercase string "ada lovelace" is stored in the variable name. The method title() appears after the variable in the print() state- ment. A method is an action that Python can perform on a piece of data. The dot ( .) after name in name.title() tells Python to make the title() method act on the variable name. Every method is followed by a set of parentheses, because methods often need additional information to do their work. That information is provided inside the parentheses. The title() function doesn’t need any additional information, so its parentheses are empty. title() displays each word in title-case, where each word begins with a capital letter. This is useful because you’ll often want to think of a name as a piece of information. For example, you might want your program to recognize the input values Ada, ADA, and ada as the same name, and display all of them as Ada
+Several other useful methods are available for dealing with case as well.
+For example, you can change a string to all uppercase or all lowercase letters
+like this:
+```sh
+name = "Ada Lovelace"
+print(name.upper())
+print(name.lower())
+```
+This will display the following:
+```sh
+ADA LOVELACE
+ada lovelace
+```
+The lower() method is particularly useful for storing data. Many times you won’t want to trust the capitalization that your users provide, so you’ll convert strings to lowercase before storing them. Then when you want to display the information, you’ll use the case that makes the most sense for each string.
+
+###### Combining or Concatenating Strings
+It’s often useful to combine strings. For example, you might want to store a first name and a last name in separate variables, and then combine them when you want to display someone’s full name:
+```sh
+first_name = "ada"
+last_name = "lovelace"
+u full_name = first_name + " " + last_name
+print(full_name)
+```
+Python uses the plus symbol (+) to combine strings. In this example, we use + to create a full name by combining a first_name, a space, and a last_name u, giving this result:
+```sh
+ada lovelace
+```
+This method of combining strings is called concatenation. You can use concatenation to compose complete messages using the information you’ve stored in a variable. Let’s look at an example:
+```sh
+first_name = "ada"
+last_name = "lovelace"
+full_name = first_name + " " + last_name
+u print("Hello, " + full_name.title() + "!")
+```
+Here, the full name is used at u in a sentence that greets the user, and the title() method is used to format the name appropriately. This code returns a simple but nicely formatted greeting:
+```sh
+Hello, Ada Lovelace!
+```
+You can use concatenation to compose a message and then store the entire message in a variable:
+```sh
+first_name = "ada"
+last_name = "lovelace"
+full_name = first_name + " " + last_name
+u message = "Hello, " + full_name.title() + "!"
+v print(message)
+```
+This code displays the message “Hello, Ada Lovelace!” as well, but storing the message in a variable at u makes the final print statement at much simpler.
+
 
 #### 4. Machine Learning Basics
    - Here, we dive into the world of machine learning and do some coding to get an idea of what ML is
