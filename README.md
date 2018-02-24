@@ -21,7 +21,7 @@ for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.git
 
 #### 3. A crash cource in python for AI
 
->>>Python is a cross-platform programming language, which means it runs on all the major operating systems. Any Python program you write should run on any modern computer that has Python installed. However, the methods for setting up Python on different operating systems vary slightly. In this section you’ll learn how to set up Python and run the Hello World program on your own system. You’ll first check whether Python is installed on your system and install it if it’s not. Then you’ll install a simple text edi- tor and save an empty Python file called hello_world.py. Finally, you’ll run the Hello World program and troubleshoot anything that didn’t work. I’ll walk you through this process for each operating system, so you’ll have a beginner-friendly Python programming environment.
+>>>Python is a cross-platform programming language, which means it runs on all the major operating systems. Any Python program you write should run on any modern computer that has Python installed. However, the methods for setting up Python on different operating systems vary slightly. In this section you’ll learn how to set up Python and run the Hello World program on your own system. You’ll first check whether Python is installed on your system and install it if it’s not. Then you’ll install a simple text edi- tor and save an empty Python file called hello_world.py. Finally, you’ll run the Hello World program and troubleshoot anything that didn’t work. I’ll walk you through this process for each operating system, so you’ll have a beginner-friendly Python programming environment.<<<
 ##### Python on Linux
 Linux systems are designed for programming, so Python is already installed on most Linux computers. The people who write and maintain Linux expect you to do your own programming at some point and encourage you to do so. For this reason there’s very little you have to install and very few settings you have to change to start programming. Checking Your Version of Python Open a terminal window by running the Terminal application on your system (in Ubuntu, you can press ctrl- alt -T). To find out whether Python is installed, enter python with a lowercase p. You should see output telling you which version of Python is installed and a >>> prompt where you can start entering Python commands, like this:
 ```sh
@@ -41,9 +41,7 @@ You can do this on any system with Python installed if you know how
 to access the directory where you’ve stored your program file. To try this,
 make sure you’ve saved the hello_world.py file in the python_work folder on
 your desktop.
-
-###### On Linux
-Running a Python program from a terminal session is the same on Linux. The terminal command cd, for change directory, is used to navi-gate through your file system in a terminal session. The command ls, for list, shows you all the non-hidden files that exist in the current directory. Open a new terminal window and issue the following commands to run
+   Running a Python program from a terminal session is the same on Linux. The terminal command cd, for change directory, is used to navi-gate through your file system in a terminal session. The command ls, for list, shows you all the non-hidden files that exist in the current directory. Open a new terminal window and issue the following commands to run
 hello_world.py:
 ```sh
 u ~$ cd Desktop/python_work/
@@ -127,7 +125,7 @@ strings:
         "One of Python's strengths is its diverse and supportive community."
 
 
-###### Changing Case in a String with Methods
+##### Changing Case in a String with Methods
 One of the simplest tasks you can do with strings is change the case of the words in a string. Look at the following code, and try to determine what’s happening:
 ```sh
 name = "ada lovelace"
@@ -149,7 +147,7 @@ ada lovelace
 ```
 The lower() method is particularly useful for storing data. Many times you won’t want to trust the capitalization that your users provide, so you’ll convert strings to lowercase before storing them. Then when you want to display the information, you’ll use the case that makes the most sense for each string.
 
-###### Combining or Concatenating Strings
+##### Combining or Concatenating Strings
 It’s often useful to combine strings. For example, you might want to store a first name and a last name in separate variables, and then combine them when you want to display someone’s full name:
 ```sh
 first_name = "ada"
