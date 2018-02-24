@@ -244,6 +244,155 @@ But be aware that you can sometimes get an arbitrary number of decimal places in
 0.30000000000000004
 ```
 This happens in all languages and is of little concern. Python tries to find a way to represent the result as precisely as possible, which is sometimes difficult given how computers have to represent numbers internally.
+####Inroducing Lists
+
+>>A list is a collection of items in a particular order. You can make a list that includes the letters of the alphabet, the digits from 0–9, or the names of all the people in your family. You can put anything you want into a list, and bicycles.py the items in your list don’t have to be related in any particular way. Because a list usually contains more than one element, it’s a good idea to make the name of your list plural, such as letters, digits, or names.
+
+In Python, square brackets ([]) indicate a list, and individual elements in the list are separated by commas. Here’s a simple example of a list that contains a few kinds of bicycles:
+```sh
+ bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles)
+```
+If you ask Python to print a list, Python returns its representation of the list, including the square brackets:
+```sh
+['trek', 'cannondale', 'redline', 'specialized']
+```
+Because this isn’t the output you want your users to see, let’s learn how to access the individual items in a list. 
+#### Accessing Elements in a List
+Lists are ordered collections, so you can access any element in a list by telling Python the position, or index, of the item desired. To access an ele- ment in a list, write the name of the list followed by the index of the item enclosed in square brackets. For example, let’s pull out the first bicycle in the list bicycles: ```sh
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+u print(bicycles[0])
+```
+The syntax for this is shown at u. When we ask for a single item from a list, Python returns just that element without square brackets or quotation marks: ```sh
+trek
+```
+This is the result you want your users to see—clean, neatly formatted output. You can also use the string methods from Chapter 2 on any element in a list. For example, you can format the element 'trek' more neatly by using the title() method:
+```sh
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles[0].title())
+```
+This example produces the same output as the preceding example except 'Trek' is capitalized.
+
+Python considers the first item in a list to be at position 0, not position 1. This is true of most programming languages, and the reason has to do with how the list operations are implemented at a lower level. If you’re receiving unexpected results, determine whether you are making a simple off-by-one error. The second item in a list has an index of 1. Using this simple counting system, you can get any element you want from a list by subtracting one from its position in the list. For instance, to access the fourth item in a list, you request the item at index 3. The following asks for the bicycles at index 1 and index 3:
+```sh
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles[1])
+print(bicycles[3])
+```
+This code returns the second and fourth bicycles in the list:
+```sh
+cannondale
+specialized
+```
+Python has a special syntax for accessing the last element in a list. By asking for the item at index -1, Python always returns the last item in the list:
+```sh
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles[-1])
+```
+This code returns the value 'specialized'. This syntax is quite useful, because you’ll often want to access the last items in a list without knowing exactly how long the list is. This convention extends to other negative index values as well. The index -2 returns the second item from the end of the list, the index -3 returns the third item from the end, and so forth. Using Individual Values from a List You can use individual values from a list just as you would any other vari- able. For example, you can use concatenation to create a message based on a value from a list. Let’s try pulling the first bicycle from the list and composing a message using that value.
+```sh
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+u message = "My first bicycle was a " + bicycles[0].title() + "."
+print(message)
+```
+
+ we build a sentence using the value at bicycles[0] and store it in the variable message. The output is a simple sentence about the first bicycle in the list: My first bicycle was a Trek.
+##### Try It Yourself
+
+>Try these short programs to get some firsthand experience with Python’s lists. You might want to create a new folder for each chapter’s exercises to keep them organized.
+> Names: Store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a time.
+>Greetings: Start with the list you used in Exercise 3-1, but instead of just printing each person’s name, print a message to them. The text of each mes- sage should be the same, but each message should be personalized with the person’s name.
+>Your Own List: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
+
+#### Changing, Adding, and Removing Elements
+Most lists you create will be dynamic, meaning you’ll build a list and then add and remove elements from it as your program runs its course. For example, you might create a game in which a player has to shoot aliens out of the sky. You could store the initial set of aliens in a list and then remove an alien from the list each time one is shot down. Each time a new alien appears on the screen, you add it to the list. Your list of aliens will decrease and increase in length throughout the course of the game. 
+##### Modifying Elements in a List
+The syntax for modifying an element is similar to the syntax for accessing an element in a list. To change an element, use the name of the list followed by the index of the element you want to change, and then provide the new value you want that item to have. For example, let’s say we have a list of motorcycles, and the first item in the list is 'honda' . How would we change the value of this first item? 
+```sh
+motorcycles.py u motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+v motorcycles[0] = 'ducati'
+print(motorcycles)
+```
+The code at u defines the original list, with 'honda' as the first element. The code at v changes the value of the first item to 'ducati'. The output shows that the first item has indeed been changed, and the rest of the list stays the same:
+```sh
+['honda', 'yamaha', 'suzuki']
+['ducati', 'yamaha', 'suzuki']
+```
+You can change the value of any item in a list, not just the first item. Adding Elements to a List You might want to add a new element to a list for many reasons. For example, you might want to make new aliens appear in a game, add new data to a visualization, or add new registered users to a website you’ve built. Python provides several ways to add new data to existing lists. 
+##### Appending Elements to the End of a List
+The simplest way to add a new element to a list is to append the item to the
+list. When you append an item to a list, the new element is added to the end
+of the list. Using the same list we had in the previous example, we’ll add the
+new element 'ducati' to the end of the list:
+```sh
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+umotorcycles.append('ducati')
+print(motorcycles)
+```
+The append() method at u adds 'ducati' to the end of the list without affecting any of the other elements in the list: 
+```sh
+['honda', 'yamaha', 'suzuki']
+['honda', 'yamaha', 'suzuki', 'ducati']
+```
+
+The append() method makes it easy to build lists dynamically. For example, you can start with an empty list and then add items to the list using a series of append() statements. Using an empty list, let’s add the elements 'honda', 'yamaha', and 'suzuki' to the list:
+```sh
+motorcycles = []
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+motorcycles.append('suzuki')
+print(motorcycles)
+```
+The resulting list looks exactly the same as the lists in the previous examples:
+```sh
+['honda', 'yamaha', 'suzuki']
+```
+Building lists this way is very common, because you often won’t know the data your users want to store in a program until after the program is running. To put your users in control, start by defining an empty list that will hold the users’ values. Then append each new value provided to the list you just created. 
+##### Inserting Elements into a List
+You can add a new element at any position in your list by using the insert() method. You do this by specifying the index of the new element and the value of the new item. ```sh
+motorcycles = ['honda', 'yamaha', 'suzuki']
+u motorcycles.insert(0, 'ducati')
+print(motorcycles)
+```
+In this example, the code at u inserts the value 'ducati' at the begin- ning of the list. The insert() method opens a space at position 0 and stores the value 'ducati' at that location. This operation shifts every other value in the list one position to the right: 
+```sh
+['ducati', 'honda', 'yamaha', 'suzuki']
+
+```
+##### Removing Elements from a List
+Often, you’ll want to remove an item or a set of items from a list. For example, when a player shoots down an alien from the sky, you’ll most likely want to remove it from the list of active aliens. Or when a user decides to cancel their account on a web application you created, you’ll want to remove that user from the list of active users. You can remove an item according to its position in the list or according to its value. 
+###### Removing an Item Using the del Statement
+If you know the position of the item you want to remove from a list, you can
+use the del statement.
+```sh
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+del motorcycles[0]
+print(motorcycles)
+```
+The code at u uses del to remove the first item, 'honda', from the list of motorcycles:
+```sh
+['honda', 'yamaha', 'suzuki']
+['yamaha', 'suzuki']
+```
+
+##### Let’s pop a motorcycle from the list of motorcycles:
+```sh
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
+```
+We start by defining and printing the list motorcycles at u. At v we pop a value from the list and store that value in the variable popped_motorcycle. We print the list at w to show that a value has been removed from the list. Then we print the popped value at x to prove that we still have access to the value that was removed. The output shows that the value 'suzuki' was removed from the end of the list and is now stored in the variable popped_motorcycle: 
+```sh
+['honda', 'yamaha', 'suzuki']
+['honda', 'yamaha']
+suzuki
+```
+
 
 ### 4. Machine Learning Basics
    - Here, we dive into the world of machine learning and do some coding to get an idea of what ML is
