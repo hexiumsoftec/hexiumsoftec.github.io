@@ -15,15 +15,15 @@ In recent years, some revolutionary changes happened in the field of Artificial 
 This particular example is Google DeepMind's Deep Q-learning playing Atari Breakout. This is using a concept called Reinforced learning. When we try to throw a basket ball into the basket, after several attempts, we finally learn that throwing it in a particular angle at a particular speed, it is possible to put the ball inside the basket. Just like that, learning the environment and reconfigauring the artifcial neural networks, it is possible for the machine to learn the perfect way to solve problems, some times better than us.
 for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.github.io/tree/master/Introduction%20and%20scope)
 
-#### 2. Problems and opportunities
+### 2. Problems and opportunities
    
    - A brief on how problems can be solved by applying AI
 
-#### 3. A crash cource in python for AI
+### 3. A crash cource in python for AI
 
 >>>Python is a cross-platform programming language, which means it runs on all the major operating systems. Any Python program you write should run on any modern computer that has Python installed. However, the methods for setting up Python on different operating systems vary slightly. In this section you’ll learn how to set up Python and run the Hello World program on your own system. You’ll first check whether Python is installed on your system and install it if it’s not. Then you’ll install a simple text edi- tor and save an empty Python file called hello_world.py. Finally, you’ll run the Hello World program and troubleshoot anything that didn’t work. I’ll walk you through this process for each operating system, so you’ll have a beginner-friendly Python programming environment.
 
-##### Python on Linux
+#### Python on Linux
 Linux systems are designed for programming, so Python is already installed on most Linux computers. The people who write and maintain Linux expect you to do your own programming at some point and encourage you to do so. For this reason there’s very little you have to install and very few settings you have to change to start programming. Checking Your Version of Python Open a terminal window by running the Terminal application on your system (in Ubuntu, you can press ctrl- alt -T). To find out whether Python is installed, enter python with a lowercase p. You should see output telling you which version of Python is installed and a >>> prompt where you can start entering Python commands, like this:
 ```sh
 $ python
@@ -56,7 +56,7 @@ It’s that simple. You just use the python (or python3) command to run Python p
 
 
 
-##### Variables and Si m p l e D a t a T y p e s
+#### Variables and Si m p l e D a t a T y p e s
 
 We will discus  about the different kinds of data you can work with in your Python programs. You’ll also learn how to store your data in variables and how to use those variables in your programs.
 
@@ -82,7 +82,7 @@ We’ve added a variable named message. Every variable holds a value, which is t
 Now when you run hello_world.py, you should see two lines of output:
 Hello Python world! Hello Python Crash Course world!
 You can change the value of a variable in your program at any time, and Python will always keep track of its current value.
-###### Naming and Using Variables
+##### Naming and Using Variables
 When you’re using variables in Python, you need to adhere to a few rules and guidelines. Breaking some of these rules will cause errors; other guide- lines just help you write code that’s easier to read and understand. Be sure to keep the following variable rules in mind: 
 
 - Variable names can contain only letters, numbers, and underscores. They can start with a letter or an underscore, but not with a number. For instance, you can call a variable message_1 but not 1_message.
@@ -116,7 +116,7 @@ In this case, the program runs successfully!
 Hello Python Crash Course reader!
 ```
 Computers are strict, but they disregard good and bad spelling. As a result, you don’t need to consider English spelling and grammar rules when you’re trying to create variable names and writing code. Many programming errors are simple, single-character typos in one line of a program. If you’re spending a long time searching for one of these errors, know that you’re in good company. Many experienced and talented programmers spend hours hunting down these kinds of tiny errors. Try to laugh about it and move on, knowing it will happen frequently throughout your programming life.
-##### Strings
+#### Strings
 Because most programs define and gather some sort of data, and then do something useful with it, it helps to classify different types of data. The first data type we’ll look at is the string. Strings are quite simple at first glance, but you can use them in many different ways. A string is simply a series of characters. Anything inside quotes is con- sidered a string in Python, and you can use single or double quotes around
 your strings like this:
 ```sh
@@ -185,9 +185,9 @@ v print(message)
 ```
 This code displays the message “Hello, Ada Lovelace!” as well, but storing the message in a variable at u makes the final print statement at much simpler.
 
-##### Numbers
+#### Numbers
 Numbers are used quite often in programming to keep score in games, rep- resent data in visualizations, store information in web applications, and so on. Python treats numbers in several different ways, depending on how they are being used. Let’s first look at how Python manages integers, because they are the simplest to work with.
-###### Integers
+##### Integers
 You can add (+), subtract (-), multiply ( *), and divide ( /) integers in Python.
 ```sh
 >>>
@@ -220,7 +220,7 @@ Python supports the order of operations too, so you can use multiple operations 
 20
 ```
 The spacing in these examples has no effect on how Python evaluates the expressions; it simply helps you more quickly spot the operations that have priority when you’re reading through the code. 
-###### Floats
+##### Floats
 Python calls any number with a decimal point a float. This term is used in most programming languages, and it refers to the fact that a decimal point can appear at any position in a number. Every programming language must be carefully designed to properly manage decimal numbers so numbers behave appropriately no matter where the decimal point appears. For the most part, you can use decimals without worrying about how they behave. Simply enter the numbers you want to use, and Python will most likely do what you expect: 
 ```sh
 >>>
@@ -245,15 +245,15 @@ But be aware that you can sometimes get an arbitrary number of decimal places in
 ```
 This happens in all languages and is of little concern. Python tries to find a way to represent the result as precisely as possible, which is sometimes difficult given how computers have to represent numbers internally.
 
-#### 4. Machine Learning Basics
+### 4. Machine Learning Basics
    - Here, we dive into the world of machine learning and do some coding to get an idea of what ML is
    
-#### 5. Deep learning.  
+### 5. Deep learning.  
    - Deeplearning is introduced. 
    
-#### 6. Computer vision
+### 6. Computer vision
 
-##### Basic introduction and hands on training, Computer vision 
+#### Basic introduction and hands on training, Computer vision 
   
    Computer Vision can be defined as a discipline that explains how to reconstruct, interrupt, and understand a 3D scene from its 2D images, in terms of the properties of the structure present in the scene. It deals with modeling and replicating human vision using computer software and hardware.
 Computer Vision overlaps significantly with the following fields −ll
@@ -265,7 +265,7 @@ Computer Vision overlaps significantly with the following fields −ll
    • Photogrammetry − It is concerned with obtaining accurate measurements from images.
    
      
-##### Computer Vision Vs Image Processing
+#### Computer Vision Vs Image Processing
    
 Image processing deals with image-to-image transformation. The input and output of image processing are both images.
 Computer vision is the construction of explicit, meaningful descriptions of physical objects from their image. The output of computer vision is a description or an interpretation of structures in 3D scene.
@@ -285,7 +285,7 @@ Robotics Application
    
    • Human Robot Interaction (HRI) − Intelligent robotics to interact with and serve people
 
-##### Medicine Application
+#### Medicine Application
     
    • Classification and detection (e.g. lesion or cells classification and tumor detection)
    
@@ -295,7 +295,7 @@ Robotics Application
    
    • Vision-guided robotics surgery
 
-##### Industrial Automation Application
+#### Industrial Automation Application
     
    • Industrial inspection (defect detection)
    
@@ -306,7 +306,7 @@ Robotics Application
    • Object sorting
    
    • Document understanding (e.g. OCR)
-##### Security Application
+#### Security Application
 
 • Biometrics (iris, finger print, face recognition)
 
