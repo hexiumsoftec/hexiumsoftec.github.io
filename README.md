@@ -63,10 +63,14 @@ We will discus  about the different kinds of data you can work with in your Pyth
 
 ##### Variables
 Let’s try using a variable in hello_world.py. Add a new line at the beginning of the file, and modify the second line:
+```sh
 message = "Hello Python world!"
 print(message)
+```
 Run this program to see what happens. You should see the same output you saw previously:
+```sh
 Hello Python world!
+```
 We’ve added a variable named message. Every variable holds a value, which is the information associated with that variable. In this case the value is the text “Hello Python world!”.Adding a variable makes a little more work for the Python interpreter. When it processes the first line, it associates the text “Hello Python world!” with the variable message. When it reaches the second line, it prints the value associated with message to the screen.
         Let’s expand on this program by modifying hello_world.py to print a sec- ond message. Add a blank line to hello_world.py, and then add two new lines of code:
 ```sh
@@ -78,7 +82,7 @@ We’ve added a variable named message. Every variable holds a value, which is t
 Now when you run hello_world.py, you should see two lines of output:
 Hello Python world! Hello Python Crash Course world!
 You can change the value of a variable in your program at any time, and Python will always keep track of its current value.
-##Naming and Using Variables
+###### Naming and Using Variables
 When you’re using variables in Python, you need to adhere to a few rules and guidelines. Breaking some of these rules will cause errors; other guide- lines just help you write code that’s easier to read and understand. Be sure to keep the following variable rules in mind: 
 
 - Variable names can contain only letters, numbers, and underscores. They can start with a letter or an underscore, but not with a number. For instance, you can call a variable message_1 but not 1_message.
@@ -112,7 +116,7 @@ In this case, the program runs successfully!
 Hello Python Crash Course reader!
 ```
 Computers are strict, but they disregard good and bad spelling. As a result, you don’t need to consider English spelling and grammar rules when you’re trying to create variable names and writing code. Many programming errors are simple, single-character typos in one line of a program. If you’re spending a long time searching for one of these errors, know that you’re in good company. Many experienced and talented programmers spend hours hunting down these kinds of tiny errors. Try to laugh about it and move on, knowing it will happen frequently throughout your programming life.
-#####Strings
+##### Strings
 Because most programs define and gather some sort of data, and then do something useful with it, it helps to classify different types of data. The first data type we’ll look at is the string. Strings are quite simple at first glance, but you can use them in many different ways. A string is simply a series of characters. Anything inside quotes is con- sidered a string in Python, and you can use single or double quotes around
 your strings like this:
 ```sh
