@@ -24,11 +24,13 @@ for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.git
 Python is a cross-platform programming language, which means it runs on all the major operating systems. Any Python program you write should run on any modern computer that has Python installed. However, the methods for setting up Python on different operating systems vary slightly. In this section you’ll learn how to set up Python and run the Hello World program on your own system. You’ll first check whether Python is installed on your system and install it if it’s not. Then you’ll install a simple text edi- tor and save an empty Python file called hello_world.py. Finally, you’ll run the Hello World program and troubleshoot anything that didn’t work. I’ll walk you through this process for each operating system, so you’ll have a beginner-friendly Python programming environment.
 ##### Python on Linux
 Linux systems are designed for programming, so Python is already installed on most Linux computers. The people who write and maintain Linux expect you to do your own programming at some point and encourage you to do so. For this reason there’s very little you have to install and very few settings you have to change to start programming. Checking Your Version of Python Open a terminal window by running the Terminal application on your system (in Ubuntu, you can press ctrl- alt -T). To find out whether Python is installed, enter python with a lowercase p. You should see output telling you which version of Python is installed and a >>> prompt where you can start entering Python commands, like this:
+```sh
 $ python
 Python 2.7.6 (default, Mar 22 2014, 22:59:38)
 [GCC 4.8.2] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
+```
 This output tells you that Python 2.7.6 is currently the default version of Python installed on this computer. When you’ve seen this output, press ctrl-D or enter exit() to leave the Python prompt and return to a terminal prompt.
 Running Python Programs from a Terminal
 Most of the programs you write in your text editor you’ll run directly
@@ -43,12 +45,13 @@ your desktop.
 ###### On Linux
 Running a Python program from a terminal session is the same on Linux. The terminal command cd, for change directory, is used to navi-gate through your file system in a terminal session. The command ls, for list, shows you all the non-hidden files that exist in the current directory. Open a new terminal window and issue the following commands to run
 hello_world.py:
+```sh
 u ~$ cd Desktop/python_work/
 v ~/Desktop/python_work$ ls
 hello_world.py
 w ~/Desktop/python_work$ python hello_world.py
 Hello Python world!
- 
+ ```
 python hello_world.py
 It’s that simple. You just use the python (or python3) command to run Python programs.
 
@@ -67,12 +70,12 @@ Run this program to see what happens. You should see the same output you saw pre
 Hello Python world!
 We’ve added a variable named message. Every variable holds a value, which is the information associated with that variable. In this case the value is the text “Hello Python world!”.Adding a variable makes a little more work for the Python interpreter. When it processes the first line, it associates the text “Hello Python world!” with the variable message. When it reaches the second line, it prints the value associated with message to the screen.
         Let’s expand on this program by modifying hello_world.py to print a sec- ond message. Add a blank line to hello_world.py, and then add two new lines of code:
-
+```sh
         message = "Hello Python world!"
         print(message)
         message = "Hello Python Crash Course world!"
         print(message)
-
+```
 Now when you run hello_world.py, you should see two lines of output:
 Hello Python world! Hello Python Crash Course world!
 You can change the value of a variable in your program at any time, and Python will always keep track of its current value.
@@ -91,19 +94,24 @@ errors if you use uppercase letters, but it’s a good idea to avoid using them 
 
 ##### Avoiding Name Errors When Using Variables
 Every programmer makes mistakes, and most make mistakes every day. Although good programmers might create errors, they also know how to respond to those errors efficiently. Let’s look at an error you’re likely to make early on and learn how to fix it. We’ll write some code that generates an error on purpose. Enter the following code, including the misspelled word mesage shown in bold:
+```sh
 message = "Hello Python Crash Course reader!"
 print(mesage)
+```
 When an error occurs in your program, the Python interpreter does its best to help you figure out where the problem is. The interpreter provides a traceback when a program cannot run successfully. A traceback is a record of where the interpreter ran into trouble when trying to execute your code. Here’s an example of the traceback that Python provides after you’ve accidentally misspelled a variable’s name:
+```sh
 Traceback (most recent call last):
  File "hello_world.py", line 2, in <module>
  print(mesage)
 NameError: name 'mesage' is not defined
+```
 The output at u reports that an error occurs in line 2 of the file hello_world.py. The interpreter shows this line to help us spot the error quickly v and tells us what kind of error it found w. In this case it found a name error and reports that the variable being printed, mesage, has not been defined. Python can’t identify the variable name provided. A name error usually means we either forgot to set a variable’s value before using it, or we made a spelling mistake when entering the variable’s name. Of course, in this example we omitted the letter s in the variable name message in the second line. The Python interpreter doesn’t spellcheck your code, but it does ensure that variable names are spelled consistently. For example, watch what happens when we spell message incorrectly in another place in the code as well: 
+```sh
 mesage = "Hello Python Crash Course reader!"
 print(mesage)
 In this case, the program runs successfully!
 Hello Python Crash Course reader!
-
+```
 Computers are strict, but they disregard good and bad spelling. As a result, you don’t need to consider English spelling and grammar rules when you’re trying to create variable names and writing code. Many programming errors are simple, single-character typos in one line of a program. If you’re spending a long time searching for one of these errors, know that you’re in good company. Many experienced and talented programmers spend hours hunting down these kinds of tiny errors. Try to laugh about it and move on, knowing it will happen frequently throughout your programming life.
 
 #### 4. Machine Learning Basics
