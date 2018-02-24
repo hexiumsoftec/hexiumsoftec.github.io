@@ -244,7 +244,7 @@ But be aware that you can sometimes get an arbitrary number of decimal places in
 0.30000000000000004
 ```
 This happens in all languages and is of little concern. Python tries to find a way to represent the result as precisely as possible, which is sometimes difficult given how computers have to represent numbers internally.
-####Inroducing Lists
+#### Inroducing Lists
 
 >>A list is a collection of items in a particular order. You can make a list that includes the letters of the alphabet, the digits from 0–9, or the names of all the people in your family. You can put anything you want into a list, and bicycles.py the items in your list don’t have to be related in any particular way. Because a list usually contains more than one element, it’s a good idea to make the name of your list plural, such as letters, digits, or names.
 
@@ -300,8 +300,11 @@ print(message)
 ##### Try It Yourself
 
 >Try these short programs to get some firsthand experience with Python’s lists. You might want to create a new folder for each chapter’s exercises to keep them organized.
+
 > Names: Store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a time.
+
 >Greetings: Start with the list you used in Exercise 3-1, but instead of just printing each person’s name, print a message to them. The text of each mes- sage should be the same, but each message should be personalized with the person’s name.
+
 >Your Own List: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
 
 #### Changing, Adding, and Removing Elements
