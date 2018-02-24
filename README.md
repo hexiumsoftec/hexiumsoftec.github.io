@@ -5,7 +5,7 @@ The main objective of this cource is to give students the basic idea about AI an
 
 ## Contents 
 
-#### 1. Introduction and scope
+### 1. Introduction and scope
    
 In this section, the focus is to give an introduction to the current AI revolution and the scopeof AI.
 In recent years, some revolutionary changes happened in the field of Artificial intelligence and this is the perfect time for us to learn AI. Unlike the past few years, we now know the methodes to learn AI and we have the hardware that is required in our personal computers. The introduction of GPU powered deep learning models revolutionized the entire industry. Now, It is time for us to learn AI. Before that, Let's see some examples.
@@ -185,6 +185,65 @@ v print(message)
 ```
 This code displays the message “Hello, Ada Lovelace!” as well, but storing the message in a variable at u makes the final print statement at much simpler.
 
+##### Numbers
+Numbers are used quite often in programming to keep score in games, rep- resent data in visualizations, store information in web applications, and so on. Python treats numbers in several different ways, depending on how they are being used. Let’s first look at how Python manages integers, because they are the simplest to work with.
+###### Integers
+You can add (+), subtract (-), multiply ( *), and divide ( /) integers in Python.
+```sh
+>>>
+ 2 + 3
+5
+>>>
+ 3 - 2
+1
+>>>
+ 2 * 3
+6
+>>>
+ 3 / 2
+1.5
+```
+In a terminal session, Python simply returns the result of the operation. Python uses two multiplication symbols to represent exponents: 
+```sh
+>>> 3 ** 2
+9
+>>> 3 ** 3
+27
+>>> 10 ** 6
+1000000
+```
+Python supports the order of operations too, so you can use multiple operations in one expression. You can also use parentheses to modify the order of operations so Python can evaluate your expression in the order you specify. For example: 
+```sh
+>>> 2 + 3*4
+14
+>>> (2 + 3) * 4
+20
+```
+The spacing in these examples has no effect on how Python evaluates the expressions; it simply helps you more quickly spot the operations that have priority when you’re reading through the code. 
+###### Floats
+Python calls any number with a decimal point a float. This term is used in most programming languages, and it refers to the fact that a decimal point can appear at any position in a number. Every programming language must be carefully designed to properly manage decimal numbers so numbers behave appropriately no matter where the decimal point appears. For the most part, you can use decimals without worrying about how they behave. Simply enter the numbers you want to use, and Python will most likely do what you expect: 
+```sh
+>>>
+ 0.1 + 0.1
+0.2
+>>>
+ 0.2 + 0.2
+0.4
+>>>
+ 2 * 0.1
+0.2
+>>>
+ 2 * 0.2
+0.4
+```
+But be aware that you can sometimes get an arbitrary number of decimal places in your answer: 
+```sh
+>>> 0.2 + 0.1
+0.30000000000000004
+>>> 3 * 0.1
+0.30000000000000004
+```
+This happens in all languages and is of little concern. Python tries to find a way to represent the result as precisely as possible, which is sometimes difficult given how computers have to represent numbers internally.
 
 #### 4. Machine Learning Basics
    - Here, we dive into the world of machine learning and do some coding to get an idea of what ML is
