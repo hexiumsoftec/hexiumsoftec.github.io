@@ -3,7 +3,7 @@
 This repository contains all the codes, cource details, pdfs and examples to the AI and machine learning cource. 
 The main objective of this cource is to give students the basic idea about AI and make the learning process simple and easy.
 
-## Contents 
+## Contents  
 
 ### 1. Introduction and scope
    
