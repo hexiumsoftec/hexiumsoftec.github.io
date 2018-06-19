@@ -15,6 +15,10 @@ In recent years, some revolutionary changes happened in the field of Artificial 
 
 Google Brain
 
+[![Google brain](https://www.facebook.com/facebook/videos/10156872585996729/)](https://www.facebook.com/facebook/videos/10156872585996729/)]
+
+
+
 This particular example is Google DeepMind's Deep Q-learning playing Atari Breakout. This is using a concept called Reinforced learning. When we try to throw a basket ball into the basket, after several attempts, we finally learn that throwing it in a particular angle at a particular speed, it is possible to put the ball inside the basket. Just like that, learning the environment and reconfigauring the artifcial neural networks, it is possible for the machine to learn the perfect way to solve problems, some times better than us.
 for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.github.io/tree/master/Introduction%20and%20scope)
 
