@@ -27,7 +27,11 @@ When we try to throw a basket ball into the basket, after several attempts, we f
 
 for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.github.io/tree/master/Introduction%20and%20scope)
 
-### 2. Problems and opportunities
+#### Human brain and intelligence
+ 
+ The human brain
+
+### 2. Into the technology
    
    - A brief on how problems can be solved by applying AI
 
