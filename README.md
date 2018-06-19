@@ -60,7 +60,7 @@ The main objective of this cource is to give students the basic idea about AI an
  - Improving models
  - Case studies(different CNN models)
  
- ## Course 5 Case studies on ML Projects
+## Course 5 Case studies on ML Projects
   
   - Sample project 1 : Object detection
   - Sample project 2 : Robot
@@ -69,7 +69,7 @@ The main objective of this cource is to give students the basic idea about AI an
   - Sample project 5 : Data analysis
   - Sample project 6 : Facial recogonition
  
- ## Course 6 Final project
+## Course 6 Final project
  
 
 ### 1. Introduction and scope
