@@ -1,9 +1,76 @@
-## Artificial Intelligence and Machine learning cource 
+# Artificial Intelligence and Machine learning cource 
 
 This repository contains all the codes, cource details, pdfs and examples to the AI and machine learning cource. 
 The main objective of this cource is to give students the basic idea about AI and make the learning process simple and easy.
 
-## Contents  
+# Contents
+
+## Course 1 Introduction 
+
+ - Examples
+ - Human brain
+ - Human brain vs Computers
+ - Artificial intelligence
+ - History of AI
+ - Artificial intelligence today
+ - Future of AI
+
+## Course 2 Introduction to Technology 
+
+ - AI and it's branches
+ - Machine learning and it's branches
+ - Neural networks
+ - Deep neural networks and deep learning
+ 
+## Course 3 Learn Machine learn..
+
+ - Mathematical background
+   - Linear algebra
+   - Differential equations
+   - Calculus
+   - Probability
+   
+ - Algorithms and implementation in python
+   - Linea regression and applications
+   - Logistic regression and applications
+   - Least mean square
+   - Gradient descent
+   - Stochastic gradient descent
+   
+ - Convolutional neural networks
+   - Intro to image processing using opencv
+   - Intro to cnn 
+   - Training CNN
+   
+ - What is an AI Project
+ 
+## Course 4 Train the model
+ 
+ - Data, Data collection, Importance of Data, Structuring Data
+ - Intro to Hardware for machine learning and implementing
+   - Jetson
+   - Movidius
+   - NVIDIA Graphic cards
+   - Setting up deep learning pc
+   - More hardware options
+   
+ - Neural network training using python
+   - Platforms
+   - Transfer learning
+ - Improving models
+ - Case studies(different CNN models)
+ 
+ ## Course 5 Case studies on ML Projects
+  
+  - Sample project 1 : Object detection
+  - Sample project 2 : Robot
+  - Sample project 3 : Security systems
+  - Sample project 4 : Chat bot
+  - Sample project 5 : Data analysis
+  - Sample project 6 : Facial recogonition
+ 
+ ## Course 6 Final project
+ 
 
 ### 1. Introduction and scope
    
