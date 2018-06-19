@@ -15,11 +15,16 @@ In recent years, some revolutionary changes happened in the field of Artificial 
 
 Google Brain
 
+
+This particular example is Google DeepMind's Deep Q-learning playing Atari Breakout. This is using a concept called Reinforced learning. 
+
+When we try to throw a basket ball into the basket, after several attempts, we finally learn that throwing it in a particular angle at a particular speed, it is possible to put the ball inside the basket. Just like that, learning the environment and reconfigauring the artifcial neural networks, it is possible for the machine to learn the perfect way to solve problems, some times better than us. After the completion of this cource, The learner will be able to implement some most challenging AI problems.
+
+
 [![Facebook's Facial recogonition](https://www.facebook.com/facebook/videos/10156872585996729/)](https://www.facebook.com/facebook/videos/10156872585996729/)
 
+[!synthetic shallow depth-of-field effect shipped in the portrait mode of the Pixel 2 and Pixel 2 XL smartphones and mobile real-time video segmentation](https://www.theverge.com/2018/3/14/17120996/google-pixel-phone-portrait-mode-ai-image-segmentation-open-source)
 
-
-This particular example is Google DeepMind's Deep Q-learning playing Atari Breakout. This is using a concept called Reinforced learning. When we try to throw a basket ball into the basket, after several attempts, we finally learn that throwing it in a particular angle at a particular speed, it is possible to put the ball inside the basket. Just like that, learning the environment and reconfigauring the artifcial neural networks, it is possible for the machine to learn the perfect way to solve problems, some times better than us.
 for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.github.io/tree/master/Introduction%20and%20scope)
 
 ### 2. Problems and opportunities
