@@ -104,7 +104,7 @@ for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.git
  
  Artificial intelligence works similarly, but not as efficient as human brain. We were able to achieve more accuracy in predicting something from an image using computer vision than a normal human being, but the technology can be easily fooled. Human brain is still a highly complex system that works differently than what we are going to learn but knowing the concept of knowledge(Memory, structured information used at the right time), Information(Data arranged in a good manner) and Data is going to help us understand the theories of AI.
  
- #### Computers Intelligence Vs Human intelligence
+#### Computers Intelligence Vs Human intelligence
   
   First computers were used to solve simple mathematical problems and they are good at it. Artificial intelligence as we know it is pure mathematics, but even for solving a small problem, it would take a normal human being his lifetime to do these calculations. But the truth is that we can process do much more things than a computer can, in terms of intelligence. Computers don't have the ability to imagine new things, it only knows the data that it got and that data is the main thing that drives it. An AI system might be able to solve a
  
