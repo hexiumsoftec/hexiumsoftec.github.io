@@ -106,13 +106,41 @@ for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.git
 #### Computers Intelligence Vs Human intelligence
   
   First computers were used to solve simple mathematical problems and they are good at it. Artificial intelligence as we know it is pure mathematics, but even for solving a small problem, it would take a normal human being his lifetime to do these calculations. But the truth is that we can process do much more things than a computer can, in terms of intelligence. Computers don't have the ability to imagine new things, it only knows the data that it got and that data is the main thing that drives it. An AI system might be able to solve a
- 
- 
-### 2. Into the technology
-   
-   - A brief on how problems can be solved by applying AI
 
-### 3. A crash cource in python for AI
+#### History of Artificial intelligence
+
+The following details are from [Wiipedia](https://en.wikipedia.org/wiki/History_of_artificial_intelligence)
+
+The history of Artificial Intelligence (AI) began in antiquity, with myths, stories and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen; as Pamela McCorduck writes, AI began with "an ancient wish to forge the gods." 
+
+The seeds of modern AI were planted by classical philosophers who attempted to describe the process of human thinking as the mechanical manipulation of symbols. This work culminated in the invention of the programmable digital computer in the 1940s, a machine based on the abstract essence of mathematical reasoning. This device and the ideas behind it inspired a handful of scientists to begin seriously discussing the possibility of building an electronic brain.
+
+The earliest research into thinking machines was inspired by a confluence of ideas that became prevalent in the late 1930s, 1940s, and early 1950s. Recent research in neurology had shown that the brain was an electrical network of neurons that fired in all-or-nothing pulses. Norbert Wiener's cybernetics described control and stability in electrical networks. Claude Shannon's information theory described digital signals (i.e., all-or-nothing signals). Alan Turing's theory of computation showed that any form of computation could be described digitally. The close relationship between these ideas suggested that it might be possible to construct an electronic brain.
+
+In 1950 Alan Turing published a landmark paper in which he speculated about the possibility of creating machines that think. He noted that "thinking" is difficult to define and devised his famous Turing Test. If a machine could carry on a conversation (over a teleprinter) that was indistinguishable from a conversation with a human being, then it was reasonable to say that the machine was "thinking". This simplified version of the problem allowed Turing to argue convincingly that a "thinking machine" was at least plausible and the paper answered all the most common objections to the proposition. The Turing Test was the first serious proposal in the philosophy of artificial intelligence.
+ 
+### 2. Intoductionto the technologies used in AI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Appendix 1. A crash cource in python for AI
 
 Python is a cross-platform programming language, which means it runs on all the major operating systems. Any Python program you write should run on any modern computer that has Python installed. However, the methods for setting up Python on different operating systems vary slightly. In this section you’ll learn how to set up Python and run the Hello World program on your own system. You’ll first check whether Python is installed on your system and install it if it’s not. Then you’ll install a simple text edi- tor and save an empty Python file called hello_world.py. Finally, you’ll run the Hello World program and troubleshoot anything that didn’t work. I’ll walk you through this process for each operating system, so you’ll have a beginner-friendly Python programming environment.
 
@@ -490,13 +518,9 @@ suzuki
 ```
 
 
-### 4. Machine Learning Basics
-   - Here, we dive into the world of machine learning and do some coding to get an idea of what ML is
+ 
    
-### 5. Deep learning.  
-   - Deeplearning is introduced. 
-   
-### 6. Computer vision
+### Appendix 3. Computer vision
 
 #### Basic introduction and hands on training, Computer vision 
   
