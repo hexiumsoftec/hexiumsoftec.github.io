@@ -12,8 +12,7 @@ The main objective of this cource is to give students the basic idea about AI an
  - Human brain vs Computers
  - Artificial intelligence
  - History of AI
- - Artificial intelligence today
- - Future of AI
+
 
 ## Course 2 Introduction to Technology 
 
