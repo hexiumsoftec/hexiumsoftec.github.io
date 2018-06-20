@@ -1,7 +1,7 @@
-# Artificial Intelligence and Machine learning cource 
+# Artificial Intelligence and Machine learning course 
 
-This repository contains all the codes, cource details, pdfs and examples to the AI and machine learning cource. 
-The main objective of this cource is to give students the basic idea about AI and make the learning process simple and easy.
+This repository contains all the codes, course details, pdfs and examples to the AI and machine learning course. 
+The main objective of this course is to give students the basic idea about AI and make the learning process simple and easy.
 
 # Contents
 
@@ -30,7 +30,7 @@ The main objective of this cource is to give students the basic idea about AI an
    - Probability
    
  - Algorithms and implementation in python
-   - Linea regression and applications
+   - Linear regression and applications
    - Logistic regression and applications
    - Least mean square
    - Gradient descent
@@ -76,8 +76,8 @@ The main objective of this cource is to give students the basic idea about AI an
 
 ### 1. Introduction and scope
    
-In this section, the focus is to give an introduction to the current AI revolution and the scopeof AI.
-In recent years, some revolutionary changes happened in the field of Artificial intelligence and this is the perfect time for us to learn AI. Unlike the past few years, we now know the methodes to learn AI and we have the hardware that is required in our personal computers. The introduction of GPU powered deep learning models revolutionized the entire industry. Now, It is time for us to learn AI. Before that, Let's see some examples.
+In this section, the focus is to give an introduction to the current AI revolution and the scope of AI.
+In recent years, some revolutionary changes happened in the field of Artificial intelligence and this is the perfect time for us to learn AI. Unlike the past few years, we now know the methods to learn AI and we have the hardware that is required in our personal computers. The introduction of GPU powered deep learning models revolutionized the entire industry. Now, It is time for us to learn AI. Before that, Let's see some examples.
 
 
 [![Google brain](https://img.youtube.com/vi/V1eYniJ0Rnk/0.jpg)](https://www.youtube.com/watch?v=V1eYniJ0Rnk)]
@@ -86,7 +86,7 @@ In recent years, some revolutionary changes happened in the field of Artificial 
 
 This particular example is Google DeepMind's Deep Q-learning playing Atari Breakout. This is using a concept called Reinforced learning. 
 
-When we try to throw a basket ball into the basket, after several attempts, we finally learn that throwing it in a particular angle at a particular speed, it is possible to put the ball inside the basket. Just like that, learning the environment and reconfigauring the artifcial neural networks, it is possible for the machine to learn the perfect way to solve problems, some times better than us. After the completion of this cource, The learner will be able to implement some most challenging AI problems.
+When we try to throw a basket ball into the basket, after several attempts, we finally learn that throwing it in a particular angle at a particular speed, it is possible to put the ball inside the basket. Just like that, learning the environment and reconfiguring the artifcial neural networks, it is possible for the machine to learn the perfect way to solve problems, some times better than us. After the completion of this cource, The learner will be able to implement some most challenging AI problems.
 
 
 [![Facebook's Facial recogonition](https://www.facebook.com/facebook/videos/10156872585996729/)](https://www.facebook.com/facebook/videos/10156872585996729/)]
