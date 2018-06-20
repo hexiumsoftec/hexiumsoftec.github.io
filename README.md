@@ -165,7 +165,7 @@ By 2016, the market for AI-related products, hardware, and software reached more
  
 #### c. Neural networks
 
-![GitHub Logo](https://goo.gl/images/VX2t3A)
+[![NN](https://goo.gl/images/VX2t3A)]
 
 
 
