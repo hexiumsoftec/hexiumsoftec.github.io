@@ -163,7 +163,9 @@ By 2016, the market for AI-related products, hardware, and software reached more
  
   In this session, basic introduction to the field of Artificial intelligence is explained. After this chapter, the learner will be able to successfully differentiate between the various fields of ARtificial intelligence.
  
-#### c. 
+#### c. Neural networks
+
+![GitHub Logo](https://goo.gl/images/VX2t3A)
 
 
 
