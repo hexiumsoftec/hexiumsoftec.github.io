@@ -46,14 +46,15 @@ The main objective of this cource is to give students the basic idea about AI an
  
 ## Course 4 Train the model
  
- - Data, Data collection, Importance of Data, Structuring Data
+ - Data,Importance of Data, Data collection, Structuring Data
  - Intro to Hardware for machine learning and implementing
    - Jetson
    - Movidius
    - NVIDIA Graphic cards
    - Setting up deep learning pc
    - More hardware options
-   
+   - Tensor processing unit 
+   - Cloud computting
  - Neural network training using python
    - Platforms
    - Transfer learning
