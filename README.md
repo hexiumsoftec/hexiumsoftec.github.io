@@ -12,6 +12,8 @@ The main objective of this cource is to give students the basic idea about AI an
  - Human brain vs Computers
  - Artificial intelligence
  - History of AI
+ - Artificial intelligence today
+ - Future of AI
 
 ## Course 2 Introduction to Technology 
 
@@ -34,6 +36,7 @@ The main objective of this cource is to give students the basic idea about AI an
    - Least mean square
    - Gradient descent
    - Stochastic gradient descent
+   - Back propogation
    
  - Convolutional neural networks
    - Intro to image processing using opencv
@@ -158,8 +161,10 @@ By 2016, the market for AI-related products, hardware, and software reached more
  
  
 ### 2. Intoductionto the technologies used in AI
-
-
+ 
+  In this session, basic introduction to the field of Artificial intelligence is explained. After this chapter, the learner will be able to successfully differentiate between the various fields of ARtificial intelligence.
+ 
+#### c. 
 
 
 
