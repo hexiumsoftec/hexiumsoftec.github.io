@@ -165,8 +165,7 @@ By 2016, the market for AI-related products, hardware, and software reached more
 #### a. Branches of Artificial Intelligence 
 
   Artificial Intelligence is a vast ground of academic and commercial work around, "it is the science of making an intelligence machine". It has many branches with many similarities and commmanalities among them.
-# Artificial Intelligence 
-## Machine Learning ## Natural Language Processing ## Speech ## Robotics ##
+![Branches](https://www.legaltechnology.com/wp-content/uploads/2015/11/Artificial-Intelligence-AI-larger-graphic.png)
 #### c. 
 
 
