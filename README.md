@@ -111,7 +111,7 @@ for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.git
 
 #### History of Artificial intelligence
 
-The following details are from [Wiipedia](https://en.wikipedia.org/wiki/History_of_artificial_intelligence). 
+The following details are from [Wikipedia](https://en.wikipedia.org/wiki/History_of_artificial_intelligence). 
 
 The history of Artificial Intelligence (AI) began in antiquity, with myths, stories and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen; as Pamela McCorduck writes, AI began with "an ancient wish to forge the gods." 
 
