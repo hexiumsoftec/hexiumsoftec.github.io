@@ -21,7 +21,7 @@ The main objective of this cource is to give students the basic idea about AI an
  - Neural networks
  - Deep neural networks and deep learning
  
-## Course 3 Learn Machine learn..
+## Course 3 Learn Machine learn.,yeigiwguwc7
 
  - Mathematical background
    - Linear algebra
