@@ -80,7 +80,6 @@ In recent years, some revolutionary changes happened in the field of Artificial 
 
 [![Google brain](https://img.youtube.com/vi/V1eYniJ0Rnk/0.jpg)](https://www.youtube.com/watch?v=V1eYniJ0Rnk)
 
-Google Brain
 
 
 This particular example is Google DeepMind's Deep Q-learning playing Atari Breakout. This is using a concept called Reinforced learning. 
@@ -90,7 +89,7 @@ When we try to throw a basket ball into the basket, after several attempts, we f
 
 [![Facebook's Facial recogonition](https://www.facebook.com/facebook/videos/10156872585996729/)](https://www.facebook.com/facebook/videos/10156872585996729/)
 
-[!synthetic shallow depth-of-field effect shipped in the portrait mode of the Pixel 2 and Pixel 2 XL smartphones and mobile real-time video segmentation](https://www.theverge.com/2018/3/14/17120996/google-pixel-phone-portrait-mode-ai-image-segmentation-open-source)
+[![synthetic shallow depth-of-field effect shipped in the portrait mode of the Pixel 2 and Pixel 2 XL smartphones and mobile real-time video segmentation](https://www.theverge.com/2018/3/14/17120996/google-pixel-phone-portrait-mode-ai-image-segmentation-open-source)
 
 for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.github.io/tree/master/Introduction%20and%20scope)
 
