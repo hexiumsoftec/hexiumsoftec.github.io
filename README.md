@@ -162,7 +162,13 @@ By 2016, the market for AI-related products, hardware, and software reached more
 ### 2. Intoductionto the technologies used in AI
  
   In this session, basic introduction to the field of Artificial intelligence is explained. After this chapter, the learner will be able to successfully differentiate between the various fields of ARtificial intelligence.
- 
+#### a. Branches of Artificial Intelligence 
+
+  Artificial Intelligence is a vast ground of academic and commercial work around, "it is the science of making an intelligence machine". It has many branches with many similarities and commmanalities among them.
+![Branches](https://www.legaltechnology.com/wp-content/uploads/2015/11/Artificial-Intelligence-AI-larger-graphic.png)
+##### Machine Learning
+  Machine learning is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. It is an algorithm that allows software applications to become more accurate in predicting the outcomes. 
+The basic premise of  ML is to make algorithms to receive input data and statistically analyse it to predict the outcome, while updating the outcome as new data become available. These algorithms are catagorised into two, namely supervised and unsupervised. Supervised algorithms require a data scientist to provide input and output during the training of the algorithm. On the other hand unsupervised algorithms do not need any training, insted they uses an iterative approach called deep learning. These algorithms are also called neural networks and they are very complex compared to supervised learning systems.
 #### c. 
 
 
