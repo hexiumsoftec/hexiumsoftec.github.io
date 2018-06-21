@@ -86,7 +86,7 @@ In this section, the focus is to give an introduction to the current AI revoluti
 In recent years, some revolutionary changes happened in the field of Artificial intelligence and this is the perfect time for us to learn AI. Unlike the past few years, we now know the methods to learn AI and we have the hardware that is required in our personal computers. The introduction of GPU powered deep learning models revolutionized the entire industry. Now, It is time for us to learn AI. Before that, Let's see some examples.
 
 
-[![Google brain](https://img.youtube.com/vi/V1eYniJ0Rnk/0.jpg)](https://www.youtube.com/watch?v=V1eYniJ0Rnk)]
+[![Google brain](https://img.youtube.com/vi/V1eYniJ0Rnk/0.jpg)](https://www.youtube.com/watch?v=V1eYniJ0Rnk)
 
 
 
@@ -95,9 +95,9 @@ This particular example is Google DeepMind's Deep Q-learning playing Atari Break
 When we try to throw a basket ball into the basket, after several attempts, we finally learn that throwing it in a particular angle at a particular speed, it is possible to put the ball inside the basket. Just like that, learning the environment and reconfiguring the artifcial neural networks, it is possible for the machine to learn the perfect way to solve problems, some times better than us. After the completion of this cource, The learner will be able to implement some most challenging AI problems.
 
 
-[![Facebook's Facial recogonition](https://www.facebook.com/facebook/videos/10156872585996729/)](https://www.facebook.com/facebook/videos/10156872585996729/)]
+[![Facebook's Facial recogonition](https://www.facebook.com/facebook/videos/10156872585996729/)](https://www.facebook.com/facebook/videos/10156872585996729/)
 
-[![synthetic shallow depth-of-field effect shipped in the portrait mode of the Pixel 2 and Pixel 2 XL smartphones and mobile real-time video segmentation](https://www.theverge.com/2018/3/14/17120996/google-pixel-phone-portrait-mode-ai-image-segmentation-open-source)]
+[![synthetic shallow depth-of-field effect shipped in the portrait mode of the Pixel 2 and Pixel 2 XL smartphones and mobile real-time video segmentation](https://www.theverge.com/2018/3/14/17120996/google-pixel-phone-portrait-mode-ai-image-segmentation-open-source)
 
 for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.github.io/tree/master/Introduction%20and%20scope)
 
@@ -178,10 +178,10 @@ By 2016, the market for AI-related products, hardware, and software reached more
 ![Branches](https://www.legaltechnology.com/wp-content/uploads/2015/11/Artificial-Intelligence-AI-larger-graphic.png)
 ##### Machine Learning
   Machine learning is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. It is an algorithm that allows software applications to become more accurate in predicting the outcomes. 
+  
 The basic premise of  ML is to make algorithms to receive input data and statistically analyse it to predict the outcome, while updating the outcome as new data become available. These algorithms are catagorised into two, namely supervised and unsupervised. Supervised algorithms require a data scientist to provide input and output during the training of the algorithm. On the other hand unsupervised algorithms do not need any training, insted they uses an iterative approach called deep learning. These algorithms are also called neural networks and they are very complex compared to supervised learning systems.
 
 #### c. Neural networks
-
  Neural networks, a beautiful biologically-inspired programming paradigm which enables a computer to learn from observational data 
  
  Deep learning, a powerful set of techniques for learning in neural networks 
@@ -220,7 +220,9 @@ Referance:
 
 
 
-
+=======
+![NN](https://ds055uzetaobb.cloudfront.net/chapter/CS%20-%20Artificial%20Neural%20Networks-WSDIvF.png)
+====================================================================================================
 
 
 
