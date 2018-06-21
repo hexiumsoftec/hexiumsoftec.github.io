@@ -76,6 +76,8 @@ The main objective of this course is to give students the basic idea about AI an
 
 ### 1. Introduction and scope
    
+---
+
 In this section, the focus is to give an introduction to the current AI revolution and the scope of AI.
 In recent years, some revolutionary changes happened in the field of Artificial intelligence and this is the perfect time for us to learn AI. Unlike the past few years, we now know the methods to learn AI and we have the hardware that is required in our personal computers. The introduction of GPU powered deep learning models revolutionized the entire industry. Now, It is time for us to learn AI. Before that, Let's see some examples.
 
@@ -160,13 +162,12 @@ By 2016, the market for AI-related products, hardware, and software reached more
  
  
 ### 2. Intoductionto the technologies used in AI
+
+---
  
   In this session, basic introduction to the field of Artificial intelligence is explained. After this chapter, the learner will be able to successfully differentiate between the various fields of ARtificial intelligence.
 
-#### c. Neural networks
 
-![NN](https://ds055uzetaobb.cloudfront.net/chapter/CS%20-%20Artificial%20Neural%20Networks-WSDIvF.png)
-=======
 #### a. Branches of Artificial Intelligence 
 
   Artificial Intelligence is a vast ground of academic and commercial work around, "it is the science of making an intelligence machine". It has many branches with many similarities and commmanalities among them.
@@ -175,8 +176,10 @@ By 2016, the market for AI-related products, hardware, and software reached more
   Machine learning is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. It is an algorithm that allows software applications to become more accurate in predicting the outcomes. 
 The basic premise of  ML is to make algorithms to receive input data and statistically analyse it to predict the outcome, while updating the outcome as new data become available. These algorithms are catagorised into two, namely supervised and unsupervised. Supervised algorithms require a data scientist to provide input and output during the training of the algorithm. On the other hand unsupervised algorithms do not need any training, insted they uses an iterative approach called deep learning. These algorithms are also called neural networks and they are very complex compared to supervised learning systems.
 
-#### c. 
+#### c. Neural networks
 
+![NN](https://ds055uzetaobb.cloudfront.net/chapter/CS%20-%20Artificial%20Neural%20Networks-WSDIvF.png)
+---
 
 
 
