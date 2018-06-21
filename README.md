@@ -1,7 +1,11 @@
 # Artificial Intelligence and Machine learning course 
 
+
 This repository contains all the codes, course details, pdfs and examples to the AI and machine learning course. 
 The main objective of this course is to give students the basic idea about AI and make the learning process simple and easy.
+
+![NN](https://ds055uzetaobb.cloudfront.net/chapter/CS%20-%20Artificial%20Neural%20Networks-WSDIvF.png)
+---
 
 # Contents
 
@@ -178,9 +182,8 @@ The basic premise of  ML is to make algorithms to receive input data and statist
 
 #### c. Neural networks
 
-![NN](https://ds055uzetaobb.cloudfront.net/chapter/CS%20-%20Artificial%20Neural%20Networks-WSDIvF.png)
----
 
+Neural networks
 
 
 
