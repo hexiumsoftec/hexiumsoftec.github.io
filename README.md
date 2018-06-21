@@ -203,6 +203,10 @@ Much is still unknown about how the brain trains itself to process information, 
 ![nn](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.neuron.jpg)
 ![mm](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.synapse.jpg)
 
+We conduct these neural networks by first trying to deduce the essential features of neurones and their interconnections. We then typically program a computer to simulate these features. However because our knowledge of neurones is incomplete and our computing power is limited, our models are necessarily gross idealisations of real networks of neurones.
+
+![jj](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.artn.jpg)
+
 
 
 Referance: 
