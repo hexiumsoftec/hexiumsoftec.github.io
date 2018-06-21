@@ -215,14 +215,8 @@ Referance:
 
 2.![NEURAL NETWORKS by Christos Stergiou and Dimitrios Siganos ](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.html#What%20is%20a%20Neural%20Network)
 
-3.
 
 
-
-
-=======
-![NN](https://ds055uzetaobb.cloudfront.net/chapter/CS%20-%20Artificial%20Neural%20Networks-WSDIvF.png)
-====================================================================================================
 
 
 
