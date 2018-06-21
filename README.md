@@ -200,8 +200,8 @@ Other advantages include:
 
 Much is still unknown about how the brain trains itself to process information, so theories abound. In the human brain, a typical neuron collects signals from others through a host of fine structures called dendrites. The neuron sends out spikes of electrical activity through a long, thin stand known as an axon, which splits into thousands of branches. At the end of each branch, a structure called a synapse converts the activity from the axon into electrical effects that inhibit or excite activity from the axon into electrical effects that inhibit or excite activity in the connected neurones. When a neuron receives excitatory input that is sufficiently large compared with its inhibitory input, it sends a spike of electrical activity down its axon. Learning occurs by changing the effectiveness of the synapses so that the influence of one neuron on another changes.
 
-![nn](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.neuron.jpg | width=100)
-![mm](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.synapse.jpg | width=100)
+![nn](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.neuron.jpg)
+![mm](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.synapse.jpg)
 
 
 
