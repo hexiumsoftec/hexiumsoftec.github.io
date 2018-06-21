@@ -9,7 +9,7 @@ The main objective of this course is to give students the basic idea about AI an
 
 # Contents
 
-## Course 1 [Introduction](### 1. Introduction and scope) 
+## Course 1 [Introduction](1. Introduction and scope) 
 
  - Examples
  - Human brain
@@ -78,7 +78,7 @@ The main objective of this course is to give students the basic idea about AI an
 ## Course 6 Final project
  
 
-### 1. Introduction and scope
+' 1. Introduction and scope'
    
 ---
 
