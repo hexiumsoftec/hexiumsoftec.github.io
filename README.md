@@ -1,11 +1,15 @@
 # Artificial Intelligence and Machine learning course 
 
+
 This repository contains all the codes, course details, pdfs and examples to the AI and machine learning course. 
 The main objective of this course is to give students the basic idea about AI and make the learning process simple and easy.
 
+![NN](https://ds055uzetaobb.cloudfront.net/chapter/CS%20-%20Artificial%20Neural%20Networks-WSDIvF.png)
+---
+
 # Contents
 
-## Course 1 Introduction 
+## Course 1 Introduction and scope
 
  - Examples
  - Human brain
@@ -14,7 +18,7 @@ The main objective of this course is to give students the basic idea about AI an
  - History of AI
 
 
-## Course 2 Introduction to Technology 
+## Course 2 Introduction to Technologies
 
  - AI and it's branches
  - Machine learning and it's branches
@@ -76,6 +80,8 @@ The main objective of this course is to give students the basic idea about AI an
 
 ### 1. Introduction and scope
    
+---
+
 In this section, the focus is to give an introduction to the current AI revolution and the scope of AI.
 In recent years, some revolutionary changes happened in the field of Artificial intelligence and this is the perfect time for us to learn AI. Unlike the past few years, we now know the methods to learn AI and we have the hardware that is required in our personal computers. The introduction of GPU powered deep learning models revolutionized the entire industry. Now, It is time for us to learn AI. Before that, Let's see some examples.
 
@@ -160,6 +166,8 @@ By 2016, the market for AI-related products, hardware, and software reached more
  
  
 ### 2. Intoductionto the technologies used in AI
+
+---
  
   In this session, basic introduction to the field of Artificial intelligence is explained. After this chapter, the learner will be able to successfully differentiate between the various fields of ARtificial intelligence.
 
@@ -174,10 +182,47 @@ By 2016, the market for AI-related products, hardware, and software reached more
 The basic premise of  ML is to make algorithms to receive input data and statistically analyse it to predict the outcome, while updating the outcome as new data become available. These algorithms are catagorised into two, namely supervised and unsupervised. Supervised algorithms require a data scientist to provide input and output during the training of the algorithm. On the other hand unsupervised algorithms do not need any training, insted they uses an iterative approach called deep learning. These algorithms are also called neural networks and they are very complex compared to supervised learning systems.
 
 #### c. Neural networks
+ Neural networks, a beautiful biologically-inspired programming paradigm which enables a computer to learn from observational data 
+ 
+ Deep learning, a powerful set of techniques for learning in neural networks 
+ 
+ Neural networks and deep learning currently provide the best solutions to many problems in image recognition, speech recognition, and natural language processing. This book will teach you many of the core concepts behind neural networks and deep learning. In the conventional approach to programming, we tell the computer what to do, breaking big problems up into many small, precisely defined tasks that the computer can easily perform. By contrast, in a neural network we don't tell the computer how to solve our problem. Instead, it learns from observational data, figuring out its own solution to the problem at hand. Automatically learning from data sounds promising. However, until 2006 we didn't know how to train neural networks to surpass more traditional approaches, except for a few specialized problems. What changed in 2006 was the discovery of techniques for learning in so-called deep neural networks. These techniques are now known as deep learning. They've been developed further, and today deep neural networks and deep learning achieve outstanding performance on many important problems in computer vision, speech recognition, and natural language processing. They're being deployed on a large scale by companies such as Google, Microsoft, and Facebook.
+ 
+ An Artificial Neural Network (ANN) is an information processing paradigm that is inspired by the way biological nervous systems, such as the brain, process information. The key element of this paradigm is the novel structure of the information processing system. It is composed of a large number of highly interconnected processing elements (neurones) working in unison to solve specific problems. ANNs, like people, learn by example. An ANN is configured for a specific application, such as pattern recognition or data classification, through a learning process. Learning in biological systems involves adjustments to the synaptic connections that exist between the neurones. This is true of ANNs as well. 
 
+Neural networks, with their remarkable ability to derive meaning from complicated or imprecise data, can be used to extract patterns and detect trends that are too complex to be noticed by either humans or other computer techniques. A trained neural network can be thought of as an "expert" in the category of information it has been given to analyse. This expert can then be used to provide projections given new situations of interest and answer "what if" questions.
+Other advantages include:
+
+   - Adaptive learning: An ability to learn how to do tasks based on the data given for training or initial experience.
+   - Self-Organisation: An ANN can create its own organisation or representation of the information it receives during learning time.
+   - Real Time Operation: ANN computations may be carried out in parallel, and special hardware devices are being designed and manufactured which take advantage of this capability.
+   - Fault Tolerance via Redundant Information Coding: Partial destruction of a network leads to the corresponding degradation of performance. However, some network capabilities may be retained even with major network damage.
+
+Much is still unknown about how the brain trains itself to process information, so theories abound. In the human brain, a typical neuron collects signals from others through a host of fine structures called dendrites. The neuron sends out spikes of electrical activity through a long, thin stand known as an axon, which splits into thousands of branches. At the end of each branch, a structure called a synapse converts the activity from the axon into electrical effects that inhibit or excite activity from the axon into electrical effects that inhibit or excite activity in the connected neurones. When a neuron receives excitatory input that is sufficiently large compared with its inhibitory input, it sends a spike of electrical activity down its axon. Learning occurs by changing the effectiveness of the synapses so that the influence of one neuron on another changes.
+
+![nn](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.neuron.jpg)
+![mm](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.synapse.jpg)
+
+We conduct these neural networks by first trying to deduce the essential features of neurones and their interconnections. We then typically program a computer to simulate these features. However because our knowledge of neurones is incomplete and our computing power is limited, our models are necessarily gross idealisations of real networks of neurones.
+
+![jj](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.artn.jpg)
+
+
+
+Referance: 
+
+1.![Michael A. Nielsen, "Neural Networks and Deep Learning", Determination Press, 2015](http://neuralnetworksanddeeplearning.com/)
+
+2.![NEURAL NETWORKS by Christos Stergiou and Dimitrios Siganos ](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.html#What%20is%20a%20Neural%20Network)
+
+3.
+
+
+
+
+=======
 ![NN](https://ds055uzetaobb.cloudfront.net/chapter/CS%20-%20Artificial%20Neural%20Networks-WSDIvF.png)
 ====================================================================================================
-
 
 
 
