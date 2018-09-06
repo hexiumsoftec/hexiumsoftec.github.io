@@ -221,15 +221,25 @@ Deep learning allows computational models that are composed of multiple processi
 
 ![mm](https://i1.wp.com/analyticsindiamag.com/wp-content/uploads/2018/05/nural-network_3.gif?ssl=1)
 
-More details are available in the pdf that can be found in the directory->   documents/cnn
+More details are available in the pdf that can be found in the directory->   documents/cnn.pdf
 
 
 
+## 3. Learn Machine Learn
 
+### a. Mathematical Background
 
+We will cover this part as we go indeapth in this document. Learning math is more interesting when you have an objective and idea of what you are working on. In this section, we will cover the things that needs to be learnt once we start building our networks.
 
+#### i. Linear algebra
+ The basic ideas such as what is a scalar, vector, Matrix, etc. are required to understand the next few chapters. This part is covered in a document located at documents/linearalgebra.pdf inside the repository since anyone with basic knowledge of the topic may skip the part. Will explain everything during the implementation phase.
+ ![mm](https://towardsdatascience.com/linear-algebra-for-deep-learning-f21d7e7d7f23)
+ 
+ 
+#### ii. Calculus
+ Derivatives, partial derivation, integration, gradient descent, chain rules are required in this part. This part is covered in a document located at documents/calculus.pdf inside the repository since anyone with basic knowledge of the topic may skip the part. Will explain everything during the implementation phase.
 
-
+ ![mm](http://wiki.fast.ai/index.php/Calculus_for_Deep_Learning)
 
 
 
