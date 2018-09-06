@@ -78,7 +78,7 @@ The main objective of this course is to give students the basic idea about AI an
 ## Course 6 Final project
  
 
-### 1. Introduction and scope
+## 1. Introduction and scope
    
 ---
 
