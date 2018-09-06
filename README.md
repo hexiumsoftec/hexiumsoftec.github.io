@@ -215,7 +215,13 @@ Referance:
 
 2.![NEURAL NETWORKS by Christos Stergiou and Dimitrios Siganos ](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.html#What%20is%20a%20Neural%20Network)
 
+#### d.Deep neural networks and deep learning
 
+Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction. These methods have dramatically improved the state-of-the-art in speech recognition, visual object recognition, object detection and many other domains such as drug discovery and genomics. Deep learning discovers intricate structure in large data sets by using the backpropagation algorithm to indicate how a machine should change its internal parameters that are used to compute the representation in each layer from the representation in the previous layer. Deep convolutional nets have brought about breakthroughs in processing images, video, speech and audio, whereas recurrent nets have shone light on sequential data such as text and speech.
+
+![mm](https://i1.wp.com/analyticsindiamag.com/wp-content/uploads/2018/05/nural-network_3.gif?ssl=1)
+
+More details are available in the pdf that can be found in the directory->   documents/cnn
 
 
 
