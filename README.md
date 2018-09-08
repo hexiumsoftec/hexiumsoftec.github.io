@@ -164,7 +164,7 @@ By 2016, the market for AI-related products, hardware, and software reached more
 
  
  
-### 2. Intoductionto the technologies used in AI
+## 2. Intoductionto the technologies used in AI
 
 ---
  
@@ -243,7 +243,37 @@ We will cover this part as we go indeapth in this document. Learning math is mor
  
   The detailed document can be found inside the documentation folder and is saved as probability.pdf.
 
+### b. Algorithms and implementation in python 
 
+### c. Convolutional neural networks 
+
+### d. What is an AI Project
+
+## 4.Train the model
+
+### a. Data,Importance of Data, Data collection, Structuring Data
+
+### b. Intro to Hardware for machine learning and implementing 
+
+#### i. Jetson
+#### ii. Movidius
+#### iii. NVIDIA Graphic cards
+#### iV. Setting up deep learning pc
+#### v. More hardware options
+#### vi. Tensor processing unit
+#### vii. Cloud computting
+
+### c. Neural network training using python 
+#### i. Platforms
+#### ii. Transfer learning
+
+### d. Improving models
+### e. Common problems found during training of neural networks and it’s solutions
+### f. Case studies(different CNN models)
+
+## 5. Case studies on ML Projects
+
+ Will be covered in detail and the repostitory will have all the code required.
 
 
 
