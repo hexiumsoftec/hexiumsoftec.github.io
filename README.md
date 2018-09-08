@@ -1,11 +1,15 @@
-# Artificial Intelligence and Machine learning cource 
+# Artificial Intelligence and Machine learning course 
 
-This repository contains all the codes, cource details, pdfs and examples to the AI and machine learning cource. 
-The main objective of this cource is to give students the basic idea about AI and make the learning process simple and easy.
+
+This repository contains all the codes, course details, pdfs and examples to the AI and machine learning course. 
+The main objective of this course is to give students the basic idea about AI and make the learning process simple and easy.
+
+![NN](https://ds055uzetaobb.cloudfront.net/chapter/CS%20-%20Artificial%20Neural%20Networks-WSDIvF.png)
+---
 
 # Contents
 
-## Course 1 Introduction 
+## Course 1 Introduction and scope
 
  - Examples
  - Human brain
@@ -14,23 +18,22 @@ The main objective of this cource is to give students the basic idea about AI an
  - History of AI
 
 
-## Course 2 Introduction to Technology 
+## Course 2 Introduction to Technologies
 
  - AI and it's branches
  - Machine learning and it's branches
  - Neural networks
  - Deep neural networks and deep learning
  
-## Course 3 Learn Machine learn..
+## Course 3 Learn Machine learn.
 
  - Mathematical background
    - Linear algebra
-   - Differential equations
    - Calculus
    - Probability
    
  - Algorithms and implementation in python
-   - Linea regression and applications
+   - Linear regression and applications
    - Logistic regression and applications
    - Least mean square
    - Gradient descent
@@ -74,24 +77,26 @@ The main objective of this cource is to give students the basic idea about AI an
 ## Course 6 Final project
  
 
-### 1. Introduction and scope
+## 1. Introduction and scope
    
-In this section, the focus is to give an introduction to the current AI revolution and the scopeof AI.
-In recent years, some revolutionary changes happened in the field of Artificial intelligence and this is the perfect time for us to learn AI. Unlike the past few years, we now know the methodes to learn AI and we have the hardware that is required in our personal computers. The introduction of GPU powered deep learning models revolutionized the entire industry. Now, It is time for us to learn AI. Before that, Let's see some examples.
+---
+
+In this section, the focus is to give an introduction to the current AI revolution and the scope of AI.
+In recent years, some revolutionary changes happened in the field of Artificial intelligence and this is the perfect time for us to learn AI. Unlike the past few years, we now know the methods to learn AI and we have the hardware that is required in our personal computers. The introduction of GPU powered deep learning models revolutionized the entire industry. Now, It is time for us to learn AI. Before that, Let's see some examples.
 
 
-[![Google brain](https://img.youtube.com/vi/V1eYniJ0Rnk/0.jpg)](https://www.youtube.com/watch?v=V1eYniJ0Rnk)]
+[![Google brain](https://img.youtube.com/vi/V1eYniJ0Rnk/0.jpg)](https://www.youtube.com/watch?v=V1eYniJ0Rnk)
 
 
 
 This particular example is Google DeepMind's Deep Q-learning playing Atari Breakout. This is using a concept called Reinforced learning. 
 
-When we try to throw a basket ball into the basket, after several attempts, we finally learn that throwing it in a particular angle at a particular speed, it is possible to put the ball inside the basket. Just like that, learning the environment and reconfigauring the artifcial neural networks, it is possible for the machine to learn the perfect way to solve problems, some times better than us. After the completion of this cource, The learner will be able to implement some most challenging AI problems.
+When we try to throw a basket ball into the basket, after several attempts, we finally learn that throwing it in a particular angle at a particular speed, it is possible to put the ball inside the basket. Just like that, learning the environment and reconfiguring the artifcial neural networks, it is possible for the machine to learn the perfect way to solve problems, some times better than us. After the completion of this cource, The learner will be able to implement some most challenging AI problems.
 
 
-[![Facebook's Facial recogonition](https://www.facebook.com/facebook/videos/10156872585996729/)](https://www.facebook.com/facebook/videos/10156872585996729/)]
+[![Facebook's Facial recogonition](https://www.facebook.com/facebook/videos/10156872585996729/)](https://www.facebook.com/facebook/videos/10156872585996729/)
 
-[![synthetic shallow depth-of-field effect shipped in the portrait mode of the Pixel 2 and Pixel 2 XL smartphones and mobile real-time video segmentation](https://www.theverge.com/2018/3/14/17120996/google-pixel-phone-portrait-mode-ai-image-segmentation-open-source)]
+[![synthetic shallow depth-of-field effect shipped in the portrait mode of the Pixel 2 and Pixel 2 XL smartphones and mobile real-time video segmentation](https://www.theverge.com/2018/3/14/17120996/google-pixel-phone-portrait-mode-ai-image-segmentation-open-source)
 
 for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.github.io/tree/master/Introduction%20and%20scope)
 
@@ -111,7 +116,7 @@ for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.git
 
 #### History of Artificial intelligence
 
-The following details are from [Wiipedia](https://en.wikipedia.org/wiki/History_of_artificial_intelligence). 
+The following details are from [Wikipedia](https://en.wikipedia.org/wiki/History_of_artificial_intelligence). 
 
 The history of Artificial Intelligence (AI) began in antiquity, with myths, stories and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen; as Pamela McCorduck writes, AI began with "an ancient wish to forge the gods." 
 
@@ -159,25 +164,116 @@ By 2016, the market for AI-related products, hardware, and software reached more
 
  
  
-### 2. Intoductionto the technologies used in AI
+## 2. Intoductionto the technologies used in AI
+
+---
  
   In this session, basic introduction to the field of Artificial intelligence is explained. After this chapter, the learner will be able to successfully differentiate between the various fields of ARtificial intelligence.
- 
+
+
+#### a. Branches of Artificial Intelligence 
+
+  Artificial Intelligence is a vast ground of academic and commercial work around, "it is the science of making an intelligence machine". It has many branches with many similarities and commmanalities among them.
+![Branches](https://www.legaltechnology.com/wp-content/uploads/2015/11/Artificial-Intelligence-AI-larger-graphic.png)
+##### Machine Learning
+  Machine learning is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. It is an algorithm that allows software applications to become more accurate in predicting the outcomes. 
+  
+The basic premise of  ML is to make algorithms to receive input data and statistically analyse it to predict the outcome, while updating the outcome as new data become available. These algorithms are catagorised into two, namely supervised and unsupervised. Supervised algorithms require a data scientist to provide input and output during the training of the algorithm. On the other hand unsupervised algorithms do not need any training, insted they uses an iterative approach called deep learning. These algorithms are also called neural networks and they are very complex compared to supervised learning systems.
+
 #### c. Neural networks
+ Neural networks, a beautiful biologically-inspired programming paradigm which enables a computer to learn from observational data 
+ 
+ Deep learning, a powerful set of techniques for learning in neural networks 
+ 
+ Neural networks and deep learning currently provide the best solutions to many problems in image recognition, speech recognition, and natural language processing. This book will teach you many of the core concepts behind neural networks and deep learning. In the conventional approach to programming, we tell the computer what to do, breaking big problems up into many small, precisely defined tasks that the computer can easily perform. By contrast, in a neural network we don't tell the computer how to solve our problem. Instead, it learns from observational data, figuring out its own solution to the problem at hand. Automatically learning from data sounds promising. However, until 2006 we didn't know how to train neural networks to surpass more traditional approaches, except for a few specialized problems. What changed in 2006 was the discovery of techniques for learning in so-called deep neural networks. These techniques are now known as deep learning. They've been developed further, and today deep neural networks and deep learning achieve outstanding performance on many important problems in computer vision, speech recognition, and natural language processing. They're being deployed on a large scale by companies such as Google, Microsoft, and Facebook.
+ 
+ An Artificial Neural Network (ANN) is an information processing paradigm that is inspired by the way biological nervous systems, such as the brain, process information. The key element of this paradigm is the novel structure of the information processing system. It is composed of a large number of highly interconnected processing elements (neurones) working in unison to solve specific problems. ANNs, like people, learn by example. An ANN is configured for a specific application, such as pattern recognition or data classification, through a learning process. Learning in biological systems involves adjustments to the synaptic connections that exist between the neurones. This is true of ANNs as well. 
 
-![NN](https://ds055uzetaobb.cloudfront.net/chapter/CS%20-%20Artificial%20Neural%20Networks-WSDIvF.png)
+Neural networks, with their remarkable ability to derive meaning from complicated or imprecise data, can be used to extract patterns and detect trends that are too complex to be noticed by either humans or other computer techniques. A trained neural network can be thought of as an "expert" in the category of information it has been given to analyse. This expert can then be used to provide projections given new situations of interest and answer "what if" questions.
+Other advantages include:
+
+   - Adaptive learning: An ability to learn how to do tasks based on the data given for training or initial experience.
+   - Self-Organisation: An ANN can create its own organisation or representation of the information it receives during learning time.
+   - Real Time Operation: ANN computations may be carried out in parallel, and special hardware devices are being designed and manufactured which take advantage of this capability.
+   - Fault Tolerance via Redundant Information Coding: Partial destruction of a network leads to the corresponding degradation of performance. However, some network capabilities may be retained even with major network damage.
+
+Much is still unknown about how the brain trains itself to process information, so theories abound. In the human brain, a typical neuron collects signals from others through a host of fine structures called dendrites. The neuron sends out spikes of electrical activity through a long, thin stand known as an axon, which splits into thousands of branches. At the end of each branch, a structure called a synapse converts the activity from the axon into electrical effects that inhibit or excite activity from the axon into electrical effects that inhibit or excite activity in the connected neurones. When a neuron receives excitatory input that is sufficiently large compared with its inhibitory input, it sends a spike of electrical activity down its axon. Learning occurs by changing the effectiveness of the synapses so that the influence of one neuron on another changes.
+
+![nn](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.neuron.jpg)
+![mm](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.synapse.jpg)
+
+We conduct these neural networks by first trying to deduce the essential features of neurones and their interconnections. We then typically program a computer to simulate these features. However because our knowledge of neurones is incomplete and our computing power is limited, our models are necessarily gross idealisations of real networks of neurones.
+
+![jj](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.artn.jpg)
 
 
 
+Referance: 
+
+1.![Michael A. Nielsen, "Neural Networks and Deep Learning", Determination Press, 2015](http://neuralnetworksanddeeplearning.com/)
+
+2.![NEURAL NETWORKS by Christos Stergiou and Dimitrios Siganos ](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.html#What%20is%20a%20Neural%20Network)
+
+#### d.Deep neural networks and deep learning
+
+Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction. These methods have dramatically improved the state-of-the-art in speech recognition, visual object recognition, object detection and many other domains such as drug discovery and genomics. Deep learning discovers intricate structure in large data sets by using the backpropagation algorithm to indicate how a machine should change its internal parameters that are used to compute the representation in each layer from the representation in the previous layer. Deep convolutional nets have brought about breakthroughs in processing images, video, speech and audio, whereas recurrent nets have shone light on sequential data such as text and speech.
+
+![mm](https://i1.wp.com/analyticsindiamag.com/wp-content/uploads/2018/05/nural-network_3.gif?ssl=1)
+
+More details are available in the pdf that can be found in the directory->   documents/cnn.pdf
 
 
 
+## 3. Learn Machine Learn
+
+### a. Mathematical Background
+
+We will cover this part as we go indeapth in this document. Learning math is more interesting when you have an objective and idea of what you are working on. In this section, we will cover the things that needs to be learnt once we start building our networks.
+
+#### i. Linear algebra
+ The basic ideas such as what is a scalar, vector, Matrix, etc. are required to understand the next few chapters. This part is covered in a document located at documents/linearalgebra.pdf inside the repository since anyone with basic knowledge of the topic may skip the part. Will explain everything during the implementation phase.
+ 
+ 
+#### ii. Calculus
+ Derivatives, partial derivation, integration, gradient descent, chain rules are required in this part. This part is covered in a document located at documents/calculus.pdf inside the repository since anyone with basic knowledge of the topic may skip the part. Will explain everything during the implementation phase.
 
 
+ 
+ #### iii. Probability
+ 
+  The detailed document can be found inside the documentation folder and is saved as probability.pdf.
 
+### b. Algorithms and implementation in python 
 
+### c. Convolutional neural networks 
 
+### d. What is an AI Project
 
+## 4.Train the model
+
+### a. Data,Importance of Data, Data collection, Structuring Data
+
+### b. Intro to Hardware for machine learning and implementing 
+
+#### i. Jetson
+#### ii. Movidius
+#### iii. NVIDIA Graphic cards
+#### iV. Setting up deep learning pc
+#### v. More hardware options
+#### vi. Tensor processing unit
+#### vii. Cloud computting
+
+### c. Neural network training using python 
+#### i. Platforms
+#### ii. Transfer learning
+
+### d. Improving models
+### e. Common problems found during training of neural networks and it’s solutions
+### f. Case studies(different CNN models)
+
+## 5. Case studies on ML Projects
+
+ Will be covered in detail and the repostitory will have all the code required.
 
 
 
