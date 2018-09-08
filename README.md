@@ -772,3 +772,14 @@ Following are the main library modules of the OpenCV library.
 ## AlexNet
 This architecture was one of the first deep networks to push ImageNet Classification accuracy by a significant stride in comparison to traditional methodologies. It is composed of 5 convolutional layers followed by 3 fully connected layers, as depicted in Figure.
 ![Branches](https://cv-tricks.com/wp-content/uploads/2017/03/xalexnet_small-1.png.pagespeed.ic.u_mv-jhXMI.webp)
+
+
+AlexNet, proposed by Alex Krizhevsky, uses ReLu(Rectified Linear Unit) for the non-linear part, instead of a Tanh or Sigmoid function which was the earlier standard for traditional neural networks. ReLu is given by 
+
+f(x) = max(0,x)
+
+The advantage of the ReLu over sigmoid is that it trains much faster than the latter because the derivative of sigmoid becomes very small in the saturating region and therefore the updates to the weights almost vanish. This is called vanishing gradient problem.In the network, ReLu layer is put after each and every convolutional and fully-connected layers(FC).
+![Branches](https://cv-tricks.com/wp-content/uploads/2017/04/xLogistic-curve.svg_.png.pagespeed.ic._QJ2kMUAz8.webp)
+
+Another problem that this architecture solved was reducing the over-fitting by using a Dropout layer after every FC layer. Dropout layer has a probability,(p), associated with it and is applied at every neuron of the response map separately. It randomly switches off the activation with the probability p, as can be seen in figure
+![Branches](hthttps://cv-tricks.com/wp-content/uploads/2017/04/xdropout.jpeg.pagespeed.ic.HTAqLymLf-.webp)
