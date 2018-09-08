@@ -782,7 +782,7 @@ The advantage of the ReLu over sigmoid is that it trains much faster than the la
 ![Branches](https://cv-tricks.com/wp-content/uploads/2017/04/xLogistic-curve.svg_.png.pagespeed.ic._QJ2kMUAz8.webp)
 
 Another problem that this architecture solved was reducing the over-fitting by using a Dropout layer after every FC layer. Dropout layer has a probability,(p), associated with it and is applied at every neuron of the response map separately. It randomly switches off the activation with the probability p, as can be seen in figure.
-![Branches](hthttps://cv-tricks.com/wp-content/uploads/2017/04/xdropout.jpeg.pagespeed.ic.HTAqLymLf-.webp)
+![Branches](https://cv-tricks.com/wp-content/uploads/2017/04/xdropout.jpeg.pagespeed.ic.HTAqLymLf-.webp)
 
 ### Why does DropOut work?
 The idea behind the dropout is similar to the model ensembles. Due to the dropout layer, different sets of neurons which are switched off, represent a different architecture and all these different architectures are trained in parallel with weight given to each subset and the summation of weights being one. For n neurons attached to DropOut, the number of subset architectures formed is 2^n. So it amounts to prediction being averaged over these ensembles of models. This provides a structured model regularization which helps in avoiding the over-fitting. Another view of DropOut being helpful is that since neurons are randomly chosen, they tend to avoid developing co-adaptations among themselves thereby enabling them to develop meaningful features, independent of others.
@@ -812,7 +812,7 @@ Another change that GoogLeNet made, was to replace the fully-connected layers at
 
 ## Residual Networks
 As per what we have seen so far, increasing the depth should increase the accuracy of the network, as long as over-fitting is taken care of. But the problem with increased depth is that the signal required to change the weights, which arises from the end of the network by comparing ground-truth and prediction becomes very small at the earlier layers, because of increased depth. It essentially means that earlier layers are almost negligible learned. This is called vanishing gradient. The second problem with training the deeper networks is, performing the optimization on huge parameter space and therefore naively adding the layers leading to higher training error. Residual networks allow training of such deep networks by constructing the network through modules called residual models as shown in the figure. This is called degradation problem. The intuition around why it works can be seen as follows:
-![Branches(https://d2mxuefqeaa7sj.cloudfront.net/s_8C760A111A4204FB24FFC30E04E069BD755C4EEFD62ACBA4B54BBA2A78E13E8C_1490999744884_main-qimg-b1fcbef975924b2ec4ad3a851e9f3934.png)
+![Branches](https://d2mxuefqeaa7sj.cloudfront.net/s_8C760A111A4204FB24FFC30E04E069BD755C4EEFD62ACBA4B54BBA2A78E13E8C_1490999744884_main-qimg-b1fcbef975924b2ec4ad3a851e9f3934.png)
 
 Imagine a network, A which produces x amount of training error. Construct a network B by adding few layers on top of A and put parameter values in those layers in such a way that they do nothing to the outputs from A. Let’s call the additional layer as C. This would mean the same x amount of training error for the new network. So while training network B, the training error should not be above the training error of A. And since it DOES happen, the only reason is that learning the identity mapping(doing nothing to inputs and just copying as it is) with the added layers-C is not a trivial problem, which the solver does not achieve. To solve this, the module shown above creates a direct path between the input and output to the module implying an identity mapping and the added layer-C just need to learn the features on top of already available input. Since C is learning only the residual, the whole module is called residual module. 
 
@@ -821,7 +821,7 @@ Also, similar to GoogLeNet, it uses a global average pooling followed by the cla
 The architecture is similar to the VGGNet consisting mostly of 3X3 filters. From the VGGNet, shortcut connection as described above is inserted to form a residual network. This can be seen in the figure which shows a small snippet of earlier layer synthesis from VGG-19.
 
 The power of the residual networks can be judged from one of the experiments in paper 4. The plain 34 layer network had higher validation error than the 18 layers plain network. This is where we realize the degradation problem. And the same 34 layer network when converted into the residual network has much lesser training error than the 18 layer residual network. 
-(https://cv-tricks.com/wp-content/uploads/2017/04/xresnet.png.pagespeed.ic.KOwR3nQbCM.webp)
+![Branches](https://cv-tricks.com/wp-content/uploads/2017/04/xresnet.png.pagespeed.ic.KOwR3nQbCM.webp)
 Finally, here is a table that shows the key figures around these networks:
-https://cv-tricks.com/wp-content/uploads/2017/08/Table.png
+![Branches](https://cv-tricks.com/wp-content/uploads/2017/08/Table.png)
 
