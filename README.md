@@ -29,7 +29,6 @@ The main objective of this course is to give students the basic idea about AI an
 
  - Mathematical background
    - Linear algebra
-   - Differential equations
    - Calculus
    - Probability
    
@@ -233,13 +232,16 @@ We will cover this part as we go indeapth in this document. Learning math is mor
 
 #### i. Linear algebra
  The basic ideas such as what is a scalar, vector, Matrix, etc. are required to understand the next few chapters. This part is covered in a document located at documents/linearalgebra.pdf inside the repository since anyone with basic knowledge of the topic may skip the part. Will explain everything during the implementation phase.
- ![mm](https://towardsdatascience.com/linear-algebra-for-deep-learning-f21d7e7d7f23)
  
  
 #### ii. Calculus
  Derivatives, partial derivation, integration, gradient descent, chain rules are required in this part. This part is covered in a document located at documents/calculus.pdf inside the repository since anyone with basic knowledge of the topic may skip the part. Will explain everything during the implementation phase.
 
- ![mm](http://wiki.fast.ai/index.php/Calculus_for_Deep_Learning)
+
+ 
+ #### iii. Probability
+ 
+  The detailed document can be found inside the documentation folder and is saved as probability.pdf.
 
 
 
