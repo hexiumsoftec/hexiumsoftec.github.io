@@ -164,7 +164,9 @@ By 2016, the market for AI-related products, hardware, and software reached more
 
  
  
-## 2. Intoductionto the technologies used in AI
+
+### 2. Intoductionto the technologies used in AI
+
 
 ---
  
@@ -189,6 +191,7 @@ The basic premise of  ML is to make algorithms to receive input data and statist
  
  An Artificial Neural Network (ANN) is an information processing paradigm that is inspired by the way biological nervous systems, such as the brain, process information. The key element of this paradigm is the novel structure of the information processing system. It is composed of a large number of highly interconnected processing elements (neurones) working in unison to solve specific problems. ANNs, like people, learn by example. An ANN is configured for a specific application, such as pattern recognition or data classification, through a learning process. Learning in biological systems involves adjustments to the synaptic connections that exist between the neurones. This is true of ANNs as well. 
 
+
 Neural networks, with their remarkable ability to derive meaning from complicated or imprecise data, can be used to extract patterns and detect trends that are too complex to be noticed by either humans or other computer techniques. A trained neural network can be thought of as an "expert" in the category of information it has been given to analyse. This expert can then be used to provide projections given new situations of interest and answer "what if" questions.
 Other advantages include:
 
@@ -201,6 +204,7 @@ Much is still unknown about how the brain trains itself to process information, 
 
 ![nn](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.neuron.jpg)
 ![mm](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.synapse.jpg)
+
 
 We conduct these neural networks by first trying to deduce the essential features of neurones and their interconnections. We then typically program a computer to simulate these features. However because our knowledge of neurones is incomplete and our computing power is limited, our models are necessarily gross idealisations of real networks of neurones.
 
@@ -336,7 +340,6 @@ Finally, here is a table that shows the key figures around these networks:
 ## 5. Case studies on ML Projects
 
  Will be covered in detail and the repostitory will have all the code required.
-
 
 
 
