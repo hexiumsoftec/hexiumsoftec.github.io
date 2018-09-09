@@ -10,7 +10,10 @@ The main objective of this course is to give students the basic idea about AI an
 # Contents
 
 ## Course 1 Introduction and scope
- In this section, the focus is to give an introduction to the current AI revolution and the scope of AI.
+
+---
+
+In this section, the focus is to give an introduction to the current AI revolution and the scope of AI.
 In recent years, some revolutionary changes happened in the field of Artificial intelligence and this is the perfect time for us to learn AI. Unlike the past few years, we now know the methods to learn AI and we have the hardware that is required in our personal computers. The introduction of GPU powered deep learning models revolutionized the entire industry. Now, It is time for us to learn AI. Before that, Let's see some examples.
 
 
@@ -29,42 +32,167 @@ When we try to throw a basket ball into the basket, after several attempts, we f
 
 for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.github.io/tree/master/Introduction%20and%20scope)
 
- - Human brain
+#### Human brain and intelligence
  
+ The human brain is the most complex organ in our bodies. Scientists are working on the problem of knowing how the brain works. Even now, we only have a limitted knowledge about the working of human brain. But we can use the assumptions and some proofs by the discoverers of some details on how human brain works to learn about Artificial intelligence. The concept of artificial intelligence depends on some of the terms used in human intelligent system to better understand the concept, but even the greatest minds in the field of artificial intelligence like Andrew NG and Geoferry Hinton says that we are still pursuing the challenge to learn about the real working of human brain.
  
- - Human brain vs Computers
- - Artificial intelligence
- - History of AI
+ But as far as we know, The human brain is the central organ of the human nervous system, and with the spinal cord makes up the central nervous system. The brain consists of the cerebrum, the brainstem and the cerebellum. It controls most of the activities of the body, processing, integrating, and coordinating the information it receives from the sense organs, and making decisions as to the instructions sent to the rest of the body. The brain is contained in, and protected by, the skull bones of the head. The cerebrum is the largest part of the human brain. It is divided into two cerebral hemispheres. The cerebral cortex is an outer layer of grey matter, covering the core of white matter. The cortex is split into the neocortex and the much smaller allocortex. The neocortex is made up of six neuronal layers, while the allocortex has three or four. Each hemisphere is conventionally divided into four lobes – the frontal, temporal, parietal, and occipital lobes. The frontal lobe is associated with executive functions including self-control, planning, reasoning, and abstract thought, while the occipital lobe is dedicated to vision. Within each lobe, cortical areas are associated with specific functions, such as the sensory, motor and association regions. Although the left and right hemispheres are broadly similar in shape and function, some functions are associated with one side, such as language in the left and visual-spatial ability in the right. The hemispheres are connected by commissural nerve tracts, the largest being the corpus callosum >(Source wikipedia)
+ 
+ The human brain learns new things from it's surroundings. Imagine when a child touches fire for the first time, after getting the burn, he will not dare to touch something that is red and glows. This type of learning is natural. When we go to school and learns that 2 is a number and it is used to represent some value, This is learnt from the teacher who repeatedly shows this number and tells you that the number is Two. Human brain decodes the signal from the sensories and use them to find a meaning to that and learns it's features for the future. Hearing a pleasent music or good smell of food will make you feel comfortable and heavy traffic troubles makes you angry. Everything is learnt, memorized and used inorder to react to situations that lies ahead. 
+ 
+ Artificial intelligence works similarly, but not as efficient as human brain. We were able to achieve more accuracy in predicting something from an image using computer vision than a normal human being, but the technology can be easily fooled. Human brain is still a highly complex system that works differently than what we are going to learn but knowing the concept of knowledge(Memory, structured information used at the right time), Information(Data arranged in a good manner) and Data is going to help us understand the theories of AI.
+ 
+#### Computers Intelligence Vs Human intelligence
+  
+  First computers were used to solve simple mathematical problems and they are good at it. Artificial intelligence as we know it is pure mathematics, but even for solving a small problem, it would take a normal human being his lifetime to do these calculations. But the truth is that we can process do much more things than a computer can, in terms of intelligence. Computers don't have the ability to imagine new things, it only knows the data that it got and that data is the main thing that drives it. An AI system might be able to solve a
+
+#### History of Artificial intelligence
+
+The following details are from [Wikipedia](https://en.wikipedia.org/wiki/History_of_artificial_intelligence). 
+
+The history of Artificial Intelligence (AI) began in antiquity, with myths, stories and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen; as Pamela McCorduck writes, AI began with "an ancient wish to forge the gods." 
+
+The seeds of modern AI were planted by classical philosophers who attempted to describe the process of human thinking as the mechanical manipulation of symbols. This work culminated in the invention of the programmable digital computer in the 1940s, a machine based on the abstract essence of mathematical reasoning. This device and the ideas behind it inspired a handful of scientists to begin seriously discussing the possibility of building an electronic brain.
+
+The earliest research into thinking machines was inspired by a confluence of ideas that became prevalent in the late 1930s, 1940s, and early 1950s. Recent research in neurology had shown that the brain was an electrical network of neurons that fired in all-or-nothing pulses. Norbert Wiener's cybernetics described control and stability in electrical networks. Claude Shannon's information theory described digital signals (i.e., all-or-nothing signals). Alan Turing's theory of computation showed that any form of computation could be described digitally. The close relationship between these ideas suggested that it might be possible to construct an electronic brain.
+
+In 1950 Alan Turing published a landmark paper in which he speculated about the possibility of creating machines that think. He noted that "thinking" is difficult to define and devised his famous Turing Test. If a machine could carry on a conversation (over a teleprinter) that was indistinguishable from a conversation with a human being, then it was reasonable to say that the machine was "thinking". This simplified version of the problem allowed Turing to argue convincingly that a "thinking machine" was at least plausible and the paper answered all the most common objections to the proposition. The Turing Test was the first serious proposal in the philosophy of artificial intelligence.
+
+In 1951, using the Ferranti Mark 1 machine of the University of Manchester, Christopher Strachey wrote a checkers program and Dietrich Prinz wrote one for chess. Arthur Samuel's checkers program, developed in the middle 50s and early 60s, eventually achieved sufficient skill to challenge a respectable amateur.Game AI would continue to be used as a measure of progress in AI throughout its history.
+
+In Japan, Waseda University initiated the WABOT project in 1967, and in 1972 completed the WABOT-1, the world's first full-scale intelligent humanoid robot, or android. Its limb control system allowed it to walk with the lower limbs, and to grip and transport objects with hands, using tactile sensors. Its vision system allowed it to measure distances and directions to objects using external receptors, artificial eyes and ears. And its conversation system allowed it to communicate with a person in Japanese, with an artificial mouth.
+
+In the 1970s, AI was subject to critiques and financial setbacks. AI researchers had failed to appreciate the difficulty of the problems they faced. Their tremendous optimism had raised expectations impossibly high, and when the promised results failed to materialize, funding for AI disappeared. At the same time, the field of connectionism (or neural nets) was shut down almost completely for 10 years by Marvin Minsky's devastating criticism of perceptrons. Despite the difficulties with public perception of AI in the late 70s, new ideas were explored in logic programming, commonsense reasoning and many other areas.
+
+In the early seventies, the capabilities of AI programs were limited. Even the most impressive could only handle trivial versions of the problems they were supposed to solve; all the programs were, in some sense, "toys". AI researchers had begun to run into several fundamental limits that could not be overcome in the 1970s. Although some of these limits would be conquered in later decades, others still stymie the field to this day.
+
+problems faced by Ai during the early days are
+
+ -  Many important artificial intelligence applications like vision or natural language require simply enormous amounts of information about the world: the program needs to have some idea of what it might be looking at or what it is talking about. This requires that the program know most of the same things about the world that a child does. Researchers soon discovered that this was a truly vast amount of information. No one in 1970 could build a database so large and no one knew how a program might learn so much information.
+ 
+ - Finding optimal solutions to these problems requires unimaginable amounts of computer time except when the problems are trivial. This almost certainly meant that many of the "toy" solutions used by AI would probably never scale up into useful systems.
+ 
+ - There was not enough memory or processing speed to accomplish anything truly useful.
+ 
+The agencies which funded AI research (such as the British government, DARPA and NRC) became frustrated with the lack of progress and eventually cut off almost all funding for undirected research into AI. The pattern began as early as 1966 when the ALPAC report appeared criticizing machine translation efforts. After spending 20 million dollars, the NRC ended all support.
+
+A perceptron was a form of neural network introduced in 1958 by Frank Rosenblatt, who had been a schoolmate of Marvin Minsky at the Bronx High School of Science. Like most AI researchers, he was optimistic about their power, predicting that "perceptron may eventually be able to learn, make decisions, and translate languages." An active research program into the paradigm was carried out throughout the 1960s but came to a sudden halt with the publication of Minsky and Papert's 1969 book Perceptrons. It suggested that there were severe limitations to what perceptrons could do and that Frank Rosenblatt's predictions had been grossly exaggerated. The effect of the book was devastating: virtually no research at all was done in connectionism for 10 years. Eventually, a new generation of researchers would revive the field and thereafter it would become a vital and useful part of artificial intelligence. Rosenblatt would not live to see this, as he died in a boating accident shortly after the book was published.
+
+On 11 May 1997, Deep Blue became the first computer chess-playing system to beat a reigning world chess champion, Garry Kasparov. The super computer was a specialized version of a framework produced by IBM, and was capable of processing twice as many moves per second as it had during the first match (which Deep Blue had lost), reportedly 200,000,000 moves per second. The event was broadcast live over the internet and received over 74 million hits.
+
+In 2005, a Stanford robot won the DARPA Grand Challenge by driving autonomously for 131 miles along an unrehearsed desert trail. Two years later, a team from CMU won the DARPA Urban Challenge by autonomously navigating 55 miles in an Urban environment while adhering to traffic hazards and all traffic laws.In February 2011, in a Jeopardy! quiz show exhibition match, IBM's question answering system, Watson, defeated the two greatest Jeopardy! champions, Brad Rutter and Ken Jennings, by a significant margin.
+
+These successes were not due to some revolutionary new paradigm, but mostly on the tedious application of engineering skill and on the tremendous power of computers today.In fact, Deep Blue's computer was 10 million times faster than the Ferranti Mark 1 that Christopher Strachey taught to play chess in 1951. This dramatic increase is measured by Moore's law, which predicts that the speed and memory capacity of computers doubles every two years. The fundamental problem of "raw computer power" was slowly being overcome.
+
+ Algorithms originally developed by AI researchers began to appear as parts of larger systems. AI had solved a lot of very difficult problems and their solutions proved to be useful throughout the technology industry, such as data mining, industrial robotics, logistics, speech recognition, banking software, medical diagnosis and Google's search engine.
+ The field of AI received little or no credit for these successes in the 1990s and early 2000s. Many of AI's greatest innovations have been reduced to the status of just another item in the tool chest of computer science
+ 
+ Many researchers in AI in 1990s deliberately called their work by other names, such as informatics, knowledge-based systems, cognitive systems or computational intelligence. In part, this may be because they considered their field to be fundamentally different from AI, but also the new names help to procure funding. In the commercial world at least, the failed promises of the AI Winter continued to haunt AI research into the 2000s, as the New York Times reported in 2005: "Computer scientists and software engineers avoided the term artificial intelligence for fear of being viewed as wild-eyed dreamers."
+ 
+ In the first decades of the 21st century, access to large amounts of data (known as "big data"), faster computers and advanced machine learning techniques were successfully applied to many problems throughout the economy. In fact, McKinsey Global Institute estimated in their famous paper "Big data: The next frontier for innovation, competition, and productivity" that "by 2009, nearly all sectors in the US economy had at least an average of 200 terabytes of stored data".
+
+By 2016, the market for AI-related products, hardware, and software reached more than 8 billion dollars, and the New York Times reported that interest in AI had reached a "frenzy". The applications of big data began to reach into other fields as well, such as training models in ecology and for various applications in economics. Advances in deep learning (particularly deep convolutional neural networks and recurrent neural networks) drove progress and research in image and video processing, text analysis, and even speech recognition.
+
+
+
 
 
 ## Course 2 Introduction to Technologies
 
- - AI and it's branches
- - Machine learning and it's branches
- - Neural networks
- - Deep neural networks and deep learning
  
+---
+ 
+  In this session, basic introduction to the field of Artificial intelligence is explained. After this chapter, the learner will be able to successfully differentiate between the various fields of ARtificial intelligence.
+
+
+#### a. Branches of Artificial Intelligence 
+
+  Artificial Intelligence is a vast ground of academic and commercial work around, "it is the science of making an intelligence machine". It has many branches with many similarities and commmanalities among them.
+![Branches](https://www.legaltechnology.com/wp-content/uploads/2015/11/Artificial-Intelligence-AI-larger-graphic.png)
+##### Machine Learning
+  Machine learning is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. It is an algorithm that allows software applications to become more accurate in predicting the outcomes. 
+  
+The basic premise of  ML is to make algorithms to receive input data and statistically analyse it to predict the outcome, while updating the outcome as new data become available. These algorithms are catagorised into two, namely supervised and unsupervised. Supervised algorithms require a data scientist to provide input and output during the training of the algorithm. On the other hand unsupervised algorithms do not need any training, insted they uses an iterative approach called deep learning. These algorithms are also called neural networks and they are very complex compared to supervised learning systems.
+
+#### c. Neural networks
+ Neural networks, a beautiful biologically-inspired programming paradigm which enables a computer to learn from observational data 
+ 
+ Deep learning, a powerful set of techniques for learning in neural networks 
+ 
+ Neural networks and deep learning currently provide the best solutions to many problems in image recognition, speech recognition, and natural language processing. This book will teach you many of the core concepts behind neural networks and deep learning. In the conventional approach to programming, we tell the computer what to do, breaking big problems up into many small, precisely defined tasks that the computer can easily perform. By contrast, in a neural network we don't tell the computer how to solve our problem. Instead, it learns from observational data, figuring out its own solution to the problem at hand. Automatically learning from data sounds promising. However, until 2006 we didn't know how to train neural networks to surpass more traditional approaches, except for a few specialized problems. What changed in 2006 was the discovery of techniques for learning in so-called deep neural networks. These techniques are now known as deep learning. They've been developed further, and today deep neural networks and deep learning achieve outstanding performance on many important problems in computer vision, speech recognition, and natural language processing. They're being deployed on a large scale by companies such as Google, Microsoft, and Facebook.
+ 
+ An Artificial Neural Network (ANN) is an information processing paradigm that is inspired by the way biological nervous systems, such as the brain, process information. The key element of this paradigm is the novel structure of the information processing system. It is composed of a large number of highly interconnected processing elements (neurones) working in unison to solve specific problems. ANNs, like people, learn by example. An ANN is configured for a specific application, such as pattern recognition or data classification, through a learning process. Learning in biological systems involves adjustments to the synaptic connections that exist between the neurones. This is true of ANNs as well. 
+
+
+Neural networks, with their remarkable ability to derive meaning from complicated or imprecise data, can be used to extract patterns and detect trends that are too complex to be noticed by either humans or other computer techniques. A trained neural network can be thought of as an "expert" in the category of information it has been given to analyse. This expert can then be used to provide projections given new situations of interest and answer "what if" questions.
+Other advantages include:
+
+   - Adaptive learning: An ability to learn how to do tasks based on the data given for training or initial experience.
+   - Self-Organisation: An ANN can create its own organisation or representation of the information it receives during learning time.
+   - Real Time Operation: ANN computations may be carried out in parallel, and special hardware devices are being designed and manufactured which take advantage of this capability.
+   - Fault Tolerance via Redundant Information Coding: Partial destruction of a network leads to the corresponding degradation of performance. However, some network capabilities may be retained even with major network damage.
+
+Much is still unknown about how the brain trains itself to process information, so theories abound. In the human brain, a typical neuron collects signals from others through a host of fine structures called dendrites. The neuron sends out spikes of electrical activity through a long, thin stand known as an axon, which splits into thousands of branches. At the end of each branch, a structure called a synapse converts the activity from the axon into electrical effects that inhibit or excite activity from the axon into electrical effects that inhibit or excite activity in the connected neurones. When a neuron receives excitatory input that is sufficiently large compared with its inhibitory input, it sends a spike of electrical activity down its axon. Learning occurs by changing the effectiveness of the synapses so that the influence of one neuron on another changes.
+
+![nn](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.neuron.jpg)
+![mm](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.synapse.jpg)
+
+
+We conduct these neural networks by first trying to deduce the essential features of neurones and their interconnections. We then typically program a computer to simulate these features. However because our knowledge of neurones is incomplete and our computing power is limited, our models are necessarily gross idealisations of real networks of neurones.
+
+![jj](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.artn.jpg)
+
+
+
+Referance: 
+
+1.![Michael A. Nielsen, "Neural Networks and Deep Learning", Determination Press, 2015](http://neuralnetworksanddeeplearning.com/)
+
+2.![NEURAL NETWORKS by Christos Stergiou and Dimitrios Siganos ](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.html#What%20is%20a%20Neural%20Network)
+
+#### d.Deep neural networks and deep learning
+
+Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction. These methods have dramatically improved the state-of-the-art in speech recognition, visual object recognition, object detection and many other domains such as drug discovery and genomics. Deep learning discovers intricate structure in large data sets by using the backpropagation algorithm to indicate how a machine should change its internal parameters that are used to compute the representation in each layer from the representation in the previous layer. Deep convolutional nets have brought about breakthroughs in processing images, video, speech and audio, whereas recurrent nets have shone light on sequential data such as text and speech.
+
+![mm](https://i1.wp.com/analyticsindiamag.com/wp-content/uploads/2018/05/nural-network_3.gif?ssl=1)
+
+More details are available in the pdf that can be found in the directory->   documents/cnn.pdf
+
+
+
+
 ## Course 3 Learn Machine learn.
 
- - Mathematical background
-   - Linear algebra
-   - Calculus
-   - Probability
-   
- - Algorithms and implementation in python
+### a. Mathematical Background
+
+We will cover this part as we go indeapth in this document. Learning math is more interesting when you have an objective and idea of what you are working on. In this section, we will cover the things that needs to be learnt once we start building our networks.
+
+#### i. Linear algebra
+ The basic ideas such as what is a scalar, vector, Matrix, etc. are required to understand the next few chapters. This part is covered in a document located at documents/linearalgebra.pdf inside the repository since anyone with basic knowledge of the topic may skip the part. Will explain everything during the implementation phase.
+ 
+ 
+#### ii. Calculus
+ Derivatives, partial derivation, integration, gradient descent, chain rules are required in this part. This part is covered in a document located at documents/calculus.pdf inside the repository since anyone with basic knowledge of the topic may skip the part. Will explain everything during the implementation phase.
+
+
+ 
+ #### iii. Probability
+ 
+  The detailed document can be found inside the documentation folder and is saved as probability.pdf.
+
+### b. Algorithms and implementation in python 
+
    - Linear regression and applications
    - Logistic regression and applications
    - Least mean square
    - Gradient descent
    - Stochastic gradient descent
    - Back propogation
-   
- - Convolutional neural networks
-   - Intro to image processing using opencv
-   - Intro to cnn 
-   - Training CNN
-   
- - What is an AI Project
+
+
+### d. What is an AI Project
+
+
  
 ## Course 4 Train the model
  
