@@ -105,7 +105,7 @@ By 2016, the market for AI-related products, hardware, and software reached more
   In this session, basic introduction to the field of Artificial intelligence is explained. After this chapter, the learner will be able to successfully differentiate between the various fields of ARtificial intelligence.
 
 
-### a. Branches of Artificial Intelligence 
+#### a. Branches of Artificial Intelligence 
 
   Artificial Intelligence is a vast ground of academic and commercial work around, "it is the science of making an intelligence machine". It has many branches with many similarities and commmanalities among them.
 ![Branches](https://www.legaltechnology.com/wp-content/uploads/2015/11/Artificial-Intelligence-AI-larger-graphic.png)
@@ -114,7 +114,7 @@ By 2016, the market for AI-related products, hardware, and software reached more
   
 The basic premise of  ML is to make algorithms to receive input data and statistically analyse it to predict the outcome, while updating the outcome as new data become available. These algorithms are catagorised into two, namely supervised and unsupervised. Supervised algorithms require a data scientist to provide input and output during the training of the algorithm. On the other hand unsupervised algorithms do not need any training, insted they uses an iterative approach called deep learning. These algorithms are also called neural networks and they are very complex compared to supervised learning systems.
 
-### c. Neural networks
+#### c. Neural networks
  Neural networks, a beautiful biologically-inspired programming paradigm which enables a computer to learn from observational data 
  
  Deep learning, a powerful set of techniques for learning in neural networks 
@@ -150,7 +150,7 @@ Referance:
 
 2.![NEURAL NETWORKS by Christos Stergiou and Dimitrios Siganos ](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.html#What%20is%20a%20Neural%20Network)
 
-### d.Deep neural networks and deep learning
+#### d.Deep neural networks and deep learning
 
 Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction. These methods have dramatically improved the state-of-the-art in speech recognition, visual object recognition, object detection and many other domains such as drug discovery and genomics. Deep learning discovers intricate structure in large data sets by using the backpropagation algorithm to indicate how a machine should change its internal parameters that are used to compute the representation in each layer from the representation in the previous layer. Deep convolutional nets have brought about breakthroughs in processing images, video, speech and audio, whereas recurrent nets have shone light on sequential data such as text and speech.
 
@@ -164,24 +164,24 @@ More details are available in the pdf that can be found in the directory->   doc
 ## Course 3 Learn Machine learn.
 
 
-### a. Mathematical Background
+#### a. Mathematical Background
 
 We will cover this part as we go indeapth in this document. Learning math is more interesting when you have an objective and idea of what you are working on. In this section, we will cover the things that needs to be learnt once we start building our networks.
 
-#### i. Linear algebra
+##### i. Linear algebra
  The basic ideas such as what is a scalar, vector, Matrix, etc. are required to understand the next few chapters. This part is covered in a document located at documents/linearalgebra.pdf inside the repository since anyone with basic knowledge of the topic may skip the part. Will explain everything during the implementation phase.
  
  
-#### ii. Calculus
+##### ii. Calculus
  Derivatives, partial derivation, integration, gradient descent, chain rules are required in this part. This part is covered in a document located at documents/calculus.pdf inside the repository since anyone with basic knowledge of the topic may skip the part. Will explain everything during the implementation phase.
 
 
  
- #### iii. Probability
+ ##### iii. Probability
  
   The detailed document can be found inside the documentation folder and is saved as probability.pdf.
 
-### b. Algorithms and implementation in python 
+#### b. Algorithms and implementation in python 
 
 
    - Linear regression and applications
@@ -192,38 +192,38 @@ We will cover this part as we go indeapth in this document. Learning math is mor
    - Back propogation
 
 
-### d. What is an AI Project
+#### d. What is an AI Project
 
 
  
 ## Course 4 Train the model
 
  
-### a. Data,Importance of Data, Data collection, Structuring Data
+#### a. Data,Importance of Data, Data collection, Structuring Data
 
-### b. Intro to Hardware for machine learning and implementing 
+#### b. Intro to Hardware for machine learning and implementing 
 
-#### i. Jetson
-#### ii. Movidius
-#### iii. NVIDIA Graphic cards
-#### iV. Setting up deep learning pc
-#### v. More hardware options
-#### vi. Tensor processing unit
-#### vii. Cloud computting
+##### i. Jetson
+##### ii. Movidius
+##### iii. NVIDIA Graphic cards
+##### iV. Setting up deep learning pc
+##### v. More hardware options
+##### vi. Tensor processing unit
+##### vii. Cloud computting
 
-### c. Neural network training using python 
-#### i. Platforms
-#### ii. Transfer learning
+#### c. Neural network training using python 
+##### i. Platforms
+##### ii. Transfer learning
 
-### d. Improving models
-### e. Common problems found during training of neural networks and it’s solutions
-### f. Case studies(different CNN models)
-
-
+#### d. Improving models
+#### e. Common problems found during training of neural networks and it’s solutions
+#### f. Case studies(different CNN models)
 
 
 
-#### AlexNet
+
+
+##### AlexNet
 This architecture was one of the first deep networks to push ImageNet Classification accuracy by a significant stride in comparison to traditional methodologies. It is composed of 5 convolutional layers followed by 3 fully connected layers, as depicted in Figure.
 ![Branches](https://cv-tricks.com/wp-content/uploads/2017/03/xalexnet_small-1.png.pagespeed.ic.u_mv-jhXMI.webp)
 
@@ -238,9 +238,9 @@ The advantage of the ReLu over sigmoid is that it trains much faster than the la
 Another problem that this architecture solved was reducing the over-fitting by using a Dropout layer after every FC layer. Dropout layer has a probability,(p), associated with it and is applied at every neuron of the response map separately. It randomly switches off the activation with the probability p, as can be seen in figure.
 ![Branches](https://cv-tricks.com/wp-content/uploads/2017/04/xdropout.jpeg.pagespeed.ic.HTAqLymLf-.webp)
 
-##### Why does DropOut work?
+###### Why does DropOut work?
 The idea behind the dropout is similar to the model ensembles. Due to the dropout layer, different sets of neurons which are switched off, represent a different architecture and all these different architectures are trained in parallel with weight given to each subset and the summation of weights being one. For n neurons attached to DropOut, the number of subset architectures formed is 2^n. So it amounts to prediction being averaged over these ensembles of models. This provides a structured model regularization which helps in avoiding the over-fitting. Another view of DropOut being helpful is that since neurons are randomly chosen, they tend to avoid developing co-adaptations among themselves thereby enabling them to develop meaningful features, independent of others.
-#### VGG16
+##### VGG16
  This architecture is from VGG group, Oxford. It makes the improvement over AlexNet by replacing large kernel-sized filters(11 and 5 in the first and second convolutional layer, respectively) with multiple 3X3 kernel-sized filters one after another. With a given receptive field(the effective area size of input image on which output depends), multiple stacked smaller size kernel is better than the one with a larger size kernel because multiple non-linear layers increases the depth of the network which enables it to learn more complex features, and that too at a lower cost. 
 
 For example, three 3X3 filters on top of each other with stride 1 ha a receptive size of 7, but the number of parameters involved is 3*(9C^2) in comparison to 49C^2 parameters of kernels with a size of 7. Here, it is assumed that the number of input and output channel of layers is C.Also, 3X3 kernels help in retaining finer level properties of the image. The network architecture is given in the table.
@@ -248,7 +248,7 @@ For example, three 3X3 filters on top of each other with stride 1 ha a receptive
 You can see that in VGG-D, there are blocks with same filter size applied multiple times to extract more complex and representative features. This concept of blocks/modules became a common theme in the networks after VGG.
 
 The VGG convolutional layers are followed by 3 fully connected layers. The width of the network starts at a small value of 64 and increases by a factor of 2 after every sub-sampling/pooling layer. It achieves the top-5 accuracy of 92.3 % on ImageNet.
-#### GoogLeNet/Inception:
+##### GoogLeNet/Inception:
  While VGG achieves a phenomenal accuracy on ImageNet dataset, its deployment on even the most modest sized GPUs is a problem because of huge computational requirements, both in terms of memory and time. It becomes inefficient due to large width of convolutional layers.
 
 For instance, a convolutional layer with 3X3 kernel size which takes 512 channels as input and outputs 512 channels, the order of calculations is 9X512X512. 
@@ -264,7 +264,7 @@ Another change that GoogLeNet made, was to replace the fully-connected layers at
 
 ![Branches](https://d2mxuefqeaa7sj.cloudfront.net/s_8C760A111A4204FB24FFC30E04E069BD755C4EEFD62ACBA4B54BBA2A78E13E8C_1490879611424_inception_module.png)
 
-#### Residual Networks
+##### Residual Networks
 As per what we have seen so far, increasing the depth should increase the accuracy of the network, as long as over-fitting is taken care of. But the problem with increased depth is that the signal required to change the weights, which arises from the end of the network by comparing ground-truth and prediction becomes very small at the earlier layers, because of increased depth. It essentially means that earlier layers are almost negligible learned. This is called vanishing gradient. The second problem with training the deeper networks is, performing the optimization on huge parameter space and therefore naively adding the layers leading to higher training error. Residual networks allow training of such deep networks by constructing the network through modules called residual models as shown in the figure. This is called degradation problem. The intuition around why it works can be seen as follows:
 ![Branches](https://d2mxuefqeaa7sj.cloudfront.net/s_8C760A111A4204FB24FFC30E04E069BD755C4EEFD62ACBA4B54BBA2A78E13E8C_1490999744884_main-qimg-b1fcbef975924b2ec4ad3a851e9f3934.png)
 
@@ -282,15 +282,15 @@ Finally, here is a table that shows the key figures around these networks:
  
 ## Course 5 Case studies on ML Projects
   
-  - Sample project 1 : Object detection
-  - Sample project 2 : Robot
-  - Sample project 3 : Security systems
-  - Sample project 4 : Chat bot
-  - Sample project 5 : Data analysis
-  - Sample project 6 : Facial recogonition
+  ### Sample project 1 : Object detection
+  ### Sample project 2 : Robot
+  ### Sample project 3 : Security systems
+  ### Sample project 4 : Chat bot
+  ### Sample project 5 : Data analysis
+  ### Sample project 6 : Facial recogonition
  
 ## Course 6 Final project
- 
+   ### Project
 
 
 
