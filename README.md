@@ -801,10 +801,7 @@ depthwise convolution  and a 1 × 1 pointwise convolution
 
 A standard convolutional layer takes as input a D F ×A standard convolutional layer takes as input a DF x D F × M feature map F and produces a D F × D F × N feature map G where D F is the spatial width and height of a square input feature map 1 , M is the number of input channels (input depth), D G is the spatial width and height of a square output feature map and N is the number of output channel (output depth). The standard convolutional layer is parameterized by convolution kernel K of size D K ×D K ×M ×N where D Kis the spatial dimension of the kernel assumed to be square and M is number of input channels and N is the number of output channels as defined previously. The output feature map for standard convolution assum-
 ing stride one and padding is computed as:
-G k,l,n =
-X
-K i,j,m,n · F k+i−1,l+j−1,m
-(1)
+`G k,l,n = {\sigma K i,j,m,n · F k+i−1,l+j−1,m} (1)`
 i,j,m
 Standard convolutions have the computational cost of:
 D K · D K · M · N · D F · D F
