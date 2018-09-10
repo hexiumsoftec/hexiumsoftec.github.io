@@ -785,7 +785,7 @@ Following are the main library modules of the OpenCV library.
 
 
 
-##MobileNets
+## MobileNets
 
 MobileNets are based on a streamlined architecture that uses depth-
 wise separable convolutions to build light weight deep
