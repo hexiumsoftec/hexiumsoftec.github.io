@@ -787,21 +787,36 @@ Following are the main library modules of the OpenCV library.
 
 ## MobileNets
 
-MobileNets are based on a streamlined architecture that uses depth-
-wise separable convolutions to build light weight deep
-neural networks. We introduce two simple global hyper-
-parameters that efficiently trade off between latency and
-accuracy. These hyper-parameters allow the model builder
-to choose the right sized model for their application based
-on the constraints of the problem.MobileNets is effective across a wide range of applications and
-use cases including object detection, finegrain classifica-
-tion, face attributes and large scale geo-localization.
-It is an efficient network architecture
-and a set of two hyper-parameters in order to build very
-small, low latency models that can be easily matched to the
-design requirements for mobile and embedded vision ap-
-plications. It also reviews prior work in building small
-models. We describes the MobileNet architecture and
-two hyper-parameters width multiplier and resolution mul-
-tiplier to define smaller and more efficient MobileNets.And also describes experiments on ImageNet as well a variety
-of different applications and use cases.
+MobileNets are based on a streamlined architecture that uses depth wise separable convolutions to build light weight deep neural networks. We introduce two simple global hyper-parameters that efficiently trade off between latency and accuracy. These hyper-parameters allow the model builder to choose the right sized model for their application based on the constraints of the problem.MobileNets is effective across a wide range of applications and use cases including object detection, finegrain classification, face attributes and large scale geo-localization.
+It is an efficient network architecture and a set of two hyper-parameters in order to build very
+small, low latency models that can be easily matched to thedesign requirements for mobile and embedded vision applications. It also reviews prior work in building small models. We describes the MobileNet architecture and two hyper-parameters width multiplier and resolution multiplier to define smaller and more efficient MobileNets.And also describes experiments on ImageNet as well a varietyof different applications and use cases.
+
+### MobileNet Architecture
+In this section we first describe the core layers that MobileNet is built on which are depthwise separable filters.
+We then describe the MobileNet network structure and conclude with descriptions of the two model shrinking hyper-parameters width multiplier and resolution multiplier.
+### Depthwise Separable Convolution
+The MobileNet model is based on depthwise separable convolutions which is a form of factorized convolutions which factorize a standard convolution into a depthwise convolution and a 1 × 1 convolution called a pointwise convolution. For MobileNets the depthwise convolution applies a single filter to each input channel. The pointwise convolution then applies a 1 × 1 convolution to combine the outputs the depthwise convolution. A standard convolution both filters and combines inputs into a new set of outputs in one step. The depthwise separable convolution splits this into two layers, a separate layer for filtering and a separate layer for combining. This factorization has the effect of drastically reducing computation and model size. Figure shows how a standard convolution 2(a) is factorized into a
+depthwise convolution  and a 1 × 1 pointwise convolution 
+[FIGURE]
+
+A standard convolutional layer takes as input a D F ×A standard convolutional layer takes as input a DF x D F × M feature map F and produces a D F × D F × N feature map G where D F is the spatial width and height of a square input feature map 1 , M is the number of input channels (input depth), D G is the spatial width and height of a square output feature map and N is the number of output channel (output depth). The standard convolutional layer is parameterized by convolution kernel K of size D K ×D K ×M ×N where D Kis the spatial dimension of the kernel assumed to be square and M is number of input channels and N is the number of output channels as defined previously. The output feature map for standard convolution assum-
+ing stride one and padding is computed as:
+G k,l,n =
+X
+K i,j,m,n · F k+i−1,l+j−1,m
+(1)
+i,j,m
+Standard convolutions have the computational cost of:
+D K · D K · M · N · D F · D F
+(2)where the computational cost depends multiplicatively on
+the number of input channels M , the number of output
+channels N the kernel size D k × D k and the feature map
+size D F × D F . MobileNet models address each of these
+terms and their interactions. First it uses depthwise separa-
+ble convolutions to break the interaction between the num-
+ber of output channels and the size of the kernel.
+The standard convolution operation has the effect of fil-
+tering features based on the convolutional kernels and com-
+bining features in order to produce a new representation.
+The filtering and combination steps can be split into two
+steps via the use of factorized convolutions called depthwise
