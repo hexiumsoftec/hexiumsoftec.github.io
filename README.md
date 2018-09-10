@@ -1,85 +1,22 @@
 # Artificial Intelligence and Machine learning course 
 
 
+
 This repository contains all the codes, course details, pdfs and examples to the AI and machine learning course. 
 The main objective of this course is to give students the basic idea about AI and make the learning process simple and easy.
 
+
 ![NN](https://ds055uzetaobb.cloudfront.net/chapter/CS%20-%20Artificial%20Neural%20Networks-WSDIvF.png)
 ---
+
 
 # Contents
 
 ## Course 1 Introduction and scope
 
- - Examples
- - Human brain
- - Human brain vs Computers
- - Artificial intelligence
- - History of AI
-
-
-## Course 2 Introduction to Technologies
-
- - AI and it's branches
- - Machine learning and it's branches
- - Neural networks
- - Deep neural networks and deep learning
- 
-## Course 3 Learn Machine learn.
-
- - Mathematical background
-   - Linear algebra
-   - Calculus
-   - Probability
-   
- - Algorithms and implementation in python
-   - Linear regression and applications
-   - Logistic regression and applications
-   - Least mean square
-   - Gradient descent
-   - Stochastic gradient descent
-   - Back propogation
-   
- - Convolutional neural networks
-   - Intro to image processing using opencv
-   - Intro to cnn 
-   - Training CNN
-   
- - What is an AI Project
- 
-## Course 4 Train the model
- 
- - Data,Importance of Data, Data collection, Structuring Data
- - Intro to Hardware for machine learning and implementing
-   - Jetson
-   - Movidius
-   - NVIDIA Graphic cards
-   - Setting up deep learning pc
-   - More hardware options
-   - Tensor processing unit 
-   - Cloud computting
- - Neural network training using python
-   - Platforms
-   - Transfer learning
- - Improving models
- - Common problems found during training of neural networks and it's solutions
- - Case studies(different CNN models)
- 
-## Course 5 Case studies on ML Projects
-  
-  - Sample project 1 : Object detection
-  - Sample project 2 : Robot
-  - Sample project 3 : Security systems
-  - Sample project 4 : Chat bot
-  - Sample project 5 : Data analysis
-  - Sample project 6 : Facial recogonition
- 
-## Course 6 Final project
- 
-
-## 1. Introduction and scope
-   
 ---
+
+
 
 In this section, the focus is to give an introduction to the current AI revolution and the scope of AI.
 In recent years, some revolutionary changes happened in the field of Artificial intelligence and this is the perfect time for us to learn AI. Unlike the past few years, we now know the methods to learn AI and we have the hardware that is required in our personal computers. The introduction of GPU powered deep learning models revolutionized the entire industry. Now, It is time for us to learn AI. Before that, Let's see some examples.
@@ -162,11 +99,11 @@ These successes were not due to some revolutionary new paradigm, but mostly on t
 By 2016, the market for AI-related products, hardware, and software reached more than 8 billion dollars, and the New York Times reported that interest in AI had reached a "frenzy". The applications of big data began to reach into other fields as well, such as training models in ecology and for various applications in economics. Advances in deep learning (particularly deep convolutional neural networks and recurrent neural networks) drove progress and research in image and video processing, text analysis, and even speech recognition.
 
 
- 
- 
-## 2. Intoductionto the technologies used in AI
 
----
+
+
+## Course 2 Introduction to Technologies
+
  
   In this session, basic introduction to the field of Artificial intelligence is explained. After this chapter, the learner will be able to successfully differentiate between the various fields of ARtificial intelligence.
 
@@ -175,7 +112,9 @@ By 2016, the market for AI-related products, hardware, and software reached more
 
   Artificial Intelligence is a vast ground of academic and commercial work around, "it is the science of making an intelligence machine". It has many branches with many similarities and commmanalities among them.
 ![Branches](https://www.legaltechnology.com/wp-content/uploads/2015/11/Artificial-Intelligence-AI-larger-graphic.png)
-##### Machine Learning
+
+#### Machine Learning
+
   Machine learning is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. It is an algorithm that allows software applications to become more accurate in predicting the outcomes. 
   
 The basic premise of  ML is to make algorithms to receive input data and statistically analyse it to predict the outcome, while updating the outcome as new data become available. These algorithms are catagorised into two, namely supervised and unsupervised. Supervised algorithms require a data scientist to provide input and output during the training of the algorithm. On the other hand unsupervised algorithms do not need any training, insted they uses an iterative approach called deep learning. These algorithms are also called neural networks and they are very complex compared to supervised learning systems.
@@ -189,6 +128,7 @@ The basic premise of  ML is to make algorithms to receive input data and statist
  
  An Artificial Neural Network (ANN) is an information processing paradigm that is inspired by the way biological nervous systems, such as the brain, process information. The key element of this paradigm is the novel structure of the information processing system. It is composed of a large number of highly interconnected processing elements (neurones) working in unison to solve specific problems. ANNs, like people, learn by example. An ANN is configured for a specific application, such as pattern recognition or data classification, through a learning process. Learning in biological systems involves adjustments to the synaptic connections that exist between the neurones. This is true of ANNs as well. 
 
+
 Neural networks, with their remarkable ability to derive meaning from complicated or imprecise data, can be used to extract patterns and detect trends that are too complex to be noticed by either humans or other computer techniques. A trained neural network can be thought of as an "expert" in the category of information it has been given to analyse. This expert can then be used to provide projections given new situations of interest and answer "what if" questions.
 Other advantages include:
 
@@ -201,6 +141,7 @@ Much is still unknown about how the brain trains itself to process information, 
 
 ![nn](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.neuron.jpg)
 ![mm](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.synapse.jpg)
+
 
 We conduct these neural networks by first trying to deduce the essential features of neurones and their interconnections. We then typically program a computer to simulate these features. However because our knowledge of neurones is incomplete and our computing power is limited, our models are necessarily gross idealisations of real networks of neurones.
 
@@ -219,8 +160,6 @@ Referance:
 Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction. These methods have dramatically improved the state-of-the-art in speech recognition, visual object recognition, object detection and many other domains such as drug discovery and genomics. Deep learning discovers intricate structure in large data sets by using the backpropagation algorithm to indicate how a machine should change its internal parameters that are used to compute the representation in each layer from the representation in the previous layer. Deep convolutional nets have brought about breakthroughs in processing images, video, speech and audio, whereas recurrent nets have shone light on sequential data such as text and speech.
 
 ![mm](https://i1.wp.com/analyticsindiamag.com/wp-content/uploads/2018/05/nural-network_3.gif?ssl=1)
-
-More details are available in the pdf that can be found in the directory->   documents/cnn.pdf
 
 
 
@@ -309,6 +248,7 @@ In a convolutional operation at one location, every output channel (512 in the e
 
 So GoogLeNet devised a module called inception module that approximates a sparse CNN with a normal dense construction(shown in the figure). Since only a small number of neurons are effective as mentioned earlier, the width/number of the convolutional filters of a particular kernel size is kept small. Also, it uses convolutions of different sizes to capture details at varied scales(5X5, 3X3, 1X1).
 
+
 Another salient point about the module is that it has a so-called bottleneck layer(1X1 convolutions in the figure). It helps in the massive reduction of the computation requirement as explained below.
 
 Let us take the first inception module of GoogLeNet as an example which has 192 channels as input. It has just 128 filters of 3X3 kernel size and 32 filters of 5X5 size. The order of computation for 5X5 filters is 25X32X192 which can blow up as we go deeper into the network when the width of the network and the number of 5X5 filter further increases. In order to avoid this, the inception module uses 1X1 convolutions before applying larger sized kernels to reduce the dimension of the input channels, before feeding into those convolutions. So in the first inception module, the input to the module is first fed into 1X1 convolutions with just 16 filters before it is fed into 5X5 convolutions. This reduces the computations to 16X192 +  25X32X16. All these changes allow the network to have a large width and depth.
@@ -316,9 +256,11 @@ Another change that GoogLeNet made, was to replace the fully-connected layers at
 
 ![Branches](https://d2mxuefqeaa7sj.cloudfront.net/s_8C760A111A4204FB24FFC30E04E069BD755C4EEFD62ACBA4B54BBA2A78E13E8C_1490879611424_inception_module.png)
 
+
 ## Residual Networks
 As per what we have seen so far, increasing the depth should increase the accuracy of the network, as long as over-fitting is taken care of. But the problem with increased depth is that the signal required to change the weights, which arises from the end of the network by comparing ground-truth and prediction becomes very small at the earlier layers, because of increased depth. It essentially means that earlier layers are almost negligible learned. This is called vanishing gradient. The second problem with training the deeper networks is, performing the optimization on huge parameter space and therefore naively adding the layers leading to higher training error. Residual networks allow training of such deep networks by constructing the network through modules called residual models as shown in the figure. This is called degradation problem. The intuition around why it works can be seen as follows:
 ![Branches](https://d2mxuefqeaa7sj.cloudfront.net/s_8C760A111A4204FB24FFC30E04E069BD755C4EEFD62ACBA4B54BBA2A78E13E8C_1490999744884_main-qimg-b1fcbef975924b2ec4ad3a851e9f3934.png)
+
 
 Imagine a network, A which produces x amount of training error. Construct a network B by adding few layers on top of A and put parameter values in those layers in such a way that they do nothing to the outputs from A. Let’s call the additional layer as C. This would mean the same x amount of training error for the new network. So while training network B, the training error should not be above the training error of A. And since it DOES happen, the only reason is that learning the identity mapping(doing nothing to inputs and just copying as it is) with the added layers-C is not a trivial problem, which the solver does not achieve. To solve this, the module shown above creates a direct path between the input and output to the module implying an identity mapping and the added layer-C just need to learn the features on top of already available input. Since C is learning only the residual, the whole module is called residual module. 
 
@@ -334,15 +276,33 @@ Finally, here is a table that shows the key figures around these networks:
 
 
 ## 5. Case studies on ML Projects
+=======
 
  Will be covered in detail and the repostitory will have all the code required.
 
+ 
+## Course 5 Case studies on ML Projects
+  
+  ### Sample project 1 : Object detection
+  
+  ### Sample project 2 : Robot
+  
+  ### Sample project 3 : Security systems
+  
+  ### Sample project 4 : Chat bot
+  
+  ### Sample project 5 : Data analysis
+  
+  ### Sample project 6 : Facial recogonition
+ 
+## Course 6 Final project
+   ### Project
 
 
 
 
 
-### Appendix 1. A crash cource in python for AI
+## Appendix 1. A crash cource in python for AI
 
 Python is a cross-platform programming language, which means it runs on all the major operating systems. Any Python program you write should run on any modern computer that has Python installed. However, the methods for setting up Python on different operating systems vary slightly. In this section you’ll learn how to set up Python and run the Hello World program on your own system. You’ll first check whether Python is installed on your system and install it if it’s not. Then you’ll install a simple text edi- tor and save an empty Python file called hello_world.py. Finally, you’ll run the Hello World program and troubleshoot anything that didn’t work. I’ll walk you through this process for each operating system, so you’ll have a beginner-friendly Python programming environment.
 
@@ -827,3 +787,40 @@ Following are the main library modules of the OpenCV library.
 ## Highgui
    This is an easy-to-use interface with simple UI capabilities. In the Java library of OpenCV, the features of this module is included in two different packages namely, org.opencv.imgcodecs and org.opencv.videoio.
 
+
+
+
+## MobileNets
+
+MobileNets are based on a streamlined architecture that uses depth wise separable convolutions to build light weight deep neural networks. We introduce two simple global hyper-parameters that efficiently trade off between latency and accuracy. These hyper-parameters allow the model builder to choose the right sized model for their application based on the constraints of the problem.MobileNets is effective across a wide range of applications and use cases including object detection, finegrain classification, face attributes and large scale geo-localization.
+It is an efficient network architecture and a set of two hyper-parameters in order to build very
+small, low latency models that can be easily matched to thedesign requirements for mobile and embedded vision applications. It also reviews prior work in building small models. We describes the MobileNet architecture and two hyper-parameters width multiplier and resolution multiplier to define smaller and more efficient MobileNets.And also describes experiments on ImageNet as well a varietyof different applications and use cases.
+
+### MobileNet Architecture
+In this section we first describe the core layers that MobileNet is built on which are depthwise separable filters.
+We then describe the MobileNet network structure and conclude with descriptions of the two model shrinking hyper-parameters width multiplier and resolution multiplier.
+### Depthwise Separable Convolution
+The MobileNet model is based on depthwise separable convolutions which is a form of factorized convolutions which factorize a standard convolution into a depthwise convolution and a 1 × 1 convolution called a pointwise convolution. For MobileNets the depthwise convolution applies a single filter to each input channel. The pointwise convolution then applies a 1 × 1 convolution to combine the outputs the depthwise convolution. A standard convolution both filters and combines inputs into a new set of outputs in one step. The depthwise separable convolution splits this into two layers, a separate layer for filtering and a separate layer for combining. This factorization has the effect of drastically reducing computation and model size. Figure shows how a standard convolution 2(a) is factorized into a
+depthwise convolution  and a 1 × 1 pointwise convolution 
+[FIGURE]
+
+A standard convolutional layer takes as input a D F ×A standard convolutional layer takes as input a DF x D F × M feature map F and produces a D F × D F × N feature map G where D F is the spatial width and height of a square input feature map 1 , M is the number of input channels (input depth), D G is the spatial width and height of a square output feature map and N is the number of output channel (output depth). The standard convolutional layer is parameterized by convolution kernel K of size D K ×D K ×M ×N where D Kis the spatial dimension of the kernel assumed to be square and M is number of input channels and N is the number of output channels as defined previously. The output feature map for standard convolution assum-
+ing stride one and padding is computed as:
+G_{k,l,n} = \ sum _{i,j,m,}K_{n} · F_{k+i−1,l+j−1,m} (1)
+i,j,m
+Standard convolutions have the computational cost of:
+D K · D K · M · N · D F · D F
+(2)where the computational cost depends multiplicatively on
+the number of input channels M , the number of output
+channels N the kernel size D k × D k and the feature map
+size D F × D F . MobileNet models address each of these
+terms and their interactions. First it uses depthwise separa-
+ble convolutions to break the interaction between the num-
+ber of output channels and the size of the kernel.
+The standard convolution operation has the effect of fil-
+tering features based on the convolutional kernels and com-
+bining features in order to produce a new representation.
+The filtering and combination steps can be split into two
+steps via the use of factorized convolutions called depthwise
+
+\sum_{i=1}^{10} t_i
