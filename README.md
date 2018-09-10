@@ -104,6 +104,7 @@ By 2016, the market for AI-related products, hardware, and software reached more
 
 ## Course 2 Introduction to Technologies
 
+---
  
   In this session, basic introduction to the field of Artificial intelligence is explained. After this chapter, the learner will be able to successfully differentiate between the various fields of ARtificial intelligence.
 
@@ -164,6 +165,8 @@ Deep learning allows computational models that are composed of multiple processi
 
 
 ## 3. Learn Machine Learn
+
+---
 
 ### a. Mathematical Background
 
@@ -276,12 +279,10 @@ Finally, here is a table that shows the key figures around these networks:
 
 
 ## 5. Case studies on ML Projects
-=======
+
+---
 
  Will be covered in detail and the repostitory will have all the code required.
-
- 
-## Course 5 Case studies on ML Projects
   
   ### Sample project 1 : Object detection
   
@@ -296,6 +297,8 @@ Finally, here is a table that shows the key figures around these networks:
   ### Sample project 6 : Facial recogonition
  
 ## Course 6 Final project
+
+---
    ### Project
 
 
@@ -303,6 +306,8 @@ Finally, here is a table that shows the key figures around these networks:
 
 
 ## Appendix 1. A crash cource in python for AI
+
+---
 
 Python is a cross-platform programming language, which means it runs on all the major operating systems. Any Python program you write should run on any modern computer that has Python installed. However, the methods for setting up Python on different operating systems vary slightly. In this section you’ll learn how to set up Python and run the Hello World program on your own system. You’ll first check whether Python is installed on your system and install it if it’s not. Then you’ll install a simple text edi- tor and save an empty Python file called hello_world.py. Finally, you’ll run the Hello World program and troubleshoot anything that didn’t work. I’ll walk you through this process for each operating system, so you’ll have a beginner-friendly Python programming environment.
 
@@ -683,6 +688,8 @@ suzuki
  
    
 ### Appendix 3. Computer vision
+
+---
 
 #### Basic introduction and hands on training, Computer vision 
   
