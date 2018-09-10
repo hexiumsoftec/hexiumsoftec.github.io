@@ -817,3 +817,5 @@ tering features based on the convolutional kernels and com-
 bining features in order to produce a new representation.
 The filtering and combination steps can be split into two
 steps via the use of factorized convolutions called depthwise
+
+\sum_{i=1}^{10} t_i
