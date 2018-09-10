@@ -782,3 +782,26 @@ Following are the main library modules of the OpenCV library.
 ## Highgui
    This is an easy-to-use interface with simple UI capabilities. In the Java library of OpenCV, the features of this module is included in two different packages namely, org.opencv.imgcodecs and org.opencv.videoio.
 
+
+
+
+##MobileNets
+
+MobileNets are based on a streamlined architecture that uses depth-
+wise separable convolutions to build light weight deep
+neural networks. We introduce two simple global hyper-
+parameters that efficiently trade off between latency and
+accuracy. These hyper-parameters allow the model builder
+to choose the right sized model for their application based
+on the constraints of the problem.MobileNets is effective across a wide range of applications and
+use cases including object detection, finegrain classifica-
+tion, face attributes and large scale geo-localization.
+It is an efficient network architecture
+and a set of two hyper-parameters in order to build very
+small, low latency models that can be easily matched to the
+design requirements for mobile and embedded vision ap-
+plications. It also reviews prior work in building small
+models. We describes the MobileNet architecture and
+two hyper-parameters width multiplier and resolution mul-
+tiplier to define smaller and more efficient MobileNets.And also describes experiments on ImageNet as well a variety
+of different applications and use cases.
