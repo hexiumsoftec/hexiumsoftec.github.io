@@ -153,6 +153,19 @@ We will cover this part as we go indeapth in this document. Learning math is mor
 
 ### b. Algorithms and implementation in python 
 
+ Before going deeper into the algorithms, we must know the notations we are going to be using in this section.
+ 
+ superscript (i) will denote the i<sup>th</sup> training example while superscript [l] will
+denote the l<sup>th</sup> layer.
+
+m : number of examples in the dataset
+
+n<sub>x</sub> : input size
+
+n<sub>y</sub> : output size (or number of classes)
+
+n<sub>h</sub><sup>[l]</sup>
+
 
    - Linear regression and applications
    - Logistic regression and applications
