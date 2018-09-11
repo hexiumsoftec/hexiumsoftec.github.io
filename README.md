@@ -164,8 +164,23 @@ n<sub>x</sub> : input size
 
 n<sub>y</sub> : output size (or number of classes)
 
-n<sub>h</sub><sup>[l]</sup>
+n<sub>h</sub><sup>[l]</sup> : number of hidden units of the l<sup>th</sup> layer
 
+L : Number of layers in the network
+
+X ∈ ℝ<sup>n<sub>x</sub>*m</sup> is the input matrix 
+
+x<sup>(i)</sup> ∈ ℝ<sup>n<sub>x</sub></sup> is the i<sub>th</sup> example represented as a column vector.
+
+Y ∈ ℝ<sup>n<sub>y</sub>*m</sup> is the input matrix 
+
+y<sup>(i)</sup> ∈ ℝ<sup>n<sub>y</sub></sup> is the i<sub>th</sup> example represented as a column vector.
+
+W<sup>[l]</sup> ∈ ℝ<sup>number of  units in next layer x number of units in the previous layer<sup> is the weight matrix, superscript [l] indicates the layer.
+
+b<sup>[l]</sup> ∈ ℝ<sup>number of  units in next layerr<sup> is the the bias vector of l<sup>th</sup> layer.
+ 
+ $\hat{y}$   
 
    - Linear regression and applications
    - Logistic regression and applications
