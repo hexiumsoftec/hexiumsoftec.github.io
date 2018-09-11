@@ -315,7 +315,7 @@ The case of grouped conv3x3 with G=3. The connections become more sparse.
 The case of grouped conv1x1 with G=2. Thus, conv1x1 can also be grouped. This type of convolution is used in ShuffleNet.
 ![Branches](https://cdn-images-1.medium.com/max/1600/1*VIrzP2hK8VuwwtoFSXlE3w.png)
 The case of grouped conv1x1 with G=3.
-### Depthwise Convolution
+##### Depthwise Convolution
 In depthwise convolution [2,3,4], convolution is performed independently for each of input channels. It can also be defined as a special case of grouped convolution where the numbers of input and output channels are same and G equals the number of channels.
 ![Branches](https://cdn-images-1.medium.com/max/1600/1*T0wd6AaYWIUBwVQcT_9MOw.png)
 As shown above, depthwise convolution significantly reduces the computational cost by omitting convolution in channel domain.
@@ -330,9 +330,9 @@ While the computational cost of channel shuffle can not be defined in terms of t
 The case of channel shuffle with G=2. Convolution is not performed, and simply the order of the channels is changed.
 ![Branches](https://cdn-images-1.medium.com/max/1600/1*WnW9i2XZqT8g3v7SM700lQ.png)
 The case of channel shuffle with G=3.
-### Efficient Models
+##### Efficient Models
 In the following, for efficient CNN models, I provide intuitive illustrations about why they are efficient and how convolution in both spatial and channel domain is done.
-### ResNet (Bottleneck Version)
+##### ResNet (Bottleneck Version)
 Residual unit with bottleneck architecture used in ResNet [6] is a good start point for further comparison with the other models.
 
 ![Branches](https://cdn-images-1.medium.com/max/1600/1*OsBbvktATSU6dXaYbqkEYQ.png)
