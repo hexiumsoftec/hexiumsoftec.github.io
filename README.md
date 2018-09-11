@@ -249,18 +249,6 @@ The power of the residual networks can be judged from one of the experiments in 
 Finally, here is a table that shows the key figures around these networks:
 ![Branches](https://cv-tricks.com/wp-content/uploads/2017/08/Table.png)
 
- 
-## Course 5 Case studies on ML Projects
-  
-  - Sample project 1 : Object detection
-  - Sample project 2 : Robot
-  - Sample project 3 : Security systems
-  - Sample project 4 : Chat bot
-  - Sample project 5 : Data analysis
-  - Sample project 6 : Facial recogonition
- 
-## Course 6 Final project
- 
 
 ##### MobileNets
 
