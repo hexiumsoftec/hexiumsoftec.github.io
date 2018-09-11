@@ -1,86 +1,28 @@
 # Artificial Intelligence and Machine learning course 
 
+
+
 This repository contains all the codes, course details, pdfs and examples to the AI and machine learning course. 
 The main objective of this course is to give students the basic idea about AI and make the learning process simple and easy.
 
+
+![NN](https://ds055uzetaobb.cloudfront.net/chapter/CS%20-%20Artificial%20Neural%20Networks-WSDIvF.png)
+---
+
+
 # Contents
 
-## Course 1 Introduction 
+## Course 1 Introduction and scope
 
- - Examples
- - Human brain
- - Human brain vs Computers
- - Artificial intelligence
- - History of AI
+---
 
 
-## Course 2 Introduction to Technology 
 
- - AI and it's branches
- - Machine learning and it's branches
- - Neural networks
- - Deep neural networks and deep learning
- 
-## Course 3 Learn Machine learn.
-
- - Mathematical background
-   - Linear algebra
-   - Differential equations
-   - Calculus
-   - Probability
-   
- - Algorithms and implementation in python
-   - Linear regression and applications
-   - Logistic regression and applications
-   - Least mean square
-   - Gradient descent
-   - Stochastic gradient descent
-   - Back propogation
-   
- - Convolutional neural networks
-   - Intro to image processing using opencv
-   - Intro to cnn 
-   - Training CNN
-   
- - What is an AI Project
- 
-## Course 4 Train the model
- 
- - Data,Importance of Data, Data collection, Structuring Data
- - Intro to Hardware for machine learning and implementing
-   - Jetson
-   - Movidius
-   - NVIDIA Graphic cards
-   - Setting up deep learning pc
-   - More hardware options
-   - Tensor processing unit 
-   - Cloud computting
- - Neural network training using python
-   - Platforms
-   - Transfer learning
- - Improving models
- - Common problems found during training of neural networks and it's solutions
- - Case studies(different CNN models)
- 
-## Course 5 Case studies on ML Projects
-  
-  - Sample project 1 : Object detection
-  - Sample project 2 : Robot
-  - Sample project 3 : Security systems
-  - Sample project 4 : Chat bot
-  - Sample project 5 : Data analysis
-  - Sample project 6 : Facial recogonition
- 
-## Course 6 Final project
- 
-
-### 1. Introduction and scope
-   
 In this section, the focus is to give an introduction to the current AI revolution and the scope of AI.
 In recent years, some revolutionary changes happened in the field of Artificial intelligence and this is the perfect time for us to learn AI. Unlike the past few years, we now know the methods to learn AI and we have the hardware that is required in our personal computers. The introduction of GPU powered deep learning models revolutionized the entire industry. Now, It is time for us to learn AI. Before that, Let's see some examples.
 
 
-[![Google brain](https://img.youtube.com/vi/V1eYniJ0Rnk/0.jpg)](https://www.youtube.com/watch?v=V1eYniJ0Rnk)]
+[![Google brain](https://img.youtube.com/vi/V1eYniJ0Rnk/0.jpg)](https://www.youtube.com/watch?v=V1eYniJ0Rnk)
 
 
 
@@ -89,9 +31,9 @@ This particular example is Google DeepMind's Deep Q-learning playing Atari Break
 When we try to throw a basket ball into the basket, after several attempts, we finally learn that throwing it in a particular angle at a particular speed, it is possible to put the ball inside the basket. Just like that, learning the environment and reconfiguring the artifcial neural networks, it is possible for the machine to learn the perfect way to solve problems, some times better than us. After the completion of this cource, The learner will be able to implement some most challenging AI problems.
 
 
-[![Facebook's Facial recogonition](https://www.facebook.com/facebook/videos/10156872585996729/)](https://www.facebook.com/facebook/videos/10156872585996729/)]
+[![Facebook's Facial recogonition](https://www.facebook.com/facebook/videos/10156872585996729/)](https://www.facebook.com/facebook/videos/10156872585996729/)
 
-[![synthetic shallow depth-of-field effect shipped in the portrait mode of the Pixel 2 and Pixel 2 XL smartphones and mobile real-time video segmentation](https://www.theverge.com/2018/3/14/17120996/google-pixel-phone-portrait-mode-ai-image-segmentation-open-source)]
+[![synthetic shallow depth-of-field effect shipped in the portrait mode of the Pixel 2 and Pixel 2 XL smartphones and mobile real-time video segmentation](https://www.theverge.com/2018/3/14/17120996/google-pixel-phone-portrait-mode-ai-image-segmentation-open-source)
 
 for more examples, click [here](https://github.com/hexiumsoftec/hexiumsoftec.github.io/tree/master/Introduction%20and%20scope)
 
@@ -157,42 +99,295 @@ These successes were not due to some revolutionary new paradigm, but mostly on t
 By 2016, the market for AI-related products, hardware, and software reached more than 8 billion dollars, and the New York Times reported that interest in AI had reached a "frenzy". The applications of big data began to reach into other fields as well, such as training models in ecology and for various applications in economics. Advances in deep learning (particularly deep convolutional neural networks and recurrent neural networks) drove progress and research in image and video processing, text analysis, and even speech recognition.
 
 
- 
- 
-### 2. Intoductionto the technologies used in AI
+
+
+
+## Course 2 Introduction to Technologies
+
  
   In this session, basic introduction to the field of Artificial intelligence is explained. After this chapter, the learner will be able to successfully differentiate between the various fields of ARtificial intelligence.
 
-#### c. Neural networks
 
-![NN](https://ds055uzetaobb.cloudfront.net/chapter/CS%20-%20Artificial%20Neural%20Networks-WSDIvF.png)
-=======
 #### a. Branches of Artificial Intelligence 
 
   Artificial Intelligence is a vast ground of academic and commercial work around, "it is the science of making an intelligence machine". It has many branches with many similarities and commmanalities among them.
 ![Branches](https://www.legaltechnology.com/wp-content/uploads/2015/11/Artificial-Intelligence-AI-larger-graphic.png)
-##### Machine Learning
+
+#### Machine Learning
+
   Machine learning is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. It is an algorithm that allows software applications to become more accurate in predicting the outcomes. 
+  
 The basic premise of  ML is to make algorithms to receive input data and statistically analyse it to predict the outcome, while updating the outcome as new data become available. These algorithms are catagorised into two, namely supervised and unsupervised. Supervised algorithms require a data scientist to provide input and output during the training of the algorithm. On the other hand unsupervised algorithms do not need any training, insted they uses an iterative approach called deep learning. These algorithms are also called neural networks and they are very complex compared to supervised learning systems.
 
-####c.
+#### c. Neural networks
+ Neural networks, a beautiful biologically-inspired programming paradigm which enables a computer to learn from observational data 
+ 
+ Deep learning, a powerful set of techniques for learning in neural networks 
+ 
+ Neural networks and deep learning currently provide the best solutions to many problems in image recognition, speech recognition, and natural language processing. This book will teach you many of the core concepts behind neural networks and deep learning. In the conventional approach to programming, we tell the computer what to do, breaking big problems up into many small, precisely defined tasks that the computer can easily perform. By contrast, in a neural network we don't tell the computer how to solve our problem. Instead, it learns from observational data, figuring out its own solution to the problem at hand. Automatically learning from data sounds promising. However, until 2006 we didn't know how to train neural networks to surpass more traditional approaches, except for a few specialized problems. What changed in 2006 was the discovery of techniques for learning in so-called deep neural networks. These techniques are now known as deep learning. They've been developed further, and today deep neural networks and deep learning achieve outstanding performance on many important problems in computer vision, speech recognition, and natural language processing. They're being deployed on a large scale by companies such as Google, Microsoft, and Facebook.
+ 
+ An Artificial Neural Network (ANN) is an information processing paradigm that is inspired by the way biological nervous systems, such as the brain, process information. The key element of this paradigm is the novel structure of the information processing system. It is composed of a large number of highly interconnected processing elements (neurones) working in unison to solve specific problems. ANNs, like people, learn by example. An ANN is configured for a specific application, such as pattern recognition or data classification, through a learning process. Learning in biological systems involves adjustments to the synaptic connections that exist between the neurones. This is true of ANNs as well. 
+
+
+Neural networks, with their remarkable ability to derive meaning from complicated or imprecise data, can be used to extract patterns and detect trends that are too complex to be noticed by either humans or other computer techniques. A trained neural network can be thought of as an "expert" in the category of information it has been given to analyse. This expert can then be used to provide projections given new situations of interest and answer "what if" questions.
+Other advantages include:
+
+   - Adaptive learning: An ability to learn how to do tasks based on the data given for training or initial experience.
+   - Self-Organisation: An ANN can create its own organisation or representation of the information it receives during learning time.
+   - Real Time Operation: ANN computations may be carried out in parallel, and special hardware devices are being designed and manufactured which take advantage of this capability.
+   - Fault Tolerance via Redundant Information Coding: Partial destruction of a network leads to the corresponding degradation of performance. However, some network capabilities may be retained even with major network damage.
+
+Much is still unknown about how the brain trains itself to process information, so theories abound. In the human brain, a typical neuron collects signals from others through a host of fine structures called dendrites. The neuron sends out spikes of electrical activity through a long, thin stand known as an axon, which splits into thousands of branches. At the end of each branch, a structure called a synapse converts the activity from the axon into electrical effects that inhibit or excite activity from the axon into electrical effects that inhibit or excite activity in the connected neurones. When a neuron receives excitatory input that is sufficiently large compared with its inhibitory input, it sends a spike of electrical activity down its axon. Learning occurs by changing the effectiveness of the synapses so that the influence of one neuron on another changes.
+
+![nn](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.neuron.jpg)
+![mm](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.synapse.jpg)
+
+
+We conduct these neural networks by first trying to deduce the essential features of neurones and their interconnections. We then typically program a computer to simulate these features. However because our knowledge of neurones is incomplete and our computing power is limited, our models are necessarily gross idealisations of real networks of neurones.
+
+![jj](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.artn.jpg)
+
+
+
+Referance: 
+
+1.![Michael A. Nielsen, "Neural Networks and Deep Learning", Determination Press, 2015](http://neuralnetworksanddeeplearning.com/)
+
+2.![NEURAL NETWORKS by Christos Stergiou and Dimitrios Siganos ](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.html#What%20is%20a%20Neural%20Network)
+
+#### d.Deep neural networks and deep learning
+
+Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction. These methods have dramatically improved the state-of-the-art in speech recognition, visual object recognition, object detection and many other domains such as drug discovery and genomics. Deep learning discovers intricate structure in large data sets by using the backpropagation algorithm to indicate how a machine should change its internal parameters that are used to compute the representation in each layer from the representation in the previous layer. Deep convolutional nets have brought about breakthroughs in processing images, video, speech and audio, whereas recurrent nets have shone light on sequential data such as text and speech.
+
+![mm](https://i1.wp.com/analyticsindiamag.com/wp-content/uploads/2018/05/nural-network_3.gif?ssl=1)
+
+
+
+## 3. Learn Machine Learn
+
+### a. Mathematical Background
+
+We will cover this part as we go indeapth in this document. Learning math is more interesting when you have an objective and idea of what you are working on. In this section, we will cover the things that needs to be learnt once we start building our networks.
+
+#### i. Linear algebra
+ The basic ideas such as what is a scalar, vector, Matrix, etc. are required to understand the next few chapters. This part is covered in a document located at documents/linearalgebra.pdf inside the repository since anyone with basic knowledge of the topic may skip the part. Will explain everything during the implementation phase.
+ 
+ 
+#### ii. Calculus
+ Derivatives, partial derivation, integration, gradient descent, chain rules are required in this part. This part is covered in a document located at documents/calculus.pdf inside the repository since anyone with basic knowledge of the topic may skip the part. Will explain everything during the implementation phase.
+
+
+ 
+ #### iii. Probability
+ 
+  The detailed document can be found inside the documentation folder and is saved as probability.pdf.
+
+### b. Algorithms and implementation in python 
+
+### c. Convolutional neural networks 
+
+### d. What is an AI Project
+
+## 4.Train the model
+
+### a. Data,Importance of Data, Data collection, Structuring Data
+
+### b. Intro to Hardware for machine learning and implementing 
+
+#### i. Jetson
+#### ii. Movidius
+#### iii. NVIDIA Graphic cards
+#### iV. Setting up deep learning pc
+#### v. More hardware options
+#### vi. Tensor processing unit
+#### vii. Cloud computting
+
+### c. Neural network training using python 
+#### i. Platforms
+#### ii. Transfer learning
+
+### d. Improving models
+### e. Common problems found during training of neural networks and it’s solutions
+### f. Case studies(different CNN models)
 
 
 
 
 
+## AlexNet
+This architecture was one of the first deep networks to push ImageNet Classification accuracy by a significant stride in comparison to traditional methodologies. It is composed of 5 convolutional layers followed by 3 fully connected layers, as depicted in Figure.
+![Branches](https://cv-tricks.com/wp-content/uploads/2017/03/xalexnet_small-1.png.pagespeed.ic.u_mv-jhXMI.webp)
+
+
+AlexNet, proposed by Alex Krizhevsky, uses ReLu(Rectified Linear Unit) for the non-linear part, instead of a Tanh or Sigmoid function which was the earlier standard for traditional neural networks. ReLu is given by 
+
+f(x) = max(0,x)
+
+The advantage of the ReLu over sigmoid is that it trains much faster than the latter because the derivative of sigmoid becomes very small in the saturating region and therefore the updates to the weights almost vanish. This is called vanishing gradient problem.In the network, ReLu layer is put after each and every convolutional and fully-connected layers(FC).
+![Branches](https://cv-tricks.com/wp-content/uploads/2017/04/xLogistic-curve.svg_.png.pagespeed.ic._QJ2kMUAz8.webp)
+
+Another problem that this architecture solved was reducing the over-fitting by using a Dropout layer after every FC layer. Dropout layer has a probability,(p), associated with it and is applied at every neuron of the response map separately. It randomly switches off the activation with the probability p, as can be seen in figure.
+![Branches](https://cv-tricks.com/wp-content/uploads/2017/04/xdropout.jpeg.pagespeed.ic.HTAqLymLf-.webp)
+
+### Why does DropOut work?
+The idea behind the dropout is similar to the model ensembles. Due to the dropout layer, different sets of neurons which are switched off, represent a different architecture and all these different architectures are trained in parallel with weight given to each subset and the summation of weights being one. For n neurons attached to DropOut, the number of subset architectures formed is 2^n. So it amounts to prediction being averaged over these ensembles of models. This provides a structured model regularization which helps in avoiding the over-fitting. Another view of DropOut being helpful is that since neurons are randomly chosen, they tend to avoid developing co-adaptations among themselves thereby enabling them to develop meaningful features, independent of others.
+## VGG16
+ This architecture is from VGG group, Oxford. It makes the improvement over AlexNet by replacing large kernel-sized filters(11 and 5 in the first and second convolutional layer, respectively) with multiple 3X3 kernel-sized filters one after another. With a given receptive field(the effective area size of input image on which output depends), multiple stacked smaller size kernel is better than the one with a larger size kernel because multiple non-linear layers increases the depth of the network which enables it to learn more complex features, and that too at a lower cost. 
+
+For example, three 3X3 filters on top of each other with stride 1 ha a receptive size of 7, but the number of parameters involved is 3*(9C^2) in comparison to 49C^2 parameters of kernels with a size of 7. Here, it is assumed that the number of input and output channel of layers is C.Also, 3X3 kernels help in retaining finer level properties of the image. The network architecture is given in the table.
+![Branches](https://d2mxuefqeaa7sj.cloudfront.net/s_8C760A111A4204FB24FFC30E04E069BD755C4EEFD62ACBA4B54BBA2A78E13E8C_1491022251600_VGGNet.png)
+You can see that in VGG-D, there are blocks with same filter size applied multiple times to extract more complex and representative features. This concept of blocks/modules became a common theme in the networks after VGG.
+
+The VGG convolutional layers are followed by 3 fully connected layers. The width of the network starts at a small value of 64 and increases by a factor of 2 after every sub-sampling/pooling layer. It achieves the top-5 accuracy of 92.3 % on ImageNet.
+## GoogLeNet/Inception:
+ While VGG achieves a phenomenal accuracy on ImageNet dataset, its deployment on even the most modest sized GPUs is a problem because of huge computational requirements, both in terms of memory and time. It becomes inefficient due to large width of convolutional layers.
+
+For instance, a convolutional layer with 3X3 kernel size which takes 512 channels as input and outputs 512 channels, the order of calculations is 9X512X512. 
+
+In a convolutional operation at one location, every output channel (512 in the example above), is connected to every input channel, and so we call it a dense connection architecture. The GoogLeNet builds on the idea that most of the activations in a deep network are either unnecessary(value of zero) or redundant because of correlations between them. Therefore the most efficient architecture of a deep network will have a sparse connection between the activations, which implies that all 512 output channels will not have a connection with all the 512 input channels. There are techniques to prune out such connections which would result in a sparse weight/connection. But kernels for sparse matrix multiplication are not optimized in BLAS or CuBlas(CUDA for GPU) packages which render them to be even slower than their dense counterparts.
+
+So GoogLeNet devised a module called inception module that approximates a sparse CNN with a normal dense construction(shown in the figure). Since only a small number of neurons are effective as mentioned earlier, the width/number of the convolutional filters of a particular kernel size is kept small. Also, it uses convolutions of different sizes to capture details at varied scales(5X5, 3X3, 1X1).
+
+
+Another salient point about the module is that it has a so-called bottleneck layer(1X1 convolutions in the figure). It helps in the massive reduction of the computation requirement as explained below.
+
+Let us take the first inception module of GoogLeNet as an example which has 192 channels as input. It has just 128 filters of 3X3 kernel size and 32 filters of 5X5 size. The order of computation for 5X5 filters is 25X32X192 which can blow up as we go deeper into the network when the width of the network and the number of 5X5 filter further increases. In order to avoid this, the inception module uses 1X1 convolutions before applying larger sized kernels to reduce the dimension of the input channels, before feeding into those convolutions. So in the first inception module, the input to the module is first fed into 1X1 convolutions with just 16 filters before it is fed into 5X5 convolutions. This reduces the computations to 16X192 +  25X32X16. All these changes allow the network to have a large width and depth.
+Another change that GoogLeNet made, was to replace the fully-connected layers at the end with a simple global average pooling which averages out the channel values across the 2D feature map, after the last convolutional layer. This drastically reduces the total number of parameters. This can be understood from AlexNet, where FC layers contain approx. 90% of parameters. Use of a large network width and depth allows GoogLeNet to remove the FC layers without affecting the accuracy. It achieves 93.3% top-5 accuracy on ImageNet and is much faster than VGG.
+
+![Branches](https://d2mxuefqeaa7sj.cloudfront.net/s_8C760A111A4204FB24FFC30E04E069BD755C4EEFD62ACBA4B54BBA2A78E13E8C_1490879611424_inception_module.png)
+
+
+## Residual Networks
+As per what we have seen so far, increasing the depth should increase the accuracy of the network, as long as over-fitting is taken care of. But the problem with increased depth is that the signal required to change the weights, which arises from the end of the network by comparing ground-truth and prediction becomes very small at the earlier layers, because of increased depth. It essentially means that earlier layers are almost negligible learned. This is called vanishing gradient. The second problem with training the deeper networks is, performing the optimization on huge parameter space and therefore naively adding the layers leading to higher training error. Residual networks allow training of such deep networks by constructing the network through modules called residual models as shown in the figure. This is called degradation problem. The intuition around why it works can be seen as follows:
+![Branches](https://d2mxuefqeaa7sj.cloudfront.net/s_8C760A111A4204FB24FFC30E04E069BD755C4EEFD62ACBA4B54BBA2A78E13E8C_1490999744884_main-qimg-b1fcbef975924b2ec4ad3a851e9f3934.png)
+
+
+Imagine a network, A which produces x amount of training error. Construct a network B by adding few layers on top of A and put parameter values in those layers in such a way that they do nothing to the outputs from A. Let’s call the additional layer as C. This would mean the same x amount of training error for the new network. So while training network B, the training error should not be above the training error of A. And since it DOES happen, the only reason is that learning the identity mapping(doing nothing to inputs and just copying as it is) with the added layers-C is not a trivial problem, which the solver does not achieve. To solve this, the module shown above creates a direct path between the input and output to the module implying an identity mapping and the added layer-C just need to learn the features on top of already available input. Since C is learning only the residual, the whole module is called residual module. 
+
+Also, similar to GoogLeNet, it uses a global average pooling followed by the classification layer. Through the changes mentioned, ResNets were learned with network depth of as large as 152. It achieves better accuracy than VGGNet and GoogLeNet while being computationally more efficient than VGGNet. ResNet-152 achieves 95.51 top-5 accuracies. 
+
+The architecture is similar to the VGGNet consisting mostly of 3X3 filters. From the VGGNet, shortcut connection as described above is inserted to form a residual network. This can be seen in the figure which shows a small snippet of earlier layer synthesis from VGG-19.
+
+The power of the residual networks can be judged from one of the experiments in paper 4. The plain 34 layer network had higher validation error than the 18 layers plain network. This is where we realize the degradation problem. And the same 34 layer network when converted into the residual network has much lesser training error than the 18 layer residual network. 
+![Branches](https://cv-tricks.com/wp-content/uploads/2017/04/xresnet.png.pagespeed.ic.KOwR3nQbCM.webp)
+Finally, here is a table that shows the key figures around these networks:
+![Branches](https://cv-tricks.com/wp-content/uploads/2017/08/Table.png)
+
+
+##### MobileNets
+
+MobileNets are based on a streamlined architecture that uses depth wise separable convolutions to build light weight deep neural networks. We introduce two simple global hyper-parameters that efficiently trade off between latency and accuracy. These hyper-parameters allow the model builder to choose the right sized model for their application based on the constraints of the problem.MobileNets is effective across a wide range of applications and use cases including object detection, finegrain classification, face attributes and large scale geo-localization.
+It is an efficient network architecture and a set of two hyper-parameters in order to build very
+small, low latency models that can be easily matched to thedesign requirements for mobile and embedded vision applications. 
+
+##### Building Blocks Used in Efficient Models
+Before explaining specific efficient CNN models, let’s check computational cost of building blocks used in efficient CNN models, and see how convolution are performed in spatial and channel domain.
+
+![Branches](https://cdn-images-1.medium.com/max/1600/1*ZS5n68qlI0sGo2ynXWphZg.png)
+Letting HxW denotes the spatial size of input feature map, N denotes the number of input channels, KxK denotes the size of convolutional kernel, and M denotes the number of output channels, the computational cost of standard convolution becomes HWNK²M.
+
+An important point here is that the computational cost of the standard convolution is proportional to (1) the spatial size of feature map HxW, (2) the size of convolution kernel K², (3) the numbers of input and output channels NxM.
+
+The above computational cost is required when convolution is performed on both spatial and channel domain. CNNs can be speeded up by factorizing this convolution as shown below.
+##### Convolution
+Consider an intuitive illustration about how convolution in both spatial and channel domain is done for standard convolution, whose computational cost is HWNK²M.
+
+Let us connect lines between input and output to visualize dependency between input and output. The number of lines roughly indicate the computational cost of convolution in spatial and channel domain respectively.
+![Branches](https://cdn-images-1.medium.com/max/1600/1*Y9J9tZmqEMOez0fI2ad1bg.png)
+For instance, conv3x3, the most commonly used convolution, can be visualized as shown above. We can see that the input and output are locally connected in spatial domain while in channel domain, they are fully connected.
+![Branches](https://cdn-images-1.medium.com/max/1600/1*8LX4u-hY9IsAsT4r56AsCw.png)
+Next, conv1x1 [1], or pointwise convolution, which is used to change the size of channels, is visualized above. The computational cost of this convolution is HWNM because the size of kernel is 1x1, resulting in 1/9 reduction in computational cost compared with conv3x3. This convolution is used in order to “blend” information among channels.
+##### Grouped Convolution
+Grouped convolution is a variant of convolution where the channels of the input feature map are grouped and convolution is performed independently for each grouped channels.
+
+Letting G denote the number of groups, the computational cost of grouped convolution is HWNK²M/G, resulting in 1/G reduction in computational cost compared with standard convolution.
+![Branches](https://cdn-images-1.medium.com/max/1600/1*4PMk_rCgYgtwDs_3P3UFig.png)
+The case of grouped conv3x3 with G=2. We can see that the number of connections in channel domain becomes smaller than standard convolution, which indicates smaller computational cost.
+![Branches](https://cdn-images-1.medium.com/max/1600/1*lbYDqosH32AVRaw5X2OmHw.png)
+The case of grouped conv3x3 with G=3. The connections become more sparse.
+![Branches](https://cdn-images-1.medium.com/max/1600/1*ffs5RV6EI7y2M05QFkrPqg.png)
+The case of grouped conv1x1 with G=2. Thus, conv1x1 can also be grouped. This type of convolution is used in ShuffleNet.
+![Branches](https://cdn-images-1.medium.com/max/1600/1*VIrzP2hK8VuwwtoFSXlE3w.png)
+The case of grouped conv1x1 with G=3.
+##### Depthwise Convolution
+In depthwise convolution [2,3,4], convolution is performed independently for each of input channels. It can also be defined as a special case of grouped convolution where the numbers of input and output channels are same and G equals the number of channels.
+![Branches](https://cdn-images-1.medium.com/max/1600/1*T0wd6AaYWIUBwVQcT_9MOw.png)
+As shown above, depthwise convolution significantly reduces the computational cost by omitting convolution in channel domain.
+
+##### channel Shuffle
+Channel shuffle is an operation (layer) which changes the order of the channels used in ShuffleNet [5]. This operation is implemented by tensor reshape and transpose.
+
+More precisely, letting GN’ (=N) denote the number of input channels, the input channel dimension is first reshaped into (G, N’), then transpose (G, N’) into (N’, G), and finally flatten into the same shape as input. Here, G represents the number of groups for grouped convolution, which is used together with channel shuffle layer in ShuffleNet.
+
+While the computational cost of channel shuffle can not be defined in terms of the number of multiply-add operations (MACs), there should be some overhead.
+![Branches](https://cdn-images-1.medium.com/max/1600/1*MF7R2twLt27NgtRfFpOHhQ.png)
+The case of channel shuffle with G=2. Convolution is not performed, and simply the order of the channels is changed.
+![Branches](https://cdn-images-1.medium.com/max/1600/1*WnW9i2XZqT8g3v7SM700lQ.png)
+The case of channel shuffle with G=3.
+##### Efficient Models
+In the following, for efficient CNN models, I provide intuitive illustrations about why they are efficient and how convolution in both spatial and channel domain is done.
+##### ResNet (Bottleneck Version)
+Residual unit with bottleneck architecture used in ResNet [6] is a good start point for further comparison with the other models.
+
+![Branches](https://cdn-images-1.medium.com/max/1600/1*OsBbvktATSU6dXaYbqkEYQ.png)
+As shown above, a residual unit with bottleneck architecture is composed of conv1x1, conv3x3, and conv1x1. The first conv1x1 reduces the dimension of the input channel, reducing the computational cost of subsequent relatively expensive conv3x3. The final conv1x1 recover the dimension of the output channel.
+##### ResNeXt
+ResNeXt [7] is an efficient CNN model, which can be seen as a special case of ResNet whose conv3x3 is replaced by grouped conv3x3. By using efficient grouped conv, the channel reduction rate in conv1x1 becomes moderate compared with ResNet, resulting in better accuracy with the same computational cost.
+
+![Branches] (https://cdn-images-1.medium.com/max/1600/1*g5UQPtwaOjtB_RMRtAFAWg.png)
+##### MobileNet (Separable Conv)
+MobileNet [8] is a stack of the separable convolution modules which are composed of depthwise conv and conv1x1 (pointwise conv).
+![Branches] (https://cdn-images-1.medium.com/max/1600/1*0tqgajmb-M6VBAbvQKQY6Q.png)
+The separable conv independently performs convolution in spatial and channel domains. This factorization of convolution significantly reduces the computational cost from HWNK²M to HWNK² (depthwise) + HWNM (conv1x1), HWN(K² + M) in total. In general, M>>K² (e.g. K=3 and M ≥ 32), the reduction rate is roughly 1/8–1/9.
+
+The important point here is that the bottleneck of the computational cost is now conv1x1!
+##### ShuffleNet
+The motivation of ShuffleNet is the fact that conv1x1 is the bottleneck of separable conv as mentioned above. While conv1x1 is already efficient and there seems to be no room for improvement, grouped conv1x1 can be used for this purpose!
+![Branches](https://cdn-images-1.medium.com/max/1600/1*rMaI_xjE5ck2kfyfzO2pIQ.png)
+The above figure illustrates the module for ShuffleNet. The important building block here is the channel shuffle layer which “shuffles” the order of the channels among groups in grouped convolution. Without channel shuffle, the outputs of grouped convolutions are never exploited among groups, resulting in the degradation of accuracy.
+
+##### MobileNet-v2
+MobileNet-v2 [9] utilizes a module architecture similar to the residual unit with bottleneck architecture of ResNet; the modified version of the residual unit where conv3x3 is replaced by depthwise convolution.
+![Branches](https://cdn-images-1.medium.com/max/1600/1*q3U0V3VHBV2olpzC3mGsJQ.png)
+As you can see from the above, contrary to the standard bottleneck architecture, the first conv1x1 increases the channel dimension, then depthwise conv is performed, and finally the last conv1x1 decreases the channel dimension.
+![Branches](https://cdn-images-1.medium.com/max/1600/1*cgilsyvXMZzGnTg1nFjEcw.png)
+By reordering the building blocks as above and comparing it with MobileNet-v1 (separable conv), we can see how this architecture works (this reordering does not change the overall model architecture because the MobileNet-v2 is the stack of this module).
+
+That is to say, the above module be regarded as a modified version of separable conv where the single conv1x1 in separable conv is factorized into two conv1x1s. Letting T denote an expansion factor of channel dimension, the computational cost of two conv1x1s is 2HWN²/T while that of conv1x1 in separable conv is HWN². In [5], T = 6 is used, reducing the computational cost for conv1x1 by a factor of 3 (T/2 in general).
+
+##### FD-MobileNet
+Finally, I introduce Fast-Downsampling MobileNet (FD-MobileNet)[10]. In this model, downsamplings are performed in earlier layers compared with MobileNet. This simple trick can reduce total computational cost. The reason lies in the traditional downsampling strategy and the computational cost of separable conv.
+
+Starting with VGGNet, many models adopt the same downsampling strategy: perform downsampling and then double the number of channels of subsequent layers. For standard convolution, the computational cost does not change after downsampling because it is defined by HWNK²M. However, for separable conv, its computational cost becomes smaller after downsampling; it is reduced from HWN(K² + M) to H/2 W/2 2N(K² + 2M) = HWN(K²/2 + M). This is relatively dominant when M is not so large (i.e. earlier layers).
+
+![Branches](https://cdn-images-1.medium.com/max/2000/1*cqtSwybCMF_CwyRla7Tn9Q.png)
+
+
+
+
+## 5. Case studies on ML Projects
+
+  
+  ### Sample project 1 : Object detection
+  
+  ### Sample project 2 : Robot
+  
+  ### Sample project 3 : Security systems
+  
+  ### Sample project 4 : Chat bot
+  
+  ### Sample project 5 : Data analysis
+  
+  ### Sample project 6 : Facial recogonition
+ 
+## Course 6 Final project
+   ### Project
 
 
 
 
 
-
-
-
-
-
-
-### Appendix 1. A crash cource in python for AI
+## Appendix 1. A crash cource in python for AI
 
 Python is a cross-platform programming language, which means it runs on all the major operating systems. Any Python program you write should run on any modern computer that has Python installed. However, the methods for setting up Python on different operating systems vary slightly. In this section you’ll learn how to set up Python and run the Hello World program on your own system. You’ll first check whether Python is installed on your system and install it if it’s not. Then you’ll install a simple text edi- tor and save an empty Python file called hello_world.py. Finally, you’ll run the Hello World program and troubleshoot anything that didn’t work. I’ll walk you through this process for each operating system, so you’ll have a beginner-friendly Python programming environment.
 
