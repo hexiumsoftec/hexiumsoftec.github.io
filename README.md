@@ -170,7 +170,7 @@ We will cover this part as we go indeapth in this document. Learning math is mor
 
  
 ### a. Data,Importance of Data, Data collection, Structuring Data
->  Data collection.
+-  Data collection.
 Data collection is the process of gathering and measuring information on targeted variables in an established systematic fashion, which then enables one to answer relevant questions and evaluate outcomes.
 
 ### b. Intro to Hardware for machine learning and implementing 
@@ -199,19 +199,19 @@ Cloud computing is the delivery of computing services—servers, storage, databa
 Uses of cloud computing:
 You are probably using cloud computing right now, even if you don’t realise it. If you use an online service to send email, edit documents, watch movies or TV, listen to music, play games or store pictures and other files, it is likely that cloud computing is making it all possible behind the scenes.
 Few things you can do with the cloud:
->   Create new apps and services
->   Store, back up and recover data
->   Host websites and blogs
->   Stream audio and video
->   Deliver software on demand
->   Analyse data for patterns and make predictions
+-   Create new apps and services
+-   Store, back up and recover data
+-   Host websites and blogs
+-   Stream audio and video
+-   Deliver software on demand
+-   Analyse data for patterns and make predictions
 
 Top benefits of cloud computing:
->   Cost
->   Speed
->   Productivity
->   Performance
->   Reliability
+-   Cost
+-   Speed
+-   Productivity
+-   Performance
+-   Reliability
 
 ### c. Neural network training 
 Once a network has been structured for a particular application, that network is ready to be trained. To start this process the initial weights are chosen randomly. Then, the training, or learning, begins.
@@ -221,22 +221,22 @@ There are two approaches to training - supervised and unsupervised. Supervised t
 The vast bulk of networks utilize supervised training. Unsupervised training is used to perform some initial characterization on inputs. However, in the full blown sense of being truly self learning, it is still just a shining promise that is not fully understood, does not completely work, and thus is relegated to the lab. 
 
 #### i. Platforms
->  Apache Singa:
+-  Apache Singa:
 Apache Singa is a general distributed deep learning platform for training big deep learning models over large datasets. It is designed with an intuitive programming model based on the layer abstraction. A variety of popular deep learning models are supported, namely feed-forward models including convolutional neural networks (CNN), energy models like restricted Boltzmann machine (RBM), and recurrent neural networks (RNN).
 
->  Azure ML Studio:
+-  Azure ML Studio:
 Azure ML Studio allows Microsoft Azure users to create and train models, then turn them into APIs that can be consumed by other services. Users get up to 10GB of storage per account for model data, although you can also connect your own Azure storage to the service for larger models. A wide range of algorithms are available, courtesy of both Microsoft and third parties.
 
->  Caffe
+-  Caffe:
 Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by the Berkeley Vision and Learning Center (BVLC) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.  Models and optimization are defined by configuration without hard-coding & user can switch between CPU and GPU. Speed makes Caffe perfect for research experiments and industry deployment. Caffe can process over 60M images per day with a single NVIDIA K40 GPU.
 
->  TensorFlow 
+-  TensorFlow: 
 TensorFlow is an open source software library for numerical computation using data flow graphs. TensorFlow implements what are called data flow graphs, where batches of data (“tensors”) can be processed by a series of algorithms described by a graph. The movements of the data through the system are called “flows” — hence, the name. Graphs can be assembled with C++ or Python and can be processed on CPUs or GPUs.
 
->  Theano
+-  Theano:
 Theano is a Python library that lets you to define, optimize, and evaluate mathematical expressions, especially ones with multi-dimensional arrays (numpy.ndarray). Using Theano it is possible to attain speeds rivaling hand-crafted C implementations for problems involving large amounts of data. It was written at the LISA lab to support rapid development of efficient machine learning algorithms. Theano is named after the Greek mathematician, who may have been Pythagoras’ wife. Theano is released under a BSD license.
 
->  Keras
+-  Keras:
 Keras is an open source neural network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit or Theano. Designed to enable fast experimentation with deep neural networks, it focuses on being user-friendly, modular, and extensible.
 
 #### ii. Transfer learning
@@ -244,18 +244,18 @@ Transfer learning is a machine learning method where a model developed for a tas
 
 ### d. Improving models
 Enhancing a model performance can be challenging at times.Methods to Boost the Accuracy of a Model are:
->  Add more data:
+-  Add more data
 
->  Treat missing and Outlier values:
+-  Treat missing and Outlier values:
  The unwanted presence of missing and outlier values in the training data often reduces the accuracy of a model or leads to a biased model. It leads to inaccurate predictions. This is because we don’t analyse the behavior and relationship with other variables correctly.
 
->  Feature Engineering:
+-  Feature Engineering:
  This step helps to extract more information from existing data. New information is extracted in terms of new features. These features may have a higher ability to explain the variance in the training data.
 
->  Feature Selection:
+-  Feature Selection:
  Feature Selection is a process of finding out the best subset of attributes which better explains the relationship of independent variables with target variable.
 
->  Algorithm Tuning:
+-  Algorithm Tuning
 
 ### e. Common problems found during training of neural networks and it’s solutions
 ### f. Case studies(different CNN models)
