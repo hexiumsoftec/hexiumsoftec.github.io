@@ -170,7 +170,7 @@ We will cover this part as we go indeapth in this document. Learning math is mor
 
  
 ### a. Data,Importance of Data, Data collection, Structuring Data
--  Data collection.
+-  Data collection:
 Data collection is the process of gathering and measuring information on targeted variables in an established systematic fashion, which then enables one to answer relevant questions and evaluate outcomes.
 
 ### b. Intro to Hardware for machine learning and implementing 
@@ -184,8 +184,16 @@ The performance modes of the Nvidia Jetson TX2 are:
 Movidius is a Neural Compute Stick (NCS) and it is produced by  Intel. It works without the use of internet,This software development kit enables rapid prototyping, validation, and deployment of deep neural networks. Profiling, tuning, and compiling a DNN on a development computers are done with the tools provided in the Intel Movidius Neural Compute SDK.Running Deep Learning models efficiently on low capacity graph processors is very painful. Movidius allows us to optimize the operation of large models such as GoogLeNet (thanks to Yann LeCun) with multi-use support. It is an easy-to-use kit that allows you to design and implement applications such as classification and object recognition as physical products.We can simply think of Movidius NCS as a GPU running on USB (Graphics Processing Unit). However, training of the model is not performed on this unit, the trained model works optimally on the unit and is intended to be used in physical environments for testing purposes.
 
 #### iii. NVIDIA Graphic cards
-
+Nvidia designs graphics processing units (GPUs) for the gaming and professional markets, as well as system on a chip units (SoCs) for the mobile computing and automotive market.A graphics card is a discrete hardware module in a  PC that consists of a daughterboard with one or more GPUs.NVIDIA TITAN Xp is the world's most powerful graphics card. Incredible computing horsepower and groundbreaking NVIDIA Pascal™ architecture give you the power to accomplish things you never thought possible.
 #### iV. Setting up deep learning pc
+-   Select Components: One should be very cautious while selecting the Hardware components. The selected components should be compatible with each other. GPU is the most important component, make sure you spend your money on a good graphics card. Do some additional research on this. Also you have to think about the future upgrades so make sure that you selected a suitable motherboard with more than one slots for the GPU and RAM. And select a suitable processor, power supply and a suitable case.Other necessary things like HDD etc. has to buy according to your need You should buy components from a trusted seller for a better experiance. Assemble the components and install the operating system, insall the drivers for the well functioning of the machine.  
+
+-   Setup Deep Learning Environment:  
+-  
+-  
+-  
+-  
+
 #### v. More hardware options
 #### vi. Tensor processing unit
 Tensor Processing Units (TPUs) are Google’s custom-developed application-specific integrated circuits (ASICs) used to accelerate machine learning workloads. TPUs are designed from the ground up with the benefit of Google’s deep experience and leadership in machine learning.
