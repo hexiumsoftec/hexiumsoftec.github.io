@@ -198,7 +198,9 @@ b<sup>[l]</sup> ∈ ℝ<sup>number of  units in next layerr<sup> is the the bias
 
  
 ### a. Data,Importance of Data, Data collection, Structuring Data
+
 >  Data collection.
+
 Data collection is the process of gathering and measuring information on targeted variables in an established systematic fashion, which then enables one to answer relevant questions and evaluate outcomes.
 
 ### b. Intro to Hardware for machine learning and implementing 
@@ -213,7 +215,17 @@ Movidius is a Neural Compute Stick (NCS) and it is produced by  Intel. It works 
 
 #### iii. NVIDIA Graphic cards
 
+Nvidia designs graphics processing units (GPUs) for the gaming and professional markets, as well as system on a chip units (SoCs) for the mobile computing and automotive market.A graphics card is a discrete hardware module in a  PC that consists of a daughterboard with one or more GPUs.NVIDIA TITAN Xp is the world's most powerful graphics card. Incredible computing horsepower and groundbreaking NVIDIA Pascal™ architecture give you the power to accomplish things you never thought possible.
+
 #### iV. Setting up deep learning pc
+-   Select Components: One should be very cautious while selecting the Hardware components. The selected components should be compatible with each other. GPU is the most important component, make sure you spend your money on a good graphics card. Do some additional research on this. Also you have to think about the future upgrades so make sure that you selected a suitable motherboard with more than one slots for the GPU and RAM. And select a suitable processor, power supply and a suitable case.Other necessary things like HDD etc. has to buy according to your need You should buy components from a trusted seller for a better experiance. Assemble the components and install the operating system, insall the drivers for the well functioning of the machine.  
+
+-   Setup Deep Learning Environment:  
+-  
+-  
+-  
+-  
+
 #### v. More hardware options
 #### vi. Tensor processing unit
 Tensor Processing Units (TPUs) are Google’s custom-developed application-specific integrated circuits (ASICs) used to accelerate machine learning workloads. TPUs are designed from the ground up with the benefit of Google’s deep experience and leadership in machine learning.
@@ -226,7 +238,7 @@ Cloud TPU resources accelerate the performance of linear algebra computation, wh
 Cloud computing is the delivery of computing services—servers, storage, databases, networking, software, analytics and more—over the Internet (“the cloud”).
 Uses of cloud computing:
 You are probably using cloud computing right now, even if you don’t realise it. If you use an online service to send email, edit documents, watch movies or TV, listen to music, play games or store pictures and other files, it is likely that cloud computing is making it all possible behind the scenes.
-Few things you can do with the cloud:
+
 >   Create new apps and services
 >   Store, back up and recover data
 >   Host websites and blogs
@@ -241,6 +253,7 @@ Top benefits of cloud computing:
 >   Performance
 >   Reliability
 
+
 ### c. Neural network training 
 Once a network has been structured for a particular application, that network is ready to be trained. To start this process the initial weights are chosen randomly. Then, the training, or learning, begins.
 
@@ -249,6 +262,7 @@ There are two approaches to training - supervised and unsupervised. Supervised t
 The vast bulk of networks utilize supervised training. Unsupervised training is used to perform some initial characterization on inputs. However, in the full blown sense of being truly self learning, it is still just a shining promise that is not fully understood, does not completely work, and thus is relegated to the lab. 
 
 #### i. Platforms
+
 >  Apache Singa:
 Apache Singa is a general distributed deep learning platform for training big deep learning models over large datasets. It is designed with an intuitive programming model based on the layer abstraction. A variety of popular deep learning models are supported, namely feed-forward models including convolutional neural networks (CNN), energy models like restricted Boltzmann machine (RBM), and recurrent neural networks (RNN).
 
@@ -272,6 +286,7 @@ Transfer learning is a machine learning method where a model developed for a tas
 
 ### d. Improving models
 Enhancing a model performance can be challenging at times.Methods to Boost the Accuracy of a Model are:
+
 >  Add more data:
 
 >  Treat missing and Outlier values:
@@ -284,6 +299,7 @@ Enhancing a model performance can be challenging at times.Methods to Boost the A
  Feature Selection is a process of finding out the best subset of attributes which better explains the relationship of independent variables with target variable.
 
 >  Algorithm Tuning:
+
 
 ### e. Common problems found during training of neural networks and it’s solutions
 ### f. Case studies(different CNN models)
